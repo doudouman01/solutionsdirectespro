@@ -11,56 +11,6 @@ function readFile(filePath) {
   return raw.replace(/^\uFEFF/, '');
 }
 
-// Convert old single-market format to new markets array
-function normalizeMarkets(data) {
-  // New format: markets array already present
-  if (data.markets && Array.isArray(data.markets) && data.markets.length > 0) {
-    return data.markets;
-  }
-  // Old format: single market + amazon_link + kindle_link
-  const m = {
-    id: data.market || 'US',
-  };
-  if (data.amazon_link && data.amazon_link !== '#') m.amazon_link = data.amazon_link;
-  if (data.kindle_link && data.kindle_link !== '#') m.kindle_link = data.kindle_link;
-  if (data.price_kindle) m.price_kindle = data.price_kindle;
-  if (data.price_paperback) m.price_paperback = data.price_paperback;
-  return [m];
-}
-
-function parseProduct(filePath, file, lang) {
-  const fileContent = readFile(filePath);
-  const { data, content } = matter(fileContent);
-  const markets = normalizeMarkets(data);
-
-  return {
-    slug: file.replace('.md', ''),
-    title: data.title || 'Sans titre',
-    type: data.type || 'roman',
-    cover: data.cover || null,
-    // Keep legacy fields for backward compat
-    amazon_link: data.amazon_link || '#',
-    kindle_link: data.kindle_link || '#',
-    price_kindle: data.price_kindle || '',
-    price_paperback: data.price_paperback || '',
-    market: data.market || 'US',
-    // New multi-market
-    markets: markets,
-    category: data.category || '',
-    pages: data.pages || '',
-    language: data.language || lang,
-    genre: data.genre || '',
-    excerpt: data.excerpt || '',
-    learn: data.learn || '',
-    toc: data.toc || [],
-    for_you: data.for_you || [],
-    benefits: data.benefits || [],
-    also_by: data.also_by || [],
-    content: content,
-    lang: lang,
-  };
-}
-
 export function getProducts(lang, market = null) {
   const langDir = path.join(boutiqueDir, lang);
   if (!fs.existsSync(langDir)) return [];
@@ -70,12 +20,34 @@ export function getProducts(lang, market = null) {
 
   for (const file of files) {
     const filePath = path.join(langDir, file);
-    const product = parseProduct(filePath, file, lang);
+    const fileContent = readFile(filePath);
+    const { data, content } = matter(fileContent);
 
-    // Filter by market: check if any market in the array matches
-    if (market && !product.markets.some(m => m.id === market)) continue;
+    if (market && data.market && data.market !== market) continue;
 
-    products.push(product);
+    products.push({
+      slug: file.replace('.md', ''),
+      title: data.title || 'Sans titre',
+      type: data.type || 'roman',
+      cover: data.cover || null,
+      amazon_link: data.amazon_link || '#',
+      kindle_link: data.kindle_link || '#',
+      price_kindle: data.price_kindle || '',
+      price_paperback: data.price_paperback || '',
+      market: data.market || 'US',
+      category: data.category || '',
+      pages: data.pages || '',
+      language: data.language || lang,
+      genre: data.genre || '',
+      excerpt: data.excerpt || '',
+      learn: data.learn || '',
+      toc: data.toc || [],
+      for_you: data.for_you || [],
+      benefits: data.benefits || [],
+      also_by: data.also_by || [],
+      content: content,
+      lang: lang,
+    });
   }
 
   products.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
@@ -88,7 +60,6 @@ export function getProduct(lang, slug) {
 
   const fileContent = readFile(filePath);
   const { data, content } = matter(fileContent);
-  const markets = normalizeMarkets(data);
 
   return {
     slug,
@@ -100,7 +71,6 @@ export function getProduct(lang, slug) {
     price_kindle: data.price_kindle || '',
     price_paperback: data.price_paperback || '',
     market: data.market || 'US',
-    markets: markets,
     category: data.category || '',
     pages: data.pages || '',
     language: data.language || lang,
@@ -135,11 +105,6 @@ export function getAllProductPaths() {
 
 export function getMarkets(lang) {
   const products = getProducts(lang);
-  const marketSet = new Set();
-  for (const p of products) {
-    for (const m of p.markets) {
-      marketSet.add(m.id);
-    }
-  }
-  return [...marketSet].sort();
+  const markets = [...new Set(products.map(p => p.market))].sort();
+  return markets;
 }

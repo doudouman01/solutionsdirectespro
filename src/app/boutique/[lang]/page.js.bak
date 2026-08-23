@@ -7,20 +7,6 @@ const marketLabels = {
   AU: '🇦🇺 Australia',
   CA: '🇨🇦 Canada',
   UK: '🇬🇧 United Kingdom',
-  FR: '🇫🇷 France',
-  DE: '🇩🇪 Deutschland',
-  ES: '🇪🇸 España',
-  IT: '🇮🇹 Italia',
-  BR: '🇧🇷 Brasil',
-  PT: '🇵🇹 Portugal',
-  NL: '🇳🇱 Nederland',
-  SE: '🇸🇪 Sverige',
-  PL: '🇵🇱 Polska',
-  DK: '🇩🇰 Danmark',
-  FI: '🇫🇮 Suomi',
-  MX: '🇲🇽 México',
-  JP: '🇯🇵 Japan',
-  IN: '🇮🇳 India',
 };
 
 export function generateStaticParams() {
@@ -62,7 +48,7 @@ export default function BoutiqueLangPage({ params, searchParams }) {
   // Filter products
   let products = allProducts;
   if (selectedMarket) {
-    products = products.filter(p => p.markets.some(m => m.id === selectedMarket));
+    products = products.filter(p => p.market === selectedMarket);
   }
   if (selectedCategory) {
     products = products.filter(p => p.category === selectedCategory);
@@ -74,12 +60,6 @@ export default function BoutiqueLangPage({ params, searchParams }) {
     de: { title: 'Buchhandlung', subtitle: 'Unsere Bücher und E-Books', all: 'Alle', buy: 'Buch ansehen' },
     es: { title: 'Tienda', subtitle: 'Nuestros libros y ebooks', all: 'Todos', buy: 'Ver libro' },
     it: { title: 'Negozio', subtitle: 'I nostri libri ed ebook', all: 'Tutti', buy: 'Vedi libro' },
-    da: { title: 'Boghandel', subtitle: 'Vores bøger og e-bøger', all: 'Alle', buy: 'Se bog' },
-    nl: { title: 'Boekwinkel', subtitle: 'Onze boeken en ebooks', all: 'Alle', buy: 'Bekijk boek' },
-    sv: { title: 'Bokhandel', subtitle: 'Våra böcker och e-böcker', all: 'Alla', buy: 'Visa bok' },
-    pl: { title: 'Księgarnia', subtitle: 'Nasze książki i ebooki', all: 'Wszystkie', buy: 'Zobacz książkę' },
-    pt: { title: 'Livraria', subtitle: 'Nossos livros e ebooks', all: 'Todos', buy: 'Ver livro' },
-    fi: { title: 'Kirjakauppa', subtitle: 'Kirjamme ja e-kirjat', all: 'Kaikki', buy: 'Katso kirja' },
   };
   const labels = boutiqueLabels[lang] || boutiqueLabels.en;
 
@@ -90,16 +70,6 @@ export default function BoutiqueLangPage({ params, searchParams }) {
     if (market) params.set('market', market);
     const qs = params.toString();
     return `/boutique/${lang}${qs ? '?' + qs : ''}`;
-  }
-
-  // Get display price for card (first market's price)
-  function getDisplayPrice(product) {
-    const first = product.markets[0];
-    if (!first) return { kindle: '', paperback: '' };
-    return {
-      kindle: first.price_kindle || product.price_kindle || '',
-      paperback: first.price_paperback || product.price_paperback || '',
-    };
   }
 
   return (
@@ -157,70 +127,51 @@ export default function BoutiqueLangPage({ params, searchParams }) {
       {/* Product grid */}
       {products.length > 0 ? (
         <div className="articles-grid">
-          {products.map((product) => {
-            const prices = getDisplayPrice(product);
-            return (
-              <Link
-                key={product.slug}
-                href={`/boutique/${lang}/${product.slug}`}
-                className="article-card"
-                style={{ overflow: 'hidden' }}
-              >
-                {product.cover && (
-                  <div style={{
-                    width: '100%',
-                    height: '280px',
-                    background: '#1a1a2e',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    overflow: 'hidden',
-                  }}>
-                    <img
-                      src={product.cover}
-                      alt={product.title}
-                      style={{
-                        maxWidth: '100%',
-                        maxHeight: '100%',
-                        objectFit: 'contain',
-                      }}
-                    />
-                  </div>
-                )}
-                <div className="article-card-body">
-                  <span className="article-card-category">
-                    {product.type === 'nonfiction' ? '📘' : '📖'} {product.genre || product.type}
-                  </span>
-                  <h3>{product.title}</h3>
-                  <p className="article-card-excerpt">{product.excerpt}</p>
-                  {/* Market badges */}
-                  {product.markets.length > 1 && (
-                    <div style={{ display: 'flex', gap: '4px', flexWrap: 'wrap', marginBottom: '8px' }}>
-                      {product.markets.map((m) => (
-                        <span key={m.id} style={{
-                          fontSize: '0.7rem',
-                          padding: '2px 6px',
-                          background: '#f0f0f0',
-                          borderRadius: '4px',
-                          color: '#555',
-                        }}>
-                          {(marketLabels[m.id] || m.id).split(' ')[0]}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-                  <div className="article-card-meta">
-                    <span>
-                      {prices.kindle && `${prices.kindle} Kindle`}
-                      {prices.kindle && prices.paperback && ' · '}
-                      {prices.paperback && `${prices.paperback} Paperback`}
-                    </span>
-                    <span className="article-card-link">{labels.buy} →</span>
-                  </div>
+          {products.map((product) => (
+            <Link
+              key={product.slug}
+              href={`/boutique/${lang}/${product.slug}`}
+              className="article-card"
+              style={{ overflow: 'hidden' }}
+            >
+              {product.cover && (
+                <div style={{
+                  width: '100%',
+                  height: '280px',
+                  background: '#1a1a2e',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  overflow: 'hidden',
+                }}>
+                  <img
+                    src={product.cover}
+                    alt={product.title}
+                    style={{
+                      maxWidth: '100%',
+                      maxHeight: '100%',
+                      objectFit: 'contain',
+                    }}
+                  />
                 </div>
-              </Link>
-            );
-          })}
+              )}
+              <div className="article-card-body">
+                <span className="article-card-category">
+                  {product.type === 'nonfiction' ? '📘' : '📖'} {product.genre || product.type}
+                </span>
+                <h3>{product.title}</h3>
+                <p className="article-card-excerpt">{product.excerpt}</p>
+                <div className="article-card-meta">
+                  <span>
+                    {product.price_kindle && `${product.price_kindle} Kindle`}
+                    {product.price_kindle && product.price_paperback && ' · '}
+                    {product.price_paperback && `${product.price_paperback} Paperback`}
+                  </span>
+                  <span className="article-card-link">{labels.buy} →</span>
+                </div>
+              </div>
+            </Link>
+          ))}
         </div>
       ) : (
         <div className="empty-state">

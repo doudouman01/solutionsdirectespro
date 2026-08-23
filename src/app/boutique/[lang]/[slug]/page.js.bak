@@ -2,73 +2,6 @@ import Link from 'next/link';
 import { languages } from '../../../../lib/config';
 import { getProduct, getAllProductPaths, getProducts } from '../../../../lib/boutique';
 
-const marketLabels = {
-  US: '🇺🇸 Amazon US',
-  AU: '🇦🇺 Amazon Australia',
-  CA: '🇨🇦 Amazon Canada',
-  UK: '🇬🇧 Amazon UK',
-  FR: '🇫🇷 Amazon France',
-  DE: '🇩🇪 Amazon Deutschland',
-  ES: '🇪🇸 Amazon España',
-  IT: '🇮🇹 Amazon Italia',
-  BR: '🇧🇷 Amazon Brasil',
-  PT: '🇵🇹 Amazon Portugal',
-  NL: '🇳🇱 Amazon Nederland',
-  SE: '🇸🇪 Amazon Sverige',
-  PL: '🇵🇱 Amazon Polska',
-  DK: '🇩🇰 Amazon Danmark',
-  FI: '🇫🇮 Amazon Suomi',
-  MX: '🇲🇽 Amazon México',
-  JP: '🇯🇵 Amazon Japan',
-  IN: '🇮🇳 Amazon India',
-};
-
-function MarketButtons({ markets }) {
-  if (!markets || markets.length === 0) return null;
-
-  return (
-    <div className="product-market-buttons">
-      {markets.map((m) => (
-        <div key={m.id} className="product-market-row">
-          <span className="product-market-label">{marketLabels[m.id] || m.id}</span>
-          <div className="product-market-links">
-            {m.amazon_link && m.amazon_link !== '#' && (
-              <a href={m.amazon_link} target="_blank" rel="noopener noreferrer" className="btn-amazon btn-amazon-sm">
-                🛒 {m.price_paperback ? `Paperback ${m.price_paperback}` : 'Paperback'}
-              </a>
-            )}
-            {m.kindle_link && m.kindle_link !== '#' && (
-              <a href={m.kindle_link} target="_blank" rel="noopener noreferrer" className="btn-kindle btn-kindle-sm">
-                📱 {m.price_kindle ? `Kindle ${m.price_kindle}` : 'Kindle'}
-              </a>
-            )}
-          </div>
-        </div>
-      ))}
-    </div>
-  );
-}
-
-function MarketButtonsCompact({ markets }) {
-  if (!markets || markets.length === 0) return null;
-
-  return (
-    <div className="product-cta-markets">
-      {markets.map((m) => (
-        <div key={m.id} style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
-          <span style={{ fontSize: '0.85rem', minWidth: '140px' }}>{marketLabels[m.id] || m.id}</span>
-          {m.amazon_link && m.amazon_link !== '#' && (
-            <a href={m.amazon_link} target="_blank" rel="noopener noreferrer" className="btn-amazon">🛒 Buy</a>
-          )}
-          {m.kindle_link && m.kindle_link !== '#' && (
-            <a href={m.kindle_link} target="_blank" rel="noopener noreferrer" className="btn-kindle">📱 Kindle</a>
-          )}
-        </div>
-      ))}
-    </div>
-  );
-}
-
 export function generateStaticParams() {
   return getAllProductPaths();
 }
@@ -99,13 +32,36 @@ function RomanLayout({ product, otherProducts }) {
           <h1 className="product-title">{product.title}</h1>
           <p className="product-author">Adrian Phoenix Vale</p>
           {product.excerpt && <p className="product-hook">{product.excerpt}</p>}
+          <div className="product-prices">
+            {product.price_kindle && (
+              <><span className="product-price-big">{product.price_kindle}</span>
+              <span className="product-price-label">Kindle</span></>
+            )}
+            {product.price_kindle && product.price_paperback && (
+              <span className="product-price-sep">|</span>
+            )}
+            {product.price_paperback && (
+              <><span className="product-price-big">{product.price_paperback}</span>
+              <span className="product-price-label">Paperback</span></>
+            )}
+          </div>
+          <div className="product-buttons">
+            {product.amazon_link && product.amazon_link !== '#' && (
+              <a href={product.amazon_link} target="_blank" rel="noopener noreferrer" className="btn-amazon">
+                🛒 Buy on Amazon
+              </a>
+            )}
+            {product.kindle_link && product.kindle_link !== '#' && (
+              <a href={product.kindle_link} target="_blank" rel="noopener noreferrer" className="btn-kindle">
+                📱 Kindle Edition
+              </a>
+            )}
+          </div>
           <div className="product-features">
             {product.pages && <span className="product-feat">📄 {product.pages} pages</span>}
             {product.language && <span className="product-feat">🌐 {product.language}</span>}
             {product.genre && <span className="product-feat">⭐ {product.genre}</span>}
           </div>
-          {/* Multi-market buttons */}
-          <MarketButtons markets={product.markets} />
         </div>
       </div>
 
@@ -119,7 +75,14 @@ function RomanLayout({ product, otherProducts }) {
       {/* BOTTOM CTA */}
       <div className="product-cta-bottom">
         <span className="product-cta-text">Available now on Amazon</span>
-        <MarketButtonsCompact markets={product.markets} />
+        <div className="product-cta-buttons">
+          {product.amazon_link && product.amazon_link !== '#' && (
+            <a href={product.amazon_link} target="_blank" rel="noopener noreferrer" className="btn-amazon">🛒 Buy</a>
+          )}
+          {product.kindle_link && product.kindle_link !== '#' && (
+            <a href={product.kindle_link} target="_blank" rel="noopener noreferrer" className="btn-kindle">📱 Kindle</a>
+          )}
+        </div>
       </div>
 
       {/* ALSO BY */}
@@ -135,7 +98,7 @@ function RomanLayout({ product, otherProducts }) {
                   <div className="product-also-placeholder">{p.title}</div>
                 )}
                 <p className="product-also-name">{p.title}</p>
-                <p className="product-also-price">{p.markets[0]?.price_kindle || p.price_kindle}</p>
+                <p className="product-also-price">{p.price_kindle}</p>
               </Link>
             ))}
           </div>
@@ -171,13 +134,36 @@ function NonfictionLayout({ product, otherProducts }) {
             </div>
           )}
 
+          <div className="product-prices">
+            {product.price_kindle && (
+              <><span className="product-price-big">{product.price_kindle}</span>
+              <span className="product-price-label">Kindle</span></>
+            )}
+            {product.price_kindle && product.price_paperback && (
+              <span className="product-price-sep">|</span>
+            )}
+            {product.price_paperback && (
+              <><span className="product-price-big">{product.price_paperback}</span>
+              <span className="product-price-label">Paperback</span></>
+            )}
+          </div>
+          <div className="product-buttons">
+            {product.amazon_link && product.amazon_link !== '#' && (
+              <a href={product.amazon_link} target="_blank" rel="noopener noreferrer" className="btn-amazon">
+                🛒 Buy on Amazon
+              </a>
+            )}
+            {product.kindle_link && product.kindle_link !== '#' && (
+              <a href={product.kindle_link} target="_blank" rel="noopener noreferrer" className="btn-kindle">
+                📱 Kindle Edition
+              </a>
+            )}
+          </div>
           <div className="product-features">
             {product.pages && <span className="product-feat">📄 {product.pages} pages</span>}
             {product.language && <span className="product-feat">🌐 {product.language}</span>}
             <span className="product-feat">✅ Actionable exercises</span>
           </div>
-          {/* Multi-market buttons */}
-          <MarketButtons markets={product.markets} />
         </div>
       </div>
 
@@ -235,9 +221,16 @@ function NonfictionLayout({ product, otherProducts }) {
       <div className="product-cta-bottom product-cta-dark">
         <div>
           <span className="product-cta-text">Ready to transform your life?</span>
-          <span className="product-cta-sub">Available now on Amazon</span>
+          <span className="product-cta-sub">Available now on Amazon in Kindle and paperback</span>
         </div>
-        <MarketButtonsCompact markets={product.markets} />
+        <div className="product-cta-buttons">
+          {product.amazon_link && product.amazon_link !== '#' && (
+            <a href={product.amazon_link} target="_blank" rel="noopener noreferrer" className="btn-amazon">🛒 Buy now</a>
+          )}
+          {product.kindle_link && product.kindle_link !== '#' && (
+            <a href={product.kindle_link} target="_blank" rel="noopener noreferrer" className="btn-kindle">📱 Kindle</a>
+          )}
+        </div>
       </div>
 
       {/* ALSO BY */}
@@ -253,7 +246,7 @@ function NonfictionLayout({ product, otherProducts }) {
                   <div className="product-also-placeholder">{p.title}</div>
                 )}
                 <p className="product-also-name">{p.title}</p>
-                <p className="product-also-price">{p.markets[0]?.price_kindle || p.price_kindle}</p>
+                <p className="product-also-price">{p.price_kindle}</p>
               </Link>
             ))}
           </div>
