@@ -1,7 +1,7 @@
 ---
 title: "Basta"
 type: "nonfiction"
-cover: "/covers/basta.png"
+cover: "/covers/Basta.png"
 amazon_link: "https://www.amazon.es/dp/B0H5943JD7"
 kindle_link: "https://www.amazon.es/dp/B0H5943JD7"
 price_kindle: "12,99 EUR"
