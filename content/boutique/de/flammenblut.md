@@ -1,7 +1,7 @@
 ---
 title: "Flammenblut"
 type: "roman"
-cover: "/covers/flammenblut.png"
+cover: "/covers/Flammenblut.png"
 amazon_link: "https://www.amazon.de/dp/B0H2Y35SCX"
 kindle_link: "https://www.amazon.de/dp/B0HBWMMVHR"
 price_kindle: "4,99 EUR"
