@@ -1,0 +1,61 @@
+import Link from 'next/link';
+import { languages } from '../../../../../lib/config';
+import { getArticle, getAllArticlePaths } from '../../../../../lib/articles';
+
+export function generateStaticParams() {
+  return getAllArticlePaths();
+}
+
+export function generateMetadata({ params }) {
+  const article = getArticle(params.lang, params.category, params.slug);
+  if (!article) return { title: 'Article — Solutions Directes Pro' };
+  return {
+    title: `${article.title} — Solutions Directes Pro`,
+    description: article.excerpt || '',
+  };
+}
+
+export default function ArticlePage({ params }) {
+  const { lang, category, slug } = params;
+  const langConfig = languages[lang];
+  const article = getArticle(lang, category, slug);
+
+  if (!article || !langConfig) {
+    return (
+      <div className="article-page">
+        <h1>Article non trouvé</h1>
+        <p><Link href="/">← Retour à l'accueil</Link></p>
+      </div>
+    );
+  }
+
+  return (
+    <article className="article-page">
+      <Link href={`/articles/${lang}`} className="article-back">
+        {langConfig.backToArticles}
+      </Link>
+
+      <span className="article-card-category" style={{ marginBottom: '16px', display: 'inline-block' }}>
+        {article.categoryLabel}
+      </span>
+
+      <h1>{article.title}</h1>
+
+      <div className="article-page-meta">
+        <span>{langConfig.publishedOn} {article.date}</span>
+        <span>{article.author}</span>
+      </div>
+
+      <div
+        className="article-content"
+        dangerouslySetInnerHTML={{ __html: article.html }}
+      />
+
+      <div style={{ marginTop: '48px', paddingTop: '24px', borderTop: '1px solid var(--color-border)' }}>
+        <Link href={`/articles/${lang}/${category}`} className="article-back">
+          {langConfig.backToArticles}
+        </Link>
+      </div>
+    </article>
+  );
+}
