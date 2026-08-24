@@ -29,8 +29,37 @@ export default function ArticlePage({ params }) {
     );
   }
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.title,
+    description: article.excerpt || '',
+    datePublished: article.date,
+    dateModified: article.date,
+    author: {
+      '@type': 'Organization',
+      name: 'Solutions Directes Pro',
+      url: 'https://solutionsdirectespro.com',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Solutions Directes Pro',
+      url: 'https://solutionsdirectespro.com',
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://solutionsdirectespro.com/${lang}/${category}/${slug}`,
+    },
+    inLanguage: lang,
+  };
+
   return (
     <article className="article-page">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       <Link href={`/articles/${lang}`} className="article-back">
         {langConfig.backToArticles}
       </Link>
