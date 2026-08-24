@@ -1,4 +1,4 @@
----
+﻿---
 title: "Hexes and Homicides"
 type: "roman"
 cover: "/covers/hexes-homicides.jpg"
@@ -19,6 +19,3 @@ The town of Witchy Hollow looks like a postcard. But beneath the surface, nothin
 - A cozy mystery with a supernatural twist
 - A lovable, witty heroine with real depth
 - The perfect mix of humor, heart, and suspense
-
-
-Read our free guide: [Why Cozy Mysteries Are So Addictive](/en/entertainment/cozy-mystery-books-guide)

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Les Funerailles"
 type: "roman"
 cover: "/covers/les-funerailles.png"

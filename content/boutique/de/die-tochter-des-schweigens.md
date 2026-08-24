@@ -1,4 +1,4 @@
----
+﻿---
 title: "Die Tochter des Schweigens"
 type: "roman"
 cover: "/covers/tochter-des-schweigens.png"

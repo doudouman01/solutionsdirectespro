@@ -1,4 +1,4 @@
----
+﻿---
 title: "Jaan alla"
 type: "roman"
 cover: "/covers/jaan-alla.png"

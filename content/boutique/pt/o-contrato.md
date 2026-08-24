@@ -1,4 +1,4 @@
----
+﻿---
 title: "O Contrato"
 type: "roman"
 cover: "/covers/o-contrato.png"

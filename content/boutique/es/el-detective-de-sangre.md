@@ -1,4 +1,4 @@
----
+﻿---
 title: "El detective de sangre"
 type: "roman"
 cover: "/covers/detective-sangre.png"

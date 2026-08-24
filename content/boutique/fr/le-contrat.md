@@ -1,4 +1,4 @@
----
+﻿---
 title: "Le Contrat"
 type: "roman"
 cover: "/covers/heritiers-vice-contrat.png"

@@ -1,4 +1,4 @@
----
+﻿---
 title: "En skuld betald i manljus"
 type: "roman"
 cover: "/covers/skuld-betald-manljus.png"

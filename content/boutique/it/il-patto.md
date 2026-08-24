@@ -1,4 +1,4 @@
----
+﻿---
 title: "Il Patto"
 type: "roman"
 cover: "/covers/il-patto.png"

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Essential Everyday Natural Remedies"
 type: "nonfiction"
 cover: "/covers/natural-remedies.png"
@@ -20,6 +20,3 @@ Headaches. Sore throats. Digestive issues. Trouble sleeping. You don't always ne
 This book is a practical, no-nonsense guide to natural remedies that actually work. Backed by tradition, grounded in common sense, and easy enough for anyone to use.
 
 No jargon. No miracle claims. Just simple solutions for everyday problems.
-
-
-Read our free guide: [Natural Remedies That Actually Work](/en/health/natural-remedies-that-actually-work)

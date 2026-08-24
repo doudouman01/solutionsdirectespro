@@ -1,4 +1,4 @@
----
+﻿---
 title: "Persephones Wahl"
 type: "roman"
 cover: "/covers/persephones-wahl.png"

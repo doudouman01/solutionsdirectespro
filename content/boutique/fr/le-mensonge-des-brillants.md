@@ -1,4 +1,4 @@
----
+﻿---
 title: "Le Mensonge des Brillants"
 type: "roman"
 cover: "/covers/mensonge-des-brillants.png"

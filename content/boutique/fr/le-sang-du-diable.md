@@ -1,4 +1,4 @@
----
+﻿---
 title: "Le Sang du Diable"
 type: "roman"
 cover: "/covers/sang-du-diable.png"

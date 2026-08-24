@@ -1,4 +1,4 @@
----
+﻿---
 title: "Vad de drankta vet"
 type: "roman"
 cover: "/covers/vad-de-drankta-vet.png"

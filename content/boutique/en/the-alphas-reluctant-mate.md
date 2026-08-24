@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Alpha's Reluctant Mate"
 type: "roman"
 cover: "/covers/alphas-reluctant-mate.png"

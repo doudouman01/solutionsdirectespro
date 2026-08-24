@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Cottage That Changed Everything"
 type: "roman"
 cover: "/covers/cotswold-cottage.jpg"

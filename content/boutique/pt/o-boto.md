@@ -1,4 +1,4 @@
----
+﻿---
 title: "O Boto"
 type: "roman"
 cover: "/covers/o-boto.png"
@@ -25,6 +25,3 @@ Ate a noite em que ele aparece.
 - O Amazonas como cenario misterioso e hipnotizante
 
 **Algumas lendas sao contadas para proteger. Esta e contada para avisar.**
-
-
-Leia nosso guia gratuito: [A Lenda do Boto - O Misterio Mais Sedutor da Amazonia](/pt/entretenimento/lenda-do-boto-amazonia)

@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Thornwood Inheritance"
 type: "roman"
 cover: "/covers/thornwood-inheritance.png"

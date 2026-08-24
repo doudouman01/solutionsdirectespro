@@ -1,4 +1,4 @@
----
+﻿---
 title: "Murder at the Bookshop"
 type: "roman"
 cover: "/covers/birchwood-bay.jpg"

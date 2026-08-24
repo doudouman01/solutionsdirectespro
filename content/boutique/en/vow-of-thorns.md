@@ -1,4 +1,4 @@
----
+﻿---
 title: "Vow of Thorns"
 type: "roman"
 cover: "/covers/vow-of-thorns.png"

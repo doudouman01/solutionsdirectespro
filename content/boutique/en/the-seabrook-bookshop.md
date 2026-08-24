@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Seabrook Bookshop"
 type: "roman"
 cover: "/covers/seabrook-bookshop.png"

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Den Sidste Jarl"
 type: "roman"
 cover: "/covers/den-sidste-jarl.png"

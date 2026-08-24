@@ -1,4 +1,4 @@
----
+﻿---
 title: "La Ladrona de Estrellas"
 type: "roman"
 cover: "/covers/ladrona-estrellas.png"

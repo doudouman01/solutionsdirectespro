@@ -1,4 +1,4 @@
----
+﻿---
 title: "Teczka z Zakopanego"
 type: "roman"
 cover: "/covers/teczka-z-zakopanego.png"

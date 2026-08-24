@@ -1,4 +1,4 @@
----
+﻿---
 title: "Bruden till den Frusne Guden"
 type: "roman"
 cover: "/covers/bruden-frusne-guden.png"

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Perte de poids apres 40 ans"
 type: "nonfiction"
 cover: "/covers/perte-poids-40.png"
@@ -20,6 +20,3 @@ Vous avez tout essaye. Les regimes, le sport intensif, les complements. Et pourt
 Ce n'est pas un manque de volonte. C'est un manque d'information. Apres 40 ans, les regles changent. Votre metabolisme, vos hormones, votre sommeil, tout joue un role.
 
 Ce livre vous explique pourquoi et vous donne un plan concret qui fonctionne vraiment.
-
-
-Lire notre guide gratuit : [Perdre du poids apres 40 ans - Le guide complet](/fr/sante/perte-de-poids-apres-40-guide)

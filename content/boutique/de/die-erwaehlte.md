@@ -1,4 +1,4 @@
----
+﻿---
 title: "Die Erwaehlte"
 type: "roman"
 cover: "/covers/blutpakt-wien.png"

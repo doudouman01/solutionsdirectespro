@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Natural Snack Kitchen"
 type: "nonfiction"
 cover: "/covers/natural-snack-kitchen.png"

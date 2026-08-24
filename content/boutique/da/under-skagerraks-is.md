@@ -1,4 +1,4 @@
----
+﻿---
 title: "Under Skagerraks Is"
 type: "roman"
 cover: "/covers/under-skagerraks-is.png"

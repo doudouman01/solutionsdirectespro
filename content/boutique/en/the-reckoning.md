@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Reckoning"
 type: "nonfiction"
 cover: "/covers/the-reckoning.png"
@@ -20,6 +20,3 @@ This is not a self-help book that tells you to journal your feelings and light a
 This is a reckoning. A hard, honest look at the man you have become and the patterns that are keeping you trapped.
 
 No shortcuts. No excuses. Just the truth and the tools to rebuild.
-
-
-Read our free guide: [Why So Many Men Feel Lost](/en/relationships/why-men-feel-lost-guide)

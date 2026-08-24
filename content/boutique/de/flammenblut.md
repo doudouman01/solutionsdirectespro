@@ -1,4 +1,4 @@
----
+﻿---
 title: "Flammenblut"
 type: "roman"
 cover: "/covers/Flammenblut.png"

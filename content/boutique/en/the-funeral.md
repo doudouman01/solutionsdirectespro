@@ -1,4 +1,4 @@
----
+﻿---
 title: "The Funeral"
 type: "roman"
 cover: "/covers/after-my-funeral.png"

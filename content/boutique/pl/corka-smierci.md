@@ -1,4 +1,4 @@
----
+﻿---
 title: "Corka Smierci"
 type: "roman"
 cover: "/covers/corka-smierci.png"

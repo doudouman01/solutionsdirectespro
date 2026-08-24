@@ -1,4 +1,4 @@
----
+﻿---
 title: "Quelqu'un est entre chez moi"
 type: "roman"
 cover: "/covers/quelquun-entre-chez-moi.png"
@@ -25,6 +25,3 @@ Le plus terrifiant n'est pas que quelqu'un la surveille. Le plus terrifiant, c'e
 - Une heroine intelligente et profondement humaine
 
 **Apres la premiere page, vous ne regarderez plus jamais votre appartement de la meme facon.**
-
-
-Lire notre guide gratuit : [Quelqu'un est entre chez vous - Les signes et comment reagir](/fr/logement/cambriolage-signes-que-faire)
