@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Pages statiques -->
+  <url><loc>https://solutionsdirectespro.vercel.app</loc><priority>1.0</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/a-propos</loc><priority>0.7</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/domaines</loc><priority>0.7</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/ressources</loc><priority>0.7</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/blogs</loc><priority>0.7</priority></url>
+
+  <!-- Articles SEO EN -->
+  <url><loc>https://solutionsdirectespro.vercel.app/en/health/perimenopause-symptoms-guide</loc><priority>0.6</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/en/health/first-time-mom-after-35-guide</loc><priority>0.6</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/en/health/natural-remedies-that-actually-work</loc><priority>0.6</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/en/finances/rewire-your-money-mind-guide</loc><priority>0.6</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/en/relationships/stop-shrinking-yourself-women-guide</loc><priority>0.6</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/en/relationships/why-men-feel-lost-guide</loc><priority>0.6</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/en/relationships/why-you-struggle-with-self-love</loc><priority>0.6</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/en/entertainment/cozy-mystery-books-guide</loc><priority>0.6</priority></url>
+
+  <!-- Articles SEO FR -->
+  <url><loc>https://solutionsdirectespro.vercel.app/fr/sante/perte-de-poids-apres-40-guide</loc><priority>0.6</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/fr/logement/cambriolage-signes-que-faire</loc><priority>0.6</priority></url>
+
+  <!-- Articles SEO DE -->
+  <url><loc>https://solutionsdirectespro.vercel.app/de/gesundheit/meal-prep-abnehmen-guide</loc><priority>0.6</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/de/beziehungen/gaslighting-erkennen-psychische-manipulation</loc><priority>0.6</priority></url>
+
+  <!-- Articles SEO ES -->
+  <url><loc>https://solutionsdirectespro.vercel.app/es/relaciones/cuando-decir-basta-relaciones-toxicas</loc><priority>0.6</priority></url>
+
+  <!-- Articles SEO PT -->
+  <url><loc>https://solutionsdirectespro.vercel.app/pt/entretenimento/lenda-do-boto-amazonia</loc><priority>0.6</priority></url>
+
+  <!-- Boutique EN -->
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/the-wrong-man</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/hexes-and-homicides</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/the-funeral</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/the-alphas-reluctant-mate</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/vow-of-thorns</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/the-thornwardens-oath</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/the-elder-witchs-oath</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/the-awakening-unseen</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/rise-unapologetic</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/the-reckoning</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/psychology-of-self-love</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/perimenopause-guide</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/first-time-mom-after-35</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/rewire-your-money-mind</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/essential-natural-remedies</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/family-travel-planner</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/road-trip-usa</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/travel-light</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/natural-snack-kitchen</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/cotswold-cottage</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/the-first-letter</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/the-seabrook-bookshop</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/the-thornwood-inheritance</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/en/murder-at-the-bookshop</loc><priority>0.8</priority></url>
+
+  <!-- Boutique FR -->
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/fr/les-funerailles</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/fr/le-mensonge-des-brillants</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/fr/le-sang-du-diable</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/fr/le-murmure-des-pierres</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/fr/l-ange-des-cendres</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/fr/quelquun-est-entre-chez-moi</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/fr/heritiers-de-belmont</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/fr/l-epouse-de-cendre</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/fr/perte-de-poids-apres-40</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/fr/le-contrat</loc><priority>0.8</priority></url>
+
+  <!-- Boutique DE -->
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/de/die-tochter-des-schweigens</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/de/die-erwaehlte</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/de/persephones-wahl</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/de/flammenblut</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/de/die-stille-frau</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/de/meal-prep-abnehmen</loc><priority>0.8</priority></url>
+
+  <!-- Boutique IT -->
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/it/la-preda</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/it/l-incatenata</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/it/il-patto</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/it/la-citta-dei-ricordi-perduti</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/it/l-appartamento-vuoto</loc><priority>0.8</priority></url>
+
+  <!-- Boutique NL -->
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/nl/de-watergeest</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/nl/de-verdronken-heks</loc><priority>0.8</priority></url>
+
+  <!-- Boutique DA -->
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/da/under-skagerraks-is</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/da/den-sidste-jarl</loc><priority>0.8</priority></url>
+
+  <!-- Boutique FI -->
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/fi/jaan-alla</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/fi/kuollut-metsa</loc><priority>0.8</priority></url>
+
+  <!-- Boutique PL -->
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/pl/corka-smierci</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/pl/teczka-z-zakopanego</loc><priority>0.8</priority></url>
+
+  <!-- Boutique SV -->
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/sv/bruden-till-den-frusne-guden</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/sv/vad-de-drankta-vet</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/sv/en-skuld-betald-i-manljus</loc><priority>0.8</priority></url>
+
+  <!-- Boutique ES -->
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/es/la-profecia-de-las-alas</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/es/la-ladrona-de-estrellas</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/es/el-detective-de-sangre</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/es/basta</loc><priority>0.8</priority></url>
+
+  <!-- Boutique PT -->
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/pt/o-boto</loc><priority>0.8</priority></url>
+  <url><loc>https://solutionsdirectespro.vercel.app/boutique/pt/o-contrato</loc><priority>0.8</priority></url>
+</urlset>
