@@ -20,3 +20,6 @@ You cannot give what you do not have. And you cannot build a life you love on a 
 This book goes beyond surface-level advice and dives into the psychology of why we struggle with self-worth, where those patterns come from, and how to rewire them for good.
 
 Science-backed strategies. Real-world exercises. Zero fluff.
+
+
+Read our free guide: [Why You Struggle With Self-Love](/en/relationships/why-you-struggle-with-self-love)

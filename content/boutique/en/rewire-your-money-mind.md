@@ -20,3 +20,6 @@ Most financial advice fails because it treats money as a math problem. It is not
 This book takes you through a proven framework to dismantle the beliefs that sabotage your finances and build a new money mindset from the ground up.
 
 The goal is not just to have more money. It is to stop being afraid of it.
+
+
+Read our free guide: [Why You Self-Sabotage With Money](/en/finances/rewire-your-money-mind-guide)

@@ -20,3 +20,6 @@ Hot flashes. Brain fog. Mood swings. Weight gain. Insomnia. You are not losing y
 This book explains everything your doctor doesn't have time to tell you. Clear, practical, and written for real women navigating real symptoms.
 
 No jargon. No judgment. Just answers.
+
+
+Read our free guide: [Perimenopause Symptoms at 40 - What You Need to Know](/en/health/perimenopause-symptoms-guide)

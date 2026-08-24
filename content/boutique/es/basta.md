@@ -22,3 +22,6 @@ Y un dia, algo dentro de ti susurra una palabra: basta.
 Este libro no es otro manual de autoayuda con frases bonitas. Es un programa practico de 21 dias con ejercicios concretos para dejar de complacer, poner limites y recuperar tu vida.
 
 Cinco pilares: Limites, Autoestima, Soltar, Tomar decisiones, Actuar.
+
+
+Lee nuestra guia gratuita: [Cuando decir basta - Como reconocer una relacion toxica](/es/relaciones/cuando-decir-basta-relaciones-toxicas)

@@ -20,3 +20,6 @@ Keine komplizierten Rezepte. Kein stundenlanges Kochen. Einfach vorbereiten, ein
 Meal Prep ist die Loesung fuer alle, die gesund essen wollen, aber keine Zeit haben. Dieses Buch zeigt Ihnen Schritt fuer Schritt, wie es funktioniert.
 
 Praktische Rezepte, Einkaufslisten und Wochenplaene inklusive.
+
+
+Kostenlosen Ratgeber lesen: [Meal Prep zum Abnehmen - Der komplette Leitfaden](/de/gesundheit/meal-prep-abnehmen-guide)

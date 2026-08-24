@@ -18,3 +18,6 @@ learn: "How to reclaim your voice, stop apologizing for who you are, set fierce 
 You were not born to play small. Rise Unapologetic is the wake-up call every woman needs.
 
 No fluff. No toxic positivity. Just the truth and the roadmap to live it.
+
+
+Read our free guide: [Why Women Shrink Themselves And How to Stop](/en/relationships/stop-shrinking-yourself-women-guide)

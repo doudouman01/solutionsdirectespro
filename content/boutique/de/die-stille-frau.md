@@ -25,3 +25,6 @@ Als ihr Mann eines Morgens verschwindet, zeigt sie keine Ueberraschung. Keine Tr
 - Wendungen, die alles auf den Kopf stellen
 
 **Die gefaehrlichsten Menschen sind die, die man uebersieht.**
+
+
+Kostenlosen Ratgeber lesen: [Gaslighting erkennen - Wenn dein Partner dich manipuliert](/de/beziehungen/gaslighting-erkennen-psychische-manipulation)

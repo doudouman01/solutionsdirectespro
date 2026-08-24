@@ -20,3 +20,6 @@ Society tells you the clock is ticking. Medicine calls you a geriatric pregnancy
 This book cuts through the noise. Real medical facts, real emotional support, and real advice from someone who gets it.
 
 You are not late. You are ready.
+
+
+Read our free guide: [First-Time Mom After 35 - What No One Tells You](/en/health/first-time-mom-after-35-guide)
