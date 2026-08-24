@@ -5,6 +5,24 @@ import Footer from '../components/Footer';
 export const metadata = {
   title: 'Solutions Directes Pro — Des solutions directes, partout dans le monde',
   description: 'Une plateforme multilingue qui vous guide pas à pas pour résoudre vos problèmes. Finances, emploi, santé, logement, droit, relations.',
+  openGraph: {
+    title: 'Solutions Directes Pro',
+    description: 'Des solutions directes, partout dans le monde. Finances, emploi, santé, logement, droit, relations.',
+    url: 'https://solutionsdirectespro.vercel.app',
+    siteName: 'Solutions Directes Pro',
+    locale: 'fr_FR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Solutions Directes Pro',
+    description: 'Des solutions directes, partout dans le monde. Finances, emploi, santé, logement, droit, relations.',
+  },
+  metadataBase: new URL('https://solutionsdirectespro.vercel.app'),
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }) {
