@@ -18,7 +18,7 @@ export const metadata = {
     title: 'Solutions Directes Pro',
     description: 'Des solutions directes, partout dans le monde. Finances, emploi, santé, logement, droit, relations.',
   },
-  metadataBase: new URL('https://solutionsdirectespro.vercel.app'),
+  metadataBase: new URL('https://solutionsdirectespro.com'),
   robots: {
     index: true,
     follow: true,
