@@ -279,8 +279,37 @@ export default function ProductPage({ params }) {
 
   const otherProducts = getProducts(lang).filter(p => p.slug !== slug);
 
+  const firstMarket = product.markets && product.markets[0];
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Book',
+    name: product.title,
+    description: product.excerpt || '',
+    author: {
+      '@type': 'Person',
+      name: 'Adrian Phoenix Vale',
+    },
+    bookFormat: 'https://schema.org/EBook',
+    numberOfPages: product.pages || undefined,
+    inLanguage: product.language || lang,
+    image: product.cover ? `https://solutionsdirectespro.com${product.cover}` : undefined,
+    url: `https://solutionsdirectespro.com/boutique/${lang}/${slug}`,
+    offers: firstMarket ? {
+      '@type': 'Offer',
+      price: (firstMarket.price_kindle || '').replace(/[^0-9.]/g, ''),
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/InStock',
+      url: firstMarket.kindle_link || firstMarket.amazon_link || '',
+    } : undefined,
+  };
+
   return (
     <div className="product-page">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       <Link href={`/boutique/${lang}`} className="article-back">
         ← Back to bookshop
       </Link>
