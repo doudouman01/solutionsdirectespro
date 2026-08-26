@@ -9,7 +9,7 @@ export const metadata = {
   openGraph: {
     title: 'Solutions Directes Pro',
     description: 'Des solutions directes, partout dans le monde. Finances, emploi, santé, logement, droit, relations.',
-    url: 'https://solutionsdirectespro.vercel.app',
+    url: 'https://solutionsdirectespro.com',
     siteName: 'Solutions Directes Pro',
     locale: 'fr_FR',
     type: 'website',
