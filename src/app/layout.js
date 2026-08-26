@@ -1,6 +1,7 @@
 import './globals.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata = {
   title: 'Solutions Directes Pro — Des solutions directes, partout dans le monde',
@@ -31,8 +32,9 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         <main>{children}</main>
-        <Footer />
+                <Footer />
+        <Analytics />
       </body>
-    </html>
+ </html>
   );
 }
