@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "solutionsdirectespro.vercel.app" }],
+      "destination": "https://solutionsdirectespro.com/:path*",
+      "permanent": true
+    }
+  ]
+}
