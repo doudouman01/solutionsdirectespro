@@ -8,7 +8,7 @@ cover: "/covers/dead-frequency.png"
 markets:
   - id: US
     format: Kindle
-    amazon_link: "https://www.amazon.com/dp/B0HGP8RN9Z"
+    kindle_link: "https://www.amazon.com/dp/B0HGP8RN9Z"
     price: "$4.99"
   - id: US
     format: Paperback

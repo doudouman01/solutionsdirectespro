@@ -8,7 +8,7 @@ cover: "/covers/het-stille-water.png"
 markets:
   - id: NL
     format: Kindle
-    amazon_link: "https://www.amazon.nl/dp/B0HGP71QM4"
+    kindle_link: "https://www.amazon.nl/dp/B0HGP71QM4"
     price: "4,99 EUR"
   - id: NL
     format: Paperback

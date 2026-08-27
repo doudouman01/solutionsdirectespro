@@ -8,7 +8,7 @@ cover: "/covers/stoic-reset-jp.png"
 markets:
   - id: JP
     format: Kindle
-    amazon_link: "https://www.amazon.co.jp/dp/B0HGR37Q6V"
+    kindle_link: "https://www.amazon.co.jp/dp/B0HGR37Q6V"
     price: "699 JPY"
   - id: JP
     format: Paperback
@@ -21,7 +21,6 @@ benefits:
   - "武士道の「平常心」とストア哲学の統合"
   - "金継ぎの哲学——逆境を通じた成長"
   - "マインドフル・プレゼンス——一期一会の精神"
-  - "侘び寂びと自発的不快の実践"
   - "ボーナスツール7点収録"
 table_of_contents:
   - "第一部 — 精神的過負荷を理解する（3章）"
