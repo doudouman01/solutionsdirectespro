@@ -1,9 +1,9 @@
 ---
-title: "Stoic Reset"
-subtitle: "14 Days Mental Overload Protocol"
+title: "ストイック・リセット"
+subtitle: "心を立て直し、主導権を取り戻す。14日間で精神的過負荷から脱出するプロトコル"
 author: "Adrian Phoenix Vale"
 layout: "nonfiction"
-genre: "Self-Help"
+genre: "自己啓発・哲学"
 cover: "/covers/stoic-reset-jp.png"
 markets:
   - id: JP
@@ -14,24 +14,26 @@ markets:
     format: Paperback
     amazon_link: "https://www.amazon.co.jp/dp/B0HGRBJ6B5"
     price: "1780 JPY"
-excerpt: "Stoic philosophy meets Bushido. A 14-day protocol to escape mental overload."
+excerpt: "ストア哲学と武士道の叡智を融合した14日間の実践プロトコル。精神的過負荷を軽減し、明晰さ、回復力、内なる平和を取り戻す。"
 benefits:
-  - "The Dichotomy of Control applied to Japanese society"
-  - "The STOP method for emotional regulation"
-  - "Kintsugi philosophy and resilience"
-  - "Mindful Presence and Ichigo Ichie"
-  - "Voluntary Discomfort and Wabi-Sabi"
-  - "7 bonus practical tools included"
+  - "エピクテトスの「コントロールの二分法」を日本社会で実践"
+  - "感情制御のSTOP法——反応ではなく応答する"
+  - "武士道の「平常心」とストア哲学の統合"
+  - "金継ぎの哲学——逆境を通じた成長"
+  - "マインドフル・プレゼンス——一期一会の精神"
+  - "侘び寂びと自発的不快の実践"
+  - "ボーナスツール7点収録"
 table_of_contents:
-  - "Part I - Understanding Mental Overload (3 chapters)"
-  - "Part II - 14-Day Stoic Reset Protocol"
-  - "Part III - Consolidating the Transformation (3 chapters)"
-  - "Bonus Section - 7 Practical Tools"
+  - "第一部 — 精神的過負荷を理解する（3章）"
+  - "第二部 — 14日間ストイック・リセット・プロトコル"
+  - "第三部 — 変容を定着させる（3章）"
+  - "ボーナスセクション — 実践ツール7点"
 for_you_if:
-  - "You feel mentally exhausted despite doing your best"
-  - "You struggle with overthinking and emotional reactivity"
-  - "You want practical tools, not abstract theory"
-  - "You feel drained by workplace relationships"
+  - "精神的に疲弊していると感じる方"
+  - "過度の思考や感情的反応性に苦しんでいる方"
+  - "実践的なツールを求めている方"
+  - "長時間労働や職場の人間関係で消耗している方"
+  - "「我慢」の限界を感じている方"
 ---
 
-Stoic philosophy meets Bushido wisdom in this powerful 14-day protocol designed for the modern Japanese reader. Escape mental overload and reclaim inner clarity, resilience, and peace.
+ストア哲学と武士道の叡智を融合した14日間の実践プロトコル。現代日本社会の精神的過負荷から脱出し、明晰さ、回復力、内なる平和を取り戻す。各日のプロトコルにはストイック・インサイト、実践エクササイズ、日本の職場や日常生活に即したケーススタディ、省察プロンプトが含まれています。あなたが探し求めている平静は、見つけるものではありません——築くものです。
