@@ -8,7 +8,7 @@ cover: "/covers/nidar-utho.jpg"
 markets:
   - id: IN
     format: Kindle
-    amazon_link: "https://www.amazon.in/dp/B0H36KFLVX"
+    kindle_link: "https://www.amazon.in/dp/B0H36KFLVX"
     price: "249 INR"
 excerpt: "छोटा खेलना बंद करें। अपनी शक्ति को पहचानें। निडर उठो — वह महिला बनें जो आप हमेशा से बनना चाहती थीं।"
 benefits:
