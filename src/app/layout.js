@@ -20,9 +20,19 @@ export const metadata = {
     description: 'Des solutions directes, partout dans le monde. Finances, emploi, santé, logement, droit, relations.',
   },
   metadataBase: new URL('https://solutionsdirectespro.com'),
-  robots: {
+    robots: {
     index: true,
     follow: true,
+    'max-snippet': -1,
+    'max-image-preview': 'large',
+    'max-video-preview': -1,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-snippet': -1,
+      'max-image-preview': 'large',
+      'max-video-preview': -1,
+    },
   },
 };
 
