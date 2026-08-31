@@ -93,7 +93,7 @@ Research published in the European Journal of Developmental Psychology suggests 
 You did not miss the window. You chose your own timeline. And that is not something to apologize for.
 
 **Also read:**
-- [Perimenopause Symptoms at 40](/articles/en/health/perimenopause-symptoms-guide)
+- [Natural Remedies That Actually Work](/articles/en/health/natural-remedies-that-actually-work)
 - [Why You Struggle With Self-Love](/articles/en/relationships/why-you-struggle-with-self-love)
 
 ---
