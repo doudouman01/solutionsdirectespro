@@ -1,4 +1,4 @@
-﻿---
+---
 title: "First-Time Mom After 35: What No One Tells You (And What Actually Helps)"
 description: "Having your first baby after 35 is safe for most women. Here's what the research says about risks, recovery, emotional shifts, and practical strategies that actually help."
 date: "2026-08-31"
