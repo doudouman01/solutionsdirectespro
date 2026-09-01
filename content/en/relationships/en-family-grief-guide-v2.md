@@ -72,7 +72,7 @@ Families that survive grief together — not by pretending everything is fine, b
 
 **Also read:**
 - [The Hidden Weight of Silence in Marriage](/articles/en/relationships/the-hidden-weight-of-silence-in-marriage)
-- [Secrets de famille : quand l'héritage est plus lourd que l'argent](/articles/fr/relations/secrets-de-famille-heritage-toxique)
+- [Why You Struggle With Self-Love](/articles/en/relationships/why-you-struggle-with-self-love)
 
 ---
 
