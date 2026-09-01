@@ -1,7 +1,7 @@
 ---
 title: "Aging with Grace: The Complete Guide to Health, Vitality, and Purpose After 60"
 type: "nonfiction"
-cover: "aging-with-grace.jpg"
+cover: "aging-with-grace.png"
 amazon_link: "https://www.amazon.com/dp/B0HH8PTSBZ"
 kindle_link: "https://www.amazon.com/dp/B0HH8PTSBZ"
 price_kindle: "$4.99"
