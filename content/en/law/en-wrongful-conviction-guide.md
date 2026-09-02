@@ -28,7 +28,7 @@ Vulnerable populations are especially susceptible. According to the National Reg
 
 Flawed or misleading forensic evidence is present in approximately 24% of DNA exoneration cases. According to a landmark 2009 report by the National Academy of Sciences titled *Strengthening Forensic Science in the United States*, several widely used forensic techniques — including bite mark analysis, hair comparison, shoe print comparison, and blood spatter interpretation — lacked scientific validation when they were first admitted into courtrooms.
 
-According to the Texas Forensic Science Commission, bite mark analysis has a false positive rate estimated between 64 and 91%, yet it was used to convict defendants in capital murder cases for decades. Hair microscopy — once presented as near-certain identification evidence — was found by the FBI in a 2015 review to have been overstated by examiners in 96% of cases reviewed, affecting over 2,600 defendants. DNA analysis, by contrast, has proven highly reliable and has been instrumental in both convicting the guilty and exonerating the innocent.
+According to the Texas Forensic Science Commission, bite mark analysis has a false positive rate estimated between 84 and 91%, yet it was used to convict defendants in capital murder cases for decades. Hair microscopy — once presented as near-certain identification evidence — was found by the FBI in a 2015 review to have been overstated by examiners in 96% of cases reviewed, affecting over 2,600 defendants. DNA analysis, by contrast, has proven highly reliable and has been instrumental in both convicting the guilty and exonerating the innocent.
 
 ### Does Prosecutorial Misconduct Play a Role?
 
@@ -40,7 +40,7 @@ According to a study published in the *Journal of Criminal Law and Criminology*,
 
 ### How Much Time Do Exonerees Lose?
 
-According to the National Registry of Exonerations, the average exoneree served 10.6 years before being cleared. The longest-serving exoneree in U.S. history, Richard Phillips, was imprisoned for 45 years in Michigan for a murder he did not commit. During those years, children grow up without parents, marriages dissolve, careers end before they begin, and parents die without their children at their side.
+According to the National Registry of Exonerations, the average exoneree served 10.6 years before being cleared. The longest-serving exoneree in U.S. history, Richard Phillips, was imprisoned for 45 years in Michigan for a murder he did not commit. During those years, marriages dissolve, careers end before they begin, children grow up without their parents, parents die without their children at their side.
 
 ### Does the Stigma Disappear After Exoneration?
 
@@ -48,11 +48,11 @@ Rarely. According to a study published in the *Albany Law Review*, 73% of exoner
 
 ### What Is the Psychological Impact of Wrongful Imprisonment?
 
-According to research published in *Criminal Behaviour and Mental Health*, 65% of exonerees meet diagnostic criteria for PTSD, and rates of depression, anxiety, substance abuse, and difficulty forming relationships are significantly elevated compared to the general population. According to Dr. Adrian Grounds, a forensic psychiatrist at the University of Cambridge, the psychological profile of wrongfully convicted individuals closely resembles that of hostages and prisoners of war. You can give someone back their freedom. You cannot give them back the person they were before.
+According to research published in *Criminal Behaviour and Mental Health*, 65% of exonerees meet diagnostic criteria for PTSD, and rates of depression, anxiety, substance abuse, and difficulty forming relationships are significantly elevated compared to the general population. According to Dr. Adrian Grounds, a forensic psychiatrist at the University of Cambridge, the psychological profile of wrongfully convicted individuals closely resembles that of hostages and prisoners of war. You can give someone back their freedom. You cannot give them back the years.
 
 ## What Reforms Are Working?
 
-According to the Innocence Project and the National Conference of State Legislatures, evidence-based reforms include mandatory recording of interrogations (now required in 28 states), improved eyewitness identification procedures including double-blind lineups (adopted in 23 states), stronger forensic science standards following the NAS recommendations, conviction integrity units within prosecutor offices (now operating in 90+ jurisdictions), expanded access to post-conviction DNA testing, and compensation statutes for the wrongfully convicted. Progress is real but uneven — for every reform adopted, there are jurisdictions that still operate the same way they did decades ago.
+Evidence-based reforms include mandatory recording of interrogations (now required in 28 states), improved eyewitness identification procedures including double-blind lineups (adopted in 23 states), stronger forensic science standards following the NAS recommendations, conviction integrity units within prosecutor offices (now operating in 90+ jurisdictions), expanded access to post-conviction DNA testing, and compensation statutes for the wrongfully convicted. Progress is real but uneven — for every reform adopted, there are jurisdictions that still operate the same way they did decades ago.
 
 The most important change is not procedural — it is cultural. It is acknowledging that the system is built by humans, operated by humans, and therefore capable of human error. And that protecting the innocent is just as important as punishing the guilty.
 
@@ -62,10 +62,8 @@ The most important change is not procedural — it is cultural. It is acknowledg
 
 ---
 
-## A Thriller That Puts You Inside the Nightmare
+## When the System Fails: A Crime Thriller About Justice and Debt
 
-What happens when the system targets the wrong person — and no one believes him? *The Wrong Man* is a legal thriller that takes you inside the machinery of a wrongful prosecution, where the truth is less important than the narrative, and one man's fight to prove his innocence becomes a race against a system designed to crush him.
+A detective hunting a killer in Baltimore discovers that every murder is a transaction — and the system that was supposed to deliver justice may be the real criminal. Dark, relentless, and impossible to put down.
 
-Gripping. Infuriating. Impossible to put down.
-
-**[>>> Get the book: The Wrong Man <<<](/boutique/en/the-wrong-man)**
+**[>>> Get the book: Blood Debt: The Fall <<<](/boutique/en/blood-debt-the-fall)**

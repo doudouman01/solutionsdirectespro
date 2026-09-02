@@ -28,7 +28,7 @@ Geh deine Kontoauszüge der letzten 3 Monate durch und markiere jede wiederkehre
 
 ### 3. Warum solltest du jährlich Versicherungen und Verträge vergleichen?
 
-Laut dem Verbraucherportal Check24 sparen Haushalte, die jährlich ihre Strom-, Gas-, Internet- und Versicherungsverträge vergleichen, durchschnittlich 800 bis 1.200 Euro pro Jahr. Der größte Hebel liegt bei Strom und Gas: Laut der Bundesnetzagentur zahlen Kunden im Grundversorgungstarif durchschnittlich 30 bis 40 % mehr als Kunden in optimierten Tarifen.
+Laut dem Verbraucherportal Check24 sparen Haushalte, die jährlich ihre Strom-, Gas-, Internet- und Versicherungsverträge vergleichen, durchschnittlich 800 bis 1.200 Euro pro Jahr. Der größte Hebel liegt bei Strom und Gas. Laut der Bundesnetzagentur zahlen Kunden in der Grundversorgungstarif durchschnittlich 30 bis 40 % mehr als Kunden in optimierten Tarifen.
 
 Versicherungen sind der zweite große Posten. Laut Stiftung Warentest sind viele Deutsche überversichert — Handy-Versicherungen, Reisegepäckversicherungen und Restschuldversicherungen haben laut Finanztest ein schlechtes Preis-Leistungs-Verhältnis und können in den meisten Fällen gekündigt werden, ohne dass ein reales Risiko entsteht.
 
@@ -40,23 +40,23 @@ Laut dem Umweltbundesamt kann ein durchschnittlicher Haushalt seine Energiekoste
 
 ### 5. Wie viel Geld verschwendest du durch Lebensmittelabfälle?
 
-Laut dem Statistischen Bundesamt wirft jeder Deutsche durchschnittlich 75 Kilogramm Lebensmittel pro Jahr weg — im Wert von etwa 235 Euro pro Person. Für einen Vier-Personen-Haushalt sind das fast 1.000 Euro pro Jahr im Müll. Laut dem Bundesministerium für Ernährung und Landwirtschaft (BMEL) sind die häufigsten weggeworfenen Lebensmittel frisches Obst und Gemüse (34 %), Brot und Backwaren (14 %) und Milchprodukte (12 %).
+Laut dem Statistischen Bundesamt wirft jeder Deutsche durchschnittlich 75 Kilogramm Lebensmittel pro Jahr weg — in Wert von etwa 235 Euro pro Person. Für einen Vier-Personen-Haushalt sind das fast 1.000 Euro pro Jahr im Müll. Laut dem Bundesministerium für Ernährung und Landwirtschaft (BMEL) sind die häufigsten weggeworfenen Lebensmittel frisches Obst und Gemüse (34 %), Brot und Backwaren (14 %) und Milchprodukte (12 %).
 
-Die effektivsten Gegenmaßnahmen laut dem BZfE: Einkaufsliste schreiben und einhalten (spart 25 % laut einer Studie im *Journal of Nutrition Education and Behavior*), „First in, first out"-Prinzip im Kühlschrank anwenden, Reste gezielt verwerten statt wegwerfen, und Too Good To Go oder ähnliche Apps nutzen, um günstige Lebensmittel vor der Entsorgung zu retten.
+Die effektivsten Gegenmaßnahmen laut dem BZfE: Einkaufsliste schreiben und einhalten (spart 25 % laut einer Studie in *Journal of Nutrition Education and Behavior*), „First in, first out"-Prinzip im Kühlschrank anwenden, Reste gezielt verwerten statt wegwerfen, und Too Good To Go oder ähnliche Apps nutzen, um günstige Lebensmittel vor der Entsorgung zu retten.
 
 ### 6. Spart Meal Prep wirklich Geld?
 
-Ja, erheblich. Laut dem American Institute for Economic Research spart regelmäßiges Vorkochen zwischen 100 und 150 Euro pro Monat im Vergleich zu täglichem Kochen oder Außer-Haus-Essen. Eine selbst zubereitete Mahlzeit kostet laut Finanztip durchschnittlich 2 bis 3 Euro — gegenüber 8 bis 15 Euro für Lieferservice oder Kantinenessen.
+Ja, erheblich. Laut dem American Institute for Economic Research spart regelmäßiges Vorkochen zwischen 100 und 150 Euro pro Monat im Vergleich zu täglichem Kochen oder Außer-Haus-Essen. Eine selbst zubereitete Mahlzeit kostet laut Finanztrip durchschnittlich 2 bis 3 Euro — gegenüber 8 bis 15 Euro für Lieferservice oder Kantinenessen.
 
 ## Wie kontrollierst du Impulskäufe?
 
 ### 7. Funktioniert die 30-Tage-Regel wirklich?
 
-Ja. Laut Verhaltensforschung, veröffentlicht im *Journal of Consumer Psychology*, nimmt die emotionale Intensität eines Kaufwunsches nach 48 bis 72 Stunden um durchschnittlich 60 % ab. Die 30-Tage-Regel — bei jeder Anschaffung über 50 Euro 30 Tage warten, bevor du kaufst — nutzt diesen Effekt konsequent. Laut einer Studie von CreditCards.com geben 64 % der Verbraucher an, dass sie Impulskäufe im Nachhinein bereuen. Die Wartezeit filtert emotionale Käufe von echten Bedürfnissen.
+Ja. Laut Verhaltensforschung, veröffentlicht im *Journal of Consumer Psychology*, nimmt die emotionale Intensität eines Kaufwunsches nach 48 bis 72 Stunden um durchschnittlich 60 % ab. Die 30-Tage-Regel — bei jeder Anschaffung über 50 Euro 30 Tage warten, bevor du kaufst — nutzt diesen Effekt konsequent. Laut einer Studie von CreditCards.com geben 64 % der Verbraucher an, dies so Impulskäufe im Nachhinein bereuen. Die Wartezeit filtert emotionale Käufe von echten Bedürfnissen.
 
 ### 8. Warum lohnt sich Second-Hand kaufen?
 
-Laut dem Secondhand-Report von ThredUp ist der globale Gebrauchtwarenmarkt der am schnellsten wachsende Einzelhandelssektor — mit einem Wachstum von 16 % pro Jahr. In Deutschland bieten Plattformen wie eBay Kleinanzeigen, Vinted, Medimops und reBuy hochwertige Artikel zu 50 bis 80 % unter dem Neupreis. Laut einer Erhebung des Umweltbundesamtes verlängert die Nutzung gebrauchter Produkte deren Lebenszyklus um durchschnittlich 3 bis 5 Jahre und spart pro Haushalt 500 bis 800 Euro pro Jahr — bei Kleidung, Möbeln, Elektronik und Büchern.
+Laut dem Secondhand-Report von ThredUp ist der globale Gebrauchtwarenmarkt einer am schnellsten wachsende Einzelhandelssektor — mit einem Wachstum von 16 % pro Jahr. In Deutschland bieten Plattformen wie eBay Kleinanzeigen, Vinted, Medimops und reBuy hochwertige Artikel zu 50 bis 80 % unter dem Neupreis. Laut einer Erhebung des Umweltbundesamtes verlängert die Nutzung gebrauchter Produkte deren Lebenszyklus um durchschnittlich 3 bis 5 Jahre und spart pro Haushalt 500 bis 800 Euro pro Jahr — bei Kleidung, Möbeln, Elektronik und Büchern.
 
 ## Wie automatisierst du das Sparen?
 
@@ -77,3 +77,11 @@ Laut dem DIW ist der größte Feind des Sparens nicht ein zu niedriges Einkommen
 **Weiterlesen:**
 - [Meal Prep zum Abnehmen: Dein vollständiger Leitfaden](/articles/de/gesundheit/meal-prep-abnehmen-guide)
 - [Gaslighting erkennen: Psychische Manipulation verstehen](/articles/de/beziehungen/gaslighting-erkennen-psychische-manipulation)
+
+---
+
+## Dein Geld, deine Regeln: Die Psychologie hinter besseren Finanzentscheidungen
+
+Sparen beginnt nicht mit Zahlen — es beginnt mit Gewohnheiten. Dieses Buch zeigt dir die psychologischen Mechanismen, die dein Ausgabeverhalten steuern, und gibt dir konkrete Werkzeuge, um dein Verhältnis zu Geld dauerhaft zu verändern.
+
+**[>>> Zum Buch: Rewire Your Money Mind <<<](/boutique/de/rewire-money-mind)**
