@@ -3,39 +3,29 @@ import path from 'path';
 
 const BASE_URL = 'https://solutionsdirectespro.com';
 
-function getFilesRecursive(dir) {
-  let results = [];
-  try {
-    const items = fs.readdirSync(dir);
-    for (const item of items) {
-      const fullPath = path.join(dir, item);
-      const stat = fs.statSync(fullPath);
-      if (stat.isDirectory()) {
-        results = results.concat(getFilesRecursive(fullPath));
-      } else if (item.endsWith('.md')) {
-        results.push(fullPath);
-      }
-    }
-  } catch (e) {
-    // silently ignore
-  }
-  return results;
-}
-
 export default function sitemap() {
   const urls = [];
 
-  // Pages statiques
-  ['', '/a-propos', '/domaines', '/ressources', '/blogs'].forEach(p => {
+  // ─── Pages statiques ───
+  const staticPages = [
+    { path: '', priority: 1.0 },
+    { path: '/a-propos', priority: 0.7 },
+    { path: '/domaines', priority: 0.7 },
+    { path: '/ressources', priority: 0.7 },
+    { path: '/blogs', priority: 0.7 },
+  ];
+
+  for (const page of staticPages) {
     urls.push({
-      url: BASE_URL + p,
+      url: BASE_URL + page.path,
       lastModified: new Date(),
       changeFrequency: 'monthly',
-      priority: p === '' ? 1.0 : 0.7,
+      priority: page.priority,
     });
-  });
+  }
 
-  // Articles : content/[langue]/[categorie]/[slug].md
+  // ─── Articles : content/[langue]/[categorie]/[slug].md ───
+  // URL finale : /articles/[langue]/[categorie]/[slug]
   const contentDir = path.join(process.cwd(), 'content');
   if (fs.existsSync(contentDir)) {
     const langues = fs.readdirSync(contentDir).filter(f => {
@@ -45,6 +35,14 @@ export default function sitemap() {
     });
 
     for (const langue of langues) {
+      // Page index articles par langue
+      urls.push({
+        url: `${BASE_URL}/articles/${langue}`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.7,
+      });
+
       const langDir = path.join(contentDir, langue);
       const categories = fs.readdirSync(langDir).filter(f => {
         try { return fs.statSync(path.join(langDir, f)).isDirectory(); }
@@ -52,10 +50,18 @@ export default function sitemap() {
       });
 
       for (const cat of categories) {
+        // Page index articles par catégorie
+        urls.push({
+          url: `${BASE_URL}/articles/${langue}/${cat}`,
+          lastModified: new Date(),
+          changeFrequency: 'weekly',
+          priority: 0.65,
+        });
+
         const files = fs.readdirSync(path.join(langDir, cat)).filter(f => f.endsWith('.md'));
         for (const file of files) {
           urls.push({
-            url: `${BASE_URL}/${langue}/${cat}/${file.replace('.md', '')}`,
+            url: `${BASE_URL}/articles/${langue}/${cat}/${file.replace('.md', '')}`,
             lastModified: new Date(),
             changeFrequency: 'weekly',
             priority: 0.6,
@@ -65,7 +71,8 @@ export default function sitemap() {
     }
   }
 
-  // Boutique : content/boutique/[langue]/[slug].md
+  // ─── Boutique : content/boutique/[langue]/[slug].md ───
+  // URL finale : /boutique/[langue]/[slug]
   const boutiqueDir = path.join(process.cwd(), 'content', 'boutique');
   if (fs.existsSync(boutiqueDir)) {
     const langues = fs.readdirSync(boutiqueDir).filter(f => {
@@ -74,6 +81,14 @@ export default function sitemap() {
     });
 
     for (const langue of langues) {
+      // Page index boutique par langue
+      urls.push({
+        url: `${BASE_URL}/boutique/${langue}`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.75,
+      });
+
       const files = fs.readdirSync(path.join(boutiqueDir, langue)).filter(f => f.endsWith('.md'));
       for (const file of files) {
         urls.push({
