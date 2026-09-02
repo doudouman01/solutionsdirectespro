@@ -29,6 +29,8 @@ export default function ArticlePage({ params }) {
     );
   }
 
+  const articleUrl = `https://solutionsdirectespro.com/articles/${lang}/${category}/${slug}`;
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -48,9 +50,41 @@ export default function ArticlePage({ params }) {
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://solutionsdirectespro.com/${lang}/${category}/${slug}`,
+      '@id': articleUrl,
     },
     inLanguage: lang,
+    articleSection: article.categoryLabel || category,
+  };
+
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Accueil',
+        item: 'https://solutionsdirectespro.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: `Articles (${lang.toUpperCase()})`,
+        item: `https://solutionsdirectespro.com/articles/${lang}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: article.categoryLabel || category,
+        item: `https://solutionsdirectespro.com/articles/${lang}/${category}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 4,
+        name: article.title,
+        item: articleUrl,
+      },
+    ],
   };
 
   return (
@@ -58,6 +92,10 @@ export default function ArticlePage({ params }) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
 
       <Link href={`/articles/${lang}`} className="article-back">

@@ -279,7 +279,9 @@ export default function ProductPage({ params }) {
 
   const otherProducts = getProducts(lang).filter(p => p.slug !== slug);
 
+  const productUrl = `https://solutionsdirectespro.com/boutique/${lang}/${slug}`;
   const firstMarket = product.markets && product.markets[0];
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Book',
@@ -293,7 +295,7 @@ export default function ProductPage({ params }) {
     numberOfPages: product.pages || undefined,
     inLanguage: product.language || lang,
     image: product.cover ? `https://solutionsdirectespro.com${product.cover}` : undefined,
-    url: `https://solutionsdirectespro.com/boutique/${lang}/${slug}`,
+    url: productUrl,
     offers: firstMarket ? {
       '@type': 'Offer',
       price: (firstMarket.price_kindle || '').replace(/[^0-9.]/g, ''),
@@ -303,11 +305,40 @@ export default function ProductPage({ params }) {
     } : undefined,
   };
 
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Accueil',
+        item: 'https://solutionsdirectespro.com',
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: `Boutique (${lang.toUpperCase()})`,
+        item: `https://solutionsdirectespro.com/boutique/${lang}`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: product.title,
+        item: productUrl,
+      },
+    ],
+  };
+
   return (
     <div className="product-page">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
 
       <Link href={`/boutique/${lang}`} className="article-back">

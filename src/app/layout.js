@@ -20,7 +20,7 @@ export const metadata = {
     description: 'Des solutions directes, partout dans le monde. Finances, emploi, santé, logement, droit, relations.',
   },
   metadataBase: new URL('https://solutionsdirectespro.com'),
-    robots: {
+  robots: {
     index: true,
     follow: true,
     'max-snippet': -1,
@@ -36,15 +36,49 @@ export const metadata = {
   },
 };
 
+// Schema.org JSON-LD pour le site entier
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Solutions Directes Pro',
+  url: 'https://solutionsdirectespro.com',
+  logo: 'https://solutionsdirectespro.com/logo.png',
+  description: 'Plateforme multilingue de guides pratiques et de livres pour résoudre vos problèmes quotidiens.',
+  sameAs: [],
+};
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Solutions Directes Pro',
+  url: 'https://solutionsdirectespro.com',
+  description: 'Des solutions directes, partout dans le monde. Finances, emploi, santé, logement, droit, relations.',
+  inLanguage: ['fr', 'en', 'de', 'es', 'it', 'nl', 'sv', 'da', 'pl', 'pt', 'fi', 'ja', 'hi'],
+  publisher: {
+    '@type': 'Organization',
+    name: 'Solutions Directes Pro',
+  },
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+      </head>
       <body>
         <Header />
         <main>{children}</main>
-                <Footer />
+        <Footer />
         <Analytics />
       </body>
- </html>
+    </html>
   );
 }
