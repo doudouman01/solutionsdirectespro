@@ -44,7 +44,7 @@ The genre is at its best when it makes you look at your phone differently on the
 
 **Also read:**
 - [Can Invisible Signals Control Your Mind? The Science Behind the Fiction](/articles/en/entertainment/invisible-signals-mind-control-science)
-- [The Best Baltimore Crime Thrillers](/articles/en/entertainment/best-baltimore-crime-thrillers)
+- [The Best Baltimore Crime Thrillers](/articles/en/entertainment/best-baltimore-crime-thrillers-detective-fiction)
 
 ---
 
