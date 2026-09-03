@@ -1008,3 +1008,14 @@ a {
     min-width: unset;
   }
 }
+
+/* Links in article content */
+.article-content a {
+  color: #d4a03c;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.article-content a:hover {
+  color: #b8862e;
+}
