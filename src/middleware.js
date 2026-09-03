@@ -205,6 +205,8 @@ const GONE_SLUGS = new Set([
   'httpssolutionsdirectesprocomsviluppo-personale-italiano',
   'httpssolutionsdirectesprocomhealth-wellness-en',
   'httpssolutionsdirectesprocom60-mayores-activos-salud-espanol',
+  'httpssolutionsdirectesprocomrozwoj-osobisty-polski',
+  'solutions-quotidiennes',
 ]);
 
 export function middleware(request) {
