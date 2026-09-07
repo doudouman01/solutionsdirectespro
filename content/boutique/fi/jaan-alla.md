@@ -1,27 +1,33 @@
-﻿---
+---
 title: "Jaan alla"
 type: "roman"
 cover: "/covers/jaan-alla.png"
 amazon_link: "https://www.amazon.de/dp/B0H1BYSTST"
-kindle_link: ""
-price_kindle: ""
+kindle_link: "https://www.amazon.de/dp/B0HHZW4R3D"
+price_kindle: "4,99 EUR"
 price_paperback: "19,90 EUR"
 market: "FI"
 category: "literature"
 pages: "320"
 language: "Suomi"
-genre: "Pohjoismainen Trilleri"
-excerpt: "Jaan alla piilee jotain, mita ei ollut tarkoitettu loydettavaksi. Arktinen eraamaa pitaa salaisuutensa. Mutta jaa sulaa aina lopulta."
+genre: "Nordic Noir / Rikosromaani"
+excerpt: "Jaa pitaa. Totuus nousee. Ylikonstaapeli Mira Korhonen loytaa ruumiin Sompiojarven jaasta. Arktinen Varjo — Kirja 1."
 ---
 
-Suomen pohjoisimmassa kolkassa, jossa talvi kestaa kuukausia ja aurinko katoaa viikoksi, loytyyy ruumis jaasta.
+Tammikuussa Sodankylassa aurinko ei nouse.
 
-Ei eilisen. Ei viime vuoden. Vuosikymmenten takainen.
+Ylikonstaapeli Mira Korhonen saapuu Lappiin pakotettuna — siirrettyna Helsingista rangaistuksena virheesta jota han ei pysty unohtamaan. Kollega on kuollut. Osittain hanen syynsa. Han ei odota anteeksiantoa. Han ei odota mitaan.
 
-Kun nuori tutkija alkaa selvittaa tapauksen taustoja, han huomaa etta kylan hiljaisuus ei ole rauhaa. Se on pelkoa.
+Sitten Sompiojarven jaasta nousee ruumis.
 
-- Pohjoismainen trilleri jaatavan kylmalla tunnelmalla
-- Arktinen eramaa taynna vaaraa ja salaisuuksia
-- Jannite joka kasvaa viimeiselle sivulle asti
+Nuori nainen. Ei henkilollisyytta. Ei katoamisilmoitusta. Ei todistajia. Vain jaa joka on pitanyt hanet sisallaan viikkoja — ja kyla joka tietaa enemman kuin se kertoo.
 
-**Jaa ei unohda. Jaa saastaa kaiken.**
+Mira alkaa kaivaa.
+
+Mita han loytaa, on pahempaa kuin han olisi koskaan voinut kuvitella. Yksi ruumis muuttuu kuudeksi. Yksi jarvi muuttuu hautausmaaksi. Ja se mies jonka piti suojella — han on tiennyt kaiken jo vuosia.
+
+- Nordic Noir sen puhtaimmillaan: hidas, armoton, taydellisesti pohjoinen
+- Naispaahenkilolla on syvyytta, virheita ja selkarankaa
+- Rikosromaani joka kunnioittaa uhrejaan
+
+**Arktinen Varjo -sarjan ensimmainen kirja. Kuusi kirjaa. Yksi pohjoinen. Yksi totuus.**
