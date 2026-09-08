@@ -42,7 +42,7 @@ Tres criterios: complexidade moral do protagonista masculino, forca e autonomia 
 
 **Leia tambem:**
 - [Ficcao brasileira contemporanea: historias que capturam o Brasil real](/articles/pt/entretenimento/ficcao-brasileira-contemporanea)
-- [Cortisol e estresse cronico: o que a ciencia diz sobre desintoxicacao hormonal](/articles/pt/saude/cortisol-estresse-cronico-desintoxicacao)
+- [Liberdade financeira: o guia que ninguem te deu sobre independencia economica](/articles/pt/financas/liberdade-financeira-independencia-economica)
 
 ---
 

@@ -43,8 +43,8 @@ L'ideal selon les recommandations de l'American College of Sports Medicine : 2 a
 Absolument. Apres 40 ans, la recuperation musculaire est plus lente — les fibres musculaires mettent 48 a 72 heures a se reparer completement, contre 24 a 48 heures a 25 ans. Le sommeil devient un facteur critique : selon des recherches publiees dans *Annals of Internal Medicine*, dormir moins de 6 heures par nuit double la perte de masse musculaire lors d'un regime, meme avec un apport proteique adequat.
 
 **A lire aussi :**
-- [Dark romance de cartel en espanol : novelas que no te dejan dormir](/articles/es/relaciones/dark-romance-cartel-espanol)
-- [Pourquoi la fantasie epique nous captive](/articles/fr/divertissement/pourquoi-la-fantaisie-epique-nous-captive)
+- [Romance suspense avec garde du corps : pourquoi ce trope fonctionne si bien](/articles/fr/relations/romance-suspense-garde-du-corps)
+- [Dark fantasy francophone : les romans qui melent horreur, mystere et surnaturel](/articles/fr/divertissement/dark-fantasy-francophone-horreur-surnaturel)
 
 ---
 

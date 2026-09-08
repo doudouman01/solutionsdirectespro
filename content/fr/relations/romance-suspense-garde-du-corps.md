@@ -46,7 +46,7 @@ Les meilleurs romans du genre evitent aussi le piege du protagoniste passive. La
 
 **A lire aussi :**
 - [Perdre du poids apres 40 ans : ce que personne ne vous dit sur le metabolisme](/articles/fr/sante/perdre-du-poids-apres-40-ans-metabolisme)
-- [Pourquoi la fantasie epique nous captive](/articles/fr/divertissement/pourquoi-la-fantaisie-epique-nous-captive)
+- [Dark fantasy francophone : les romans qui melent horreur, mystere et surnaturel](/articles/fr/divertissement/dark-fantasy-francophone-horreur-surnaturel)
 
 ---
 
