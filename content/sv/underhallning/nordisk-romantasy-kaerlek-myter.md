@@ -25,7 +25,7 @@ Tonen. Standard romantasy tenderar mot det ljusa — magiska akademier, feer, bl
 En vaerld som kaeenns genuin nordisk (inte bara "vikingar" som estetik), ett magisystem med konsekvenser, och en kaerlekshistoria daer baade hjaeltinnan och den manliga protagonisten har egna maal som kolliderar med deras kaenslor.
 
 **Laes oecksaa:**
-- [Svensk paranormal thriller: naar de drunknade talar](/articles/sv/underhallning/svensk-paranormal-thriller-drunknade-talar)
+- [Svensk paranormal thriller: naar de drunknade talar](/articles/sv/underhallning/paranormal-thriller-drunknade)
 
 ---
 

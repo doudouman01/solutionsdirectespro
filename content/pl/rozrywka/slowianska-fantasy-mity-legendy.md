@@ -27,7 +27,7 @@ Bo sa rozdarte miedzy dwoma swiatami — swiatem zywych i swiatem umarych, swiat
 Autentycznosc mitologiczna (nie tylko "slowianskie" nazwy naklajone na generyczna fantasy), system magii z konsekwencjami, i bohaterka, ktora nie jest ani ofiara, ani niezlomna wojowniczka — jest czlowiekiem rozdartymniedzy przeznaczeniem a wyborem.
 
 **Czytaj takze:**
-- [Przytulny kryminal z Polski: zagadki, herbata i babcia, ktora nie odpuszcza](/articles/pl/rozrywka/przytulny-kryminal-polska-zagadki)
+- [Przytulny kryminal z Polski: zagadki, herbata i babcia, ktora nie odpuszcza](/articles/pl/rozrywka/przytulny-kryminal-polska)
 
 ---
 

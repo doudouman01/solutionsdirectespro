@@ -27,7 +27,7 @@ Jarlen er ikke bare en leder — han er baereren af en slaegtslinje, en traditio
 Tre ting: historisk autenticitet (ikke bare "vikinger" som aestetik, men en forstaelse af det gamle Nordens kultur), et magisystem med konsekvenser (magt koster altid noget), og karakterer der foeles fanget mellem pligt og frihed.
 
 **Laes ogsaa:**
-- [Nordisk thriller: naar havet og kysten gemmer doedelige hemmeligheder](/articles/da/underholdning/nordisk-thriller-havet-kysten-hemmeligheder)
+- [Nordisk thriller: naar havet og kysten gemmer doedelige hemmeligheder](/articles/da/underholdning/nordisk-thriller-havet-kysten)
 
 ---
 

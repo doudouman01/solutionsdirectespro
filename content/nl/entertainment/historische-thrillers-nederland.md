@@ -27,7 +27,7 @@ Omdat ze twee tijdlijnen creeren die naar elkaar toe bewegen. Het verleden onthu
 Een setting die de plot direct beinvloedt, een historisch mysterie dat resoneert met het heden, en een protagonist die ontdekt dat het verleden persoonlijker is dan verwacht.
 
 **Lees ook:**
-- [Gotische thrillers uit Nederland: duistere verhalen van water en geheimen](/articles/nl/entertainment/gotische-thrillers-nederland-water-geheimen)
+- [Gotische thrillers uit Nederland: duistere verhalen van water en geheimen](/articles/nl/entertainment/gotische-thrillers-water)
 
 ---
 

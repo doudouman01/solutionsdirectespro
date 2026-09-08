@@ -27,7 +27,7 @@ Fordi alle kender alle — og det goer loegne farligere. I en storby kan man for
 En overbevisende setting der paavirker plottet direkte (havet er ikke bare baggrund — det former forbrydelsen), et lille samfund med dybe hemmeligheder, og en efterforsker der selv baerer paa noget — skyld, tab, en forbindelse til stedet der goer alt personligt.
 
 **Laes ogsaa:**
-- [Nordisk historisk fantasy: romaner der vaekker de gamle guder til live](/articles/da/underholdning/nordisk-historisk-fantasy-gamle-guder)
+- [Nordisk historisk fantasy: romaner der vaekker de gamle guder til live](/articles/da/underholdning/nordisk-historisk-fantasy)
 
 ---
 

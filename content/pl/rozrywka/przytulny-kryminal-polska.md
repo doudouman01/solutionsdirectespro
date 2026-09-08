@@ -37,7 +37,7 @@ Absolutnie. Najlepsze przytulne kryminaly balansuja miedzy zagadka a humorem. Bo
 Charyzmatyczna bohaterka z wyrazista osobowoscia, miasteczko ktore czujesz (nie generyczne "male polskie miasto"), zagadka ktora jest sprytna ale nie brutalna, i zakonczenie ktore satysfakcjonuje bez potrzeby szoku.
 
 **Czytaj takze:**
-- [Slowianska fantasy: polskie powiesci ktore ozywaja mity i legendy](/articles/pl/rozrywka/slowianska-fantasy-polskie-mity-legendy)
+- [Slowianska fantasy: polskie powiesci ktore ozywaja mity i legendy](/articles/pl/rozrywka/slowianska-fantasy-mity-legendy)
 
 ---
 

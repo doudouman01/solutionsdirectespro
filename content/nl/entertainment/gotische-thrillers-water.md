@@ -27,7 +27,7 @@ Omdat ze twee werkelijkheden bevatten: de zichtbare (nette huizen, beleefd gekni
 Een sfeer die niet loslaat — het soort boek waarin zelfs de rustige scenes onheilspellend voelen. Een setting die actief bijdraagt aan de spanning. En een mysterie dat generaties overspant — omdat gotische geheimen nooit van gisteren zijn.
 
 **Lees ook:**
-- [Nederlandse historische thrillers: wanneer het verleden terugslaat](/articles/nl/entertainment/historische-thrillers-nederland-verleden)
+- [Nederlandse historische thrillers: wanneer het verleden terugslaat](/articles/nl/entertainment/historische-thrillers-nederland)
 
 ---
 
