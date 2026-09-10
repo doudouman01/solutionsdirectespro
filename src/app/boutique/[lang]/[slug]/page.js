@@ -52,6 +52,35 @@ function GumroadButtonCompact({ link, price }) {
   );
 }
 
+/* ── Google Play button ── */
+function GooglePlayButton({ link, price }) {
+  if (!link || link === '#') return null;
+  return (
+    <div className="product-market-buttons">
+      <div className="product-market-row">
+        <span className="product-market-label">▶️ Google Play</span>
+        <div className="product-market-links">
+          <a href={link} target="_blank" rel="noopener noreferrer" className="btn-google btn-google-sm">
+            📖 {price ? `Buy ${price}` : 'Buy now'}
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function GooglePlayButtonCompact({ link, price }) {
+  if (!link || link === '#') return null;
+  return (
+    <div className="product-cta-markets">
+      <div style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
+        <span style={{ fontSize: '0.85rem', minWidth: '140px' }}>▶️ Google Play</span>
+        <a href={link} target="_blank" rel="noopener noreferrer" className="btn-google">📖 Buy</a>
+      </div>
+    </div>
+  );
+}
+
 /* ── Cover display: Kindle main + optional paperback ── */
 function ProductCovers({ product }) {
   return (
@@ -123,10 +152,32 @@ function isGumroad(product) {
   return !!(product.gumroad_link && product.gumroad_link !== '#');
 }
 
-/* ── Buy buttons wrapper: picks Gumroad or Amazon automatically ── */
+/* ── Helper: is this a Google Play product? ── */
+function isGooglePlay(product) {
+  return !!(product.google_play_link && product.google_play_link !== '#');
+}
+
+/* ── Helper: get display price for "Also by" section ── */
+function getDisplayPrice(p) {
+  if (isGumroad(p)) return p.price_gumroad;
+  if (isGooglePlay(p)) return p.price_google;
+  return p.markets[0]?.price_kindle || p.price_kindle;
+}
+
+/* ── Helper: get platform label ── */
+function getPlatformLabel(product) {
+  if (isGumroad(product)) return 'Available now on Gumroad';
+  if (isGooglePlay(product)) return 'Available now on Google Play';
+  return 'Available now on Amazon';
+}
+
+/* ── Buy buttons wrapper: picks Gumroad, Google Play, or Amazon automatically ── */
 function BuyButtons({ product }) {
   if (isGumroad(product)) {
     return <GumroadButton link={product.gumroad_link} price={product.price_gumroad} />;
+  }
+  if (isGooglePlay(product)) {
+    return <GooglePlayButton link={product.google_play_link} price={product.price_google} />;
   }
   return <MarketButtons markets={product.markets} />;
 }
@@ -134,6 +185,9 @@ function BuyButtons({ product }) {
 function BuyButtonsCompact({ product }) {
   if (isGumroad(product)) {
     return <GumroadButtonCompact link={product.gumroad_link} price={product.price_gumroad} />;
+  }
+  if (isGooglePlay(product)) {
+    return <GooglePlayButtonCompact link={product.google_play_link} price={product.price_google} />;
   }
   return <MarketButtonsCompact markets={product.markets} />;
 }
@@ -152,7 +206,7 @@ export function generateMetadata({ params }) {
 }
 
 function RomanLayout({ product, otherProducts }) {
-  const gumroad = isGumroad(product);
+  
 
   return (
     <>
@@ -183,7 +237,7 @@ function RomanLayout({ product, otherProducts }) {
 
       {/* BOTTOM CTA */}
       <div className="product-cta-bottom">
-        <span className="product-cta-text">{gumroad ? 'Available now on Gumroad' : 'Available now on Amazon'}</span>
+        <span className="product-cta-text">{getPlatformLabel(product)}</span>
         <BuyButtonsCompact product={product} />
       </div>
 
@@ -200,7 +254,7 @@ function RomanLayout({ product, otherProducts }) {
                   <div className="product-also-placeholder">{p.title}</div>
                 )}
                 <p className="product-also-name">{p.title}</p>
-                <p className="product-also-price">{isGumroad(p) ? p.price_gumroad : (p.markets[0]?.price_kindle || p.price_kindle)}</p>
+                <p className="product-also-price">{getDisplayPrice(p)}</p>
               </Link>
             ))}
           </div>
@@ -211,7 +265,7 @@ function RomanLayout({ product, otherProducts }) {
 }
 
 function NonfictionLayout({ product, otherProducts }) {
-  const gumroad = isGumroad(product);
+  
 
   return (
     <>
@@ -296,7 +350,7 @@ function NonfictionLayout({ product, otherProducts }) {
       <div className="product-cta-bottom product-cta-dark">
         <div>
           <span className="product-cta-text">Ready to transform your life?</span>
-          <span className="product-cta-sub">{gumroad ? 'Available now on Gumroad' : 'Available now on Amazon'}</span>
+          <span className="product-cta-sub">{getPlatformLabel(product)}</span>
         </div>
         <BuyButtonsCompact product={product} />
       </div>
@@ -314,7 +368,7 @@ function NonfictionLayout({ product, otherProducts }) {
                   <div className="product-also-placeholder">{p.title}</div>
                 )}
                 <p className="product-also-name">{p.title}</p>
-                <p className="product-also-price">{isGumroad(p) ? p.price_gumroad : (p.markets[0]?.price_kindle || p.price_kindle)}</p>
+                <p className="product-also-price">{getDisplayPrice(p)}</p>
               </Link>
             ))}
           </div>
@@ -343,11 +397,20 @@ export default function ProductPage({ params }) {
   const productUrl = `https://solutionsdirectespro.com/boutique/${lang}/${slug}`;
   const firstMarket = product.markets && product.markets[0];
   const gumroad = isGumroad(product);
+  const googlePlay = isGooglePlay(product);
+  const isExternalProduct = gumroad || googlePlay;
 
-  /* ── Schema.org JSON-LD — adapts to Gumroad or Amazon ── */
+  /* ── Schema.org JSON-LD — adapts to Gumroad, Google Play, or Amazon ── */
+  const offerUrl = gumroad ? product.gumroad_link
+    : googlePlay ? product.google_play_link
+    : (firstMarket?.kindle_link || firstMarket?.amazon_link || '');
+  const offerPrice = gumroad ? (product.price_gumroad || '')
+    : googlePlay ? (product.price_google || '')
+    : (firstMarket?.price_kindle || '');
+
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': gumroad ? 'Product' : 'Book',
+    '@type': (gumroad ? 'Product' : 'Book'),
     name: product.title,
     description: product.excerpt || '',
     author: {
@@ -359,23 +422,13 @@ export default function ProductPage({ params }) {
     inLanguage: product.language || lang,
     image: product.cover ? `https://solutionsdirectespro.com${product.cover}` : undefined,
     url: productUrl,
-    offers: gumroad
-      ? {
-          '@type': 'Offer',
-          price: (product.price_gumroad || '').replace(/[^0-9.]/g, ''),
-          priceCurrency: 'USD',
-          availability: 'https://schema.org/InStock',
-          url: product.gumroad_link,
-        }
-      : firstMarket
-        ? {
-            '@type': 'Offer',
-            price: (firstMarket.price_kindle || '').replace(/[^0-9.]/g, ''),
-            priceCurrency: 'USD',
-            availability: 'https://schema.org/InStock',
-            url: firstMarket.kindle_link || firstMarket.amazon_link || '',
-          }
-        : undefined,
+    offers: (offerUrl && offerPrice) ? {
+      '@type': 'Offer',
+      price: offerPrice.replace(/[^0-9.]/g, ''),
+      priceCurrency: googlePlay ? 'CAD' : 'USD',
+      availability: 'https://schema.org/InStock',
+      url: offerUrl,
+    } : undefined,
   };
 
   const breadcrumbLd = {

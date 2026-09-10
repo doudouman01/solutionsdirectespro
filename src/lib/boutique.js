@@ -42,6 +42,9 @@ function parseProduct(filePath, file, lang) {
     // Gumroad fields
     gumroad_link: data.gumroad_link || null,
     price_gumroad: data.price_gumroad || '',
+    // Google Play fields
+    google_play_link: data.google_play_link || null,
+    price_google: data.price_google || '',
     // Keep legacy fields for backward compat
     amazon_link: data.amazon_link || '#',
     kindle_link: data.kindle_link || '#',
@@ -102,6 +105,8 @@ export function getProduct(lang, slug) {
     cover_paperback: data.cover_paperback || null,
     gumroad_link: data.gumroad_link || null,
     price_gumroad: data.price_gumroad || '',
+    google_play_link: data.google_play_link || null,
+    price_google: data.price_google || '',
     amazon_link: data.amazon_link || '#',
     kindle_link: data.kindle_link || '#',
     price_kindle: data.price_kindle || '',

@@ -684,6 +684,24 @@ a {
   background: #e87dd1;
 }
 
+.btn-google {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  background: #01875f;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.btn-google:hover {
+  background: #016e4f;
+}
+
 .product-features {
   display: flex;
   gap: 18px;
@@ -1034,6 +1052,11 @@ a {
 }
 
 .btn-gumroad-sm {
+  padding: 8px 16px !important;
+  font-size: 0.82rem !important;
+}
+
+.btn-google-sm {
   padding: 8px 16px !important;
   font-size: 0.82rem !important;
 }
