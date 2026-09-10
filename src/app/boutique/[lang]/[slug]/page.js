@@ -52,6 +52,25 @@ function GumroadButtonCompact({ link, price }) {
   );
 }
 
+/* ── Cover display: Kindle main + optional paperback ── */
+function ProductCovers({ product }) {
+  return (
+    <div className="product-cover-col">
+      {product.cover ? (
+        <img src={product.cover} alt={product.title} className="product-cover-img" />
+      ) : (
+        <div className="product-cover-placeholder">{product.title}</div>
+      )}
+      {product.cover_paperback && (
+        <div className="product-cover-alt">
+          <img src={product.cover_paperback} alt={`${product.title} — Paperback`} className="product-cover-alt-img" />
+          <span className="product-cover-alt-label">📖 Paperback edition</span>
+        </div>
+      )}
+    </div>
+  );
+}
+
 /* ── Amazon market buttons (unchanged) ── */
 function MarketButtons({ markets }) {
   if (!markets || markets.length === 0) return null;
@@ -139,13 +158,7 @@ function RomanLayout({ product, otherProducts }) {
     <>
       {/* HERO */}
       <div className="product-hero">
-        <div className="product-cover-col">
-          {product.cover ? (
-            <img src={product.cover} alt={product.title} className="product-cover-img" />
-          ) : (
-            <div className="product-cover-placeholder">{product.title}</div>
-          )}
-        </div>
+        <ProductCovers product={product} />
         <div className="product-info-col">
           {product.genre && <span className="product-badge">📖 {product.genre}</span>}
           <h1 className="product-title">{product.title}</h1>
@@ -204,13 +217,7 @@ function NonfictionLayout({ product, otherProducts }) {
     <>
       {/* HERO */}
       <div className="product-hero">
-        <div className="product-cover-col">
-          {product.cover ? (
-            <img src={product.cover} alt={product.title} className="product-cover-img" />
-          ) : (
-            <div className="product-cover-placeholder">{product.title}</div>
-          )}
-        </div>
+        <ProductCovers product={product} />
         <div className="product-info-col">
           {product.genre && <span className="product-badge product-badge-nf">📘 {product.genre}</span>}
           <h1 className="product-title">{product.title}</h1>
