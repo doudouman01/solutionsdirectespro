@@ -23,6 +23,36 @@ const marketLabels = {
   IN: '🇮🇳 Amazon India',
 };
 
+/* ── Gumroad button (product-level, not market-level) ── */
+function GumroadButton({ link, price }) {
+  if (!link || link === '#') return null;
+  return (
+    <div className="product-market-buttons">
+      <div className="product-market-row">
+        <span className="product-market-label">🛍️ Gumroad</span>
+        <div className="product-market-links">
+          <a href={link} target="_blank" rel="noopener noreferrer" className="btn-gumroad btn-gumroad-sm">
+            🛒 {price ? `Buy ${price}` : 'Buy now'}
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function GumroadButtonCompact({ link, price }) {
+  if (!link || link === '#') return null;
+  return (
+    <div className="product-cta-markets">
+      <div style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
+        <span style={{ fontSize: '0.85rem', minWidth: '140px' }}>🛍️ Gumroad</span>
+        <a href={link} target="_blank" rel="noopener noreferrer" className="btn-gumroad">🛒 Buy</a>
+      </div>
+    </div>
+  );
+}
+
+/* ── Amazon market buttons (unchanged) ── */
 function MarketButtons({ markets }) {
   if (!markets || markets.length === 0) return null;
 
@@ -69,6 +99,26 @@ function MarketButtonsCompact({ markets }) {
   );
 }
 
+/* ── Helper: is this a Gumroad product? ── */
+function isGumroad(product) {
+  return !!(product.gumroad_link && product.gumroad_link !== '#');
+}
+
+/* ── Buy buttons wrapper: picks Gumroad or Amazon automatically ── */
+function BuyButtons({ product }) {
+  if (isGumroad(product)) {
+    return <GumroadButton link={product.gumroad_link} price={product.price_gumroad} />;
+  }
+  return <MarketButtons markets={product.markets} />;
+}
+
+function BuyButtonsCompact({ product }) {
+  if (isGumroad(product)) {
+    return <GumroadButtonCompact link={product.gumroad_link} price={product.price_gumroad} />;
+  }
+  return <MarketButtonsCompact markets={product.markets} />;
+}
+
 export function generateStaticParams() {
   return getAllProductPaths();
 }
@@ -83,6 +133,8 @@ export function generateMetadata({ params }) {
 }
 
 function RomanLayout({ product, otherProducts }) {
+  const gumroad = isGumroad(product);
+
   return (
     <>
       {/* HERO */}
@@ -104,8 +156,8 @@ function RomanLayout({ product, otherProducts }) {
             {product.language && <span className="product-feat">🌐 {product.language}</span>}
             {product.genre && <span className="product-feat">⭐ {product.genre}</span>}
           </div>
-          {/* Multi-market buttons */}
-          <MarketButtons markets={product.markets} />
+          {/* Buy buttons — Gumroad or Amazon */}
+          <BuyButtons product={product} />
         </div>
       </div>
 
@@ -118,8 +170,8 @@ function RomanLayout({ product, otherProducts }) {
 
       {/* BOTTOM CTA */}
       <div className="product-cta-bottom">
-        <span className="product-cta-text">Available now on Amazon</span>
-        <MarketButtonsCompact markets={product.markets} />
+        <span className="product-cta-text">{gumroad ? 'Available now on Gumroad' : 'Available now on Amazon'}</span>
+        <BuyButtonsCompact product={product} />
       </div>
 
       {/* ALSO BY */}
@@ -135,7 +187,7 @@ function RomanLayout({ product, otherProducts }) {
                   <div className="product-also-placeholder">{p.title}</div>
                 )}
                 <p className="product-also-name">{p.title}</p>
-                <p className="product-also-price">{p.markets[0]?.price_kindle || p.price_kindle}</p>
+                <p className="product-also-price">{isGumroad(p) ? p.price_gumroad : (p.markets[0]?.price_kindle || p.price_kindle)}</p>
               </Link>
             ))}
           </div>
@@ -146,6 +198,8 @@ function RomanLayout({ product, otherProducts }) {
 }
 
 function NonfictionLayout({ product, otherProducts }) {
+  const gumroad = isGumroad(product);
+
   return (
     <>
       {/* HERO */}
@@ -176,8 +230,8 @@ function NonfictionLayout({ product, otherProducts }) {
             {product.language && <span className="product-feat">🌐 {product.language}</span>}
             <span className="product-feat">✅ Actionable exercises</span>
           </div>
-          {/* Multi-market buttons */}
-          <MarketButtons markets={product.markets} />
+          {/* Buy buttons — Gumroad or Amazon */}
+          <BuyButtons product={product} />
         </div>
       </div>
 
@@ -235,9 +289,9 @@ function NonfictionLayout({ product, otherProducts }) {
       <div className="product-cta-bottom product-cta-dark">
         <div>
           <span className="product-cta-text">Ready to transform your life?</span>
-          <span className="product-cta-sub">Available now on Amazon</span>
+          <span className="product-cta-sub">{gumroad ? 'Available now on Gumroad' : 'Available now on Amazon'}</span>
         </div>
-        <MarketButtonsCompact markets={product.markets} />
+        <BuyButtonsCompact product={product} />
       </div>
 
       {/* ALSO BY */}
@@ -253,7 +307,7 @@ function NonfictionLayout({ product, otherProducts }) {
                   <div className="product-also-placeholder">{p.title}</div>
                 )}
                 <p className="product-also-name">{p.title}</p>
-                <p className="product-also-price">{p.markets[0]?.price_kindle || p.price_kindle}</p>
+                <p className="product-also-price">{isGumroad(p) ? p.price_gumroad : (p.markets[0]?.price_kindle || p.price_kindle)}</p>
               </Link>
             ))}
           </div>
@@ -281,28 +335,40 @@ export default function ProductPage({ params }) {
 
   const productUrl = `https://solutionsdirectespro.com/boutique/${lang}/${slug}`;
   const firstMarket = product.markets && product.markets[0];
+  const gumroad = isGumroad(product);
 
+  /* ── Schema.org JSON-LD — adapts to Gumroad or Amazon ── */
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Book',
+    '@type': gumroad ? 'Product' : 'Book',
     name: product.title,
     description: product.excerpt || '',
     author: {
       '@type': 'Person',
       name: 'Adrian Phoenix Vale',
     },
-    bookFormat: 'https://schema.org/EBook',
+    ...(gumroad ? {} : { bookFormat: 'https://schema.org/EBook' }),
     numberOfPages: product.pages || undefined,
     inLanguage: product.language || lang,
     image: product.cover ? `https://solutionsdirectespro.com${product.cover}` : undefined,
     url: productUrl,
-    offers: firstMarket ? {
-      '@type': 'Offer',
-      price: (firstMarket.price_kindle || '').replace(/[^0-9.]/g, ''),
-      priceCurrency: 'USD',
-      availability: 'https://schema.org/InStock',
-      url: firstMarket.kindle_link || firstMarket.amazon_link || '',
-    } : undefined,
+    offers: gumroad
+      ? {
+          '@type': 'Offer',
+          price: (product.price_gumroad || '').replace(/[^0-9.]/g, ''),
+          priceCurrency: 'USD',
+          availability: 'https://schema.org/InStock',
+          url: product.gumroad_link,
+        }
+      : firstMarket
+        ? {
+            '@type': 'Offer',
+            price: (firstMarket.price_kindle || '').replace(/[^0-9.]/g, ''),
+            priceCurrency: 'USD',
+            availability: 'https://schema.org/InStock',
+            url: firstMarket.kindle_link || firstMarket.amazon_link || '',
+          }
+        : undefined,
   };
 
   const breadcrumbLd = {

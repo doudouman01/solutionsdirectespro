@@ -641,6 +641,24 @@ a {
   opacity: 0.9;
 }
 
+.btn-gumroad {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  background: #ff90e8;
+  color: #000;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.btn-gumroad:hover {
+  background: #e87dd1;
+}
+
 .product-features {
   display: flex;
   gap: 18px;
@@ -986,6 +1004,11 @@ a {
 }
 
 .btn-kindle-sm {
+  padding: 8px 16px !important;
+  font-size: 0.82rem !important;
+}
+
+.btn-gumroad-sm {
   padding: 8px 16px !important;
   font-size: 0.82rem !important;
 }
