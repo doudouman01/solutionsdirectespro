@@ -38,6 +38,10 @@ function parseProduct(filePath, file, lang) {
     title: data.title || 'Sans titre',
     type: data.type || 'roman',
     cover: data.cover || null,
+    cover_paperback: data.cover_paperback || null,
+    // Gumroad fields
+    gumroad_link: data.gumroad_link || null,
+    price_gumroad: data.price_gumroad || '',
     // Keep legacy fields for backward compat
     amazon_link: data.amazon_link || '#',
     kindle_link: data.kindle_link || '#',
@@ -95,6 +99,9 @@ export function getProduct(lang, slug) {
     title: data.title || 'Sans titre',
     type: data.type || 'roman',
     cover: data.cover || null,
+    cover_paperback: data.cover_paperback || null,
+    gumroad_link: data.gumroad_link || null,
+    price_gumroad: data.price_gumroad || '',
     amazon_link: data.amazon_link || '#',
     kindle_link: data.kindle_link || '#',
     price_kindle: data.price_kindle || '',
