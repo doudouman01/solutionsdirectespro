@@ -106,9 +106,9 @@ Start with the three highest-impact, lowest-effort changes: check your tire pres
 
 **Also worth reading:**
 
-- [How Much Money Are You Really Wasting on Gas?](/articles/en/en-how-much-money-wasting-on-gas)
-- [20 Gas-Saving Myths Exposed: What Actually Works](/articles/en/en-gas-saving-myths-what-actually-works)
-- [Why Gas Prices Are So High in 2026 — and What You Can Do](/articles/en/en-why-gas-prices-high-2026-what-to-do)
+- [How Much Money Are You Really Wasting on Gas?](/articles/en/finances/en-how-much-money-wasting-on-gas)
+- [20 Gas-Saving Myths Exposed: What Actually Works](/articles/en/finances/en-gas-saving-myths-what-actually-works)
+- [Why Gas Prices Are So High in 2026 — and What You Can Do](/articles/en/finances/en-why-gas-prices-high-2026-what-to-do)
 
 ---
 

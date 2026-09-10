@@ -102,9 +102,9 @@ For an instant estimate, a free online fuel cost calculator at ToolCraftKit.com 
 
 **Also worth reading:**
 
-- [Fuel-Efficient Driving Habits That Actually Save Real Money](/articles/en/en-fuel-efficient-driving-habits-save-money)
-- [How to Save Money on Gas in 2026: 15 Proven Strategies](/articles/en/en-how-to-save-money-on-gas-2026)
-- [20 Gas-Saving Myths Exposed: What Actually Works](/articles/en/en-gas-saving-myths-what-actually-works)
+- [Fuel-Efficient Driving Habits That Actually Save Real Money](/articles/en/finances/en-fuel-efficient-driving-habits-save-money)
+- [How to Save Money on Gas in 2026: 15 Proven Strategies](/articles/en/finances/en-how-to-save-money-on-gas-2026)
+- [20 Gas-Saving Myths Exposed: What Actually Works](/articles/en/finances/en-gas-saving-myths-what-actually-works)
 
 ---
 

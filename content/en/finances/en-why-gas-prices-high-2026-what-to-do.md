@@ -86,9 +86,9 @@ This is precisely why individual fuel efficiency is not just a nice-to-have — 
 
 **Also worth reading:**
 
-- [How to Save Money on Gas in 2026: 15 Proven Strategies](/articles/en/en-how-to-save-money-on-gas-2026)
-- [Fuel-Efficient Driving Habits That Actually Save Real Money](/articles/en/en-fuel-efficient-driving-habits-save-money)
-- [How Much Money Are You Really Wasting on Gas?](/articles/en/en-how-much-money-wasting-on-gas)
+- [How to Save Money on Gas in 2026: 15 Proven Strategies](/articles/en/finances/en-how-to-save-money-on-gas-2026)
+- [Fuel-Efficient Driving Habits That Actually Save Real Money](/articles/en/finances/en-fuel-efficient-driving-habits-save-money)
+- [How Much Money Are You Really Wasting on Gas?](/articles/en/finances/en-how-much-money-wasting-on-gas)
 
 ---
 

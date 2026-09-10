@@ -150,9 +150,9 @@ The difference between a driver who follows myths and a driver who follows scien
 
 **Also worth reading:**
 
-- [How to Save Money on Gas in 2026: 15 Proven Strategies](/articles/en/en-how-to-save-money-on-gas-2026)
-- [How Much Money Are You Really Wasting on Gas?](/articles/en/en-how-much-money-wasting-on-gas)
-- [Why Gas Prices Are So High in 2026 — and What You Can Do](/articles/en/en-why-gas-prices-high-2026-what-to-do)
+- [How to Save Money on Gas in 2026: 15 Proven Strategies](/articles/en/finances/en-how-to-save-money-on-gas-2026)
+- [How Much Money Are You Really Wasting on Gas?](/articles/en/finances/en-how-much-money-wasting-on-gas)
+- [Why Gas Prices Are So High in 2026 — and What You Can Do](/articles/en/finances/en-why-gas-prices-high-2026-what-to-do)
 
 ---
 
