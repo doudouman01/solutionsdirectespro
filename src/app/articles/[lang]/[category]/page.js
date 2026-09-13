@@ -96,9 +96,30 @@ export function generateMetadata({ params }) {
   if (!langConfig) return {};
   const catLabel = langConfig.categories[params.category] || params.category;
   const desc = categoryDescriptions[params.lang]?.[params.category] || '';
+
+  const pageTitle = `${catLabel} — ${langConfig.articlesLabel} — Solutions Directes Pro`;
+  const pageDescription = desc || `${catLabel} — ${langConfig.articlesLabel}`;
+  const categoryUrl = `https://solutionsdirectespro.com/articles/${params.lang}/${params.category}`;
+
   return {
-    title: `${catLabel} — ${langConfig.articlesLabel} — Solutions Directes Pro`,
-    description: desc || `${catLabel} — ${langConfig.articlesLabel}`,
+    title: pageTitle,
+    description: pageDescription,
+    openGraph: {
+      title: pageTitle,
+      description: pageDescription,
+      url: categoryUrl,
+      siteName: 'Solutions Directes Pro',
+      locale: params.lang === 'fr' ? 'fr_FR' : params.lang === 'en' ? 'en_US' : params.lang === 'de' ? 'de_DE' : params.lang === 'es' ? 'es_ES' : params.lang === 'it' ? 'it_IT' : params.lang === 'pt' ? 'pt_PT' : params.lang === 'nl' ? 'nl_NL' : params.lang === 'sv' ? 'sv_SE' : params.lang === 'da' ? 'da_DK' : params.lang === 'pl' ? 'pl_PL' : params.lang === 'fi' ? 'fi_FI' : params.lang === 'ja' ? 'ja_JP' : params.lang === 'hi' ? 'hi_IN' : params.lang === 'vi' ? 'vi_VN' : params.lang === 'id' ? 'id_ID' : 'fr_FR',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: pageTitle,
+      description: pageDescription,
+    },
+    alternates: {
+      canonical: categoryUrl,
+    },
   };
 }
 
