@@ -199,9 +199,33 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
   const product = getProduct(params.lang, params.slug);
   if (!product) return { title: 'Boutique — Solutions Directes Pro' };
+
+  const pageTitle = `${product.title} — Solutions Directes Pro`;
+  const pageDescription = product.excerpt || '';
+  const productUrl = `https://solutionsdirectespro.com/boutique/${params.lang}/${params.slug}`;
+  const coverImage = product.cover ? `https://solutionsdirectespro.com${product.cover}` : undefined;
+
   return {
-    title: `${product.title} — Solutions Directes Pro`,
-    description: product.excerpt || '',
+    title: pageTitle,
+    description: pageDescription,
+    openGraph: {
+      title: pageTitle,
+      description: pageDescription,
+      url: productUrl,
+      siteName: 'Solutions Directes Pro',
+      locale: params.lang === 'fr' ? 'fr_FR' : params.lang === 'en' ? 'en_US' : params.lang === 'de' ? 'de_DE' : params.lang === 'es' ? 'es_ES' : params.lang === 'it' ? 'it_IT' : params.lang === 'pt' ? 'pt_PT' : params.lang === 'nl' ? 'nl_NL' : params.lang === 'sv' ? 'sv_SE' : params.lang === 'da' ? 'da_DK' : params.lang === 'pl' ? 'pl_PL' : params.lang === 'fi' ? 'fi_FI' : params.lang === 'ja' ? 'ja_JP' : params.lang === 'hi' ? 'hi_IN' : params.lang === 'vi' ? 'vi_VN' : params.lang === 'id' ? 'id_ID' : 'fr_FR',
+      type: 'website',
+      ...(coverImage ? { images: [{ url: coverImage, width: 1600, height: 2560, alt: product.title }] } : {}),
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: pageTitle,
+      description: pageDescription,
+      ...(coverImage ? { images: [coverImage] } : {}),
+    },
+    alternates: {
+      canonical: productUrl,
+    },
   };
 }
 
