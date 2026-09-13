@@ -23,6 +23,24 @@ const marketLabels = {
   IN: '🇮🇳 India',
 };
 
+const boutiqueDescriptions = {
+  fr: 'Decouvrez les livres et ebooks d\'Adrian Phoenix Vale. Romans, guides pratiques et nonfiction disponibles sur Amazon Kindle et en broche.',
+  en: 'Browse books and ebooks by Adrian Phoenix Vale. Fiction, nonfiction and practical guides available on Amazon Kindle and in paperback.',
+  de: 'Entdecken Sie die Buecher und E-Books von Adrian Phoenix Vale. Romane, Ratgeber und Sachbuecher auf Amazon Kindle und als Taschenbuch.',
+  es: 'Descubre los libros y ebooks de Adrian Phoenix Vale. Novelas, guias practicas y no ficcion disponibles en Amazon Kindle y en tapa blanda.',
+  it: 'Scopri i libri e gli ebook di Adrian Phoenix Vale. Romanzi, guide pratiche e saggistica disponibili su Amazon Kindle e in brossura.',
+  da: 'Udforsk boeger og e-boeger af Adrian Phoenix Vale. Romaner, guides og faglitteratur paa Amazon Kindle og i paperback.',
+  nl: 'Ontdek boeken en ebooks van Adrian Phoenix Vale. Romans, praktische gidsen en non-fictie op Amazon Kindle en in paperback.',
+  sv: 'Utforska boecker och e-boecker av Adrian Phoenix Vale. Romaner, guider och facklitteratur paa Amazon Kindle och i pocket.',
+  pl: 'Odkryj ksiazki i ebooki Adriana Phoenix Vale. Powiesci, poradniki i literatura faktu na Amazon Kindle i w miekkiej okladce.',
+  pt: 'Descubra os livros e ebooks de Adrian Phoenix Vale. Romances, guias praticos e nao ficcao disponiveis no Amazon Kindle e em brochura.',
+  fi: 'Tutustu Adrian Phoenix Valen kirjoihin ja e-kirjoihin. Romaaneja, oppaita ja tietokirjallisuutta Amazon Kindlessa ja pokkareina.',
+  ja: 'Adrian Phoenix Valeの書籍と電子書籍をご覧ください。小説、実用ガイド、ノンフィクションをAmazon Kindleとペーパーバックで。',
+  hi: 'Adrian Phoenix Vale की किताबें और ईबुक्स ब्राउज़ करें। उपन्यास, व्यावहारिक गाइड और नॉनफिक्शन Amazon Kindle और पेपरबैक में उपलब्ध।',
+  vi: 'Kham pha sach va ebook cua Adrian Phoenix Vale. Tieu thuyet, huong dan thuc hanh va phi hu cau tren Amazon Kindle va ban in.',
+  id: 'Jelajahi buku dan ebook karya Adrian Phoenix Vale. Novel, panduan praktis, dan nonfiksi tersedia di Amazon Kindle dan paperback.',
+};
+
 export function generateStaticParams() {
   return Object.keys(languages).map((lang) => ({ lang }));
 }
@@ -30,7 +48,31 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
   const lang = languages[params.lang];
   if (!lang) return { title: 'Boutique — Solutions Directes Pro' };
-  return { title: `Boutique — ${lang.label} — Solutions Directes Pro` };
+
+  const pageTitle = `Boutique — ${lang.label} — Solutions Directes Pro`;
+  const pageDescription = boutiqueDescriptions[params.lang] || boutiqueDescriptions.en;
+  const boutiqueUrl = `https://solutionsdirectespro.com/boutique/${params.lang}`;
+
+  return {
+    title: pageTitle,
+    description: pageDescription,
+    openGraph: {
+      title: pageTitle,
+      description: pageDescription,
+      url: boutiqueUrl,
+      siteName: 'Solutions Directes Pro',
+      locale: params.lang === 'fr' ? 'fr_FR' : params.lang === 'en' ? 'en_US' : params.lang === 'de' ? 'de_DE' : params.lang === 'es' ? 'es_ES' : params.lang === 'it' ? 'it_IT' : params.lang === 'pt' ? 'pt_PT' : params.lang === 'nl' ? 'nl_NL' : params.lang === 'sv' ? 'sv_SE' : params.lang === 'da' ? 'da_DK' : params.lang === 'pl' ? 'pl_PL' : params.lang === 'fi' ? 'fi_FI' : params.lang === 'ja' ? 'ja_JP' : params.lang === 'hi' ? 'hi_IN' : params.lang === 'vi' ? 'vi_VN' : params.lang === 'id' ? 'id_ID' : 'fr_FR',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: pageTitle,
+      description: pageDescription,
+    },
+    alternates: {
+      canonical: boutiqueUrl,
+    },
+  };
 }
 
 export default function BoutiqueLangPage({ params, searchParams }) {
