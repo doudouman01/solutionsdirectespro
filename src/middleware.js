@@ -134,6 +134,18 @@ const GONE_SLUGS = new Set([
   'svenska-e-bocker-suedois',
   'seniorer-60-sverige',
 
+  // Suédois
+  'halsa-och-valbefinnande-se',
+  'personlig-utveckling-bocker-svenska',
+  'litteratur-och-romaner-svenska',
+  'svenska-e-bocker-suedois',
+  'seniorer-60-sverige',
+  'endometrios-klimakteriet-och-kvinnors-halsa',
+  'ondun-i-kvid',
+  'varfor-okar-ensamheten-i-sverige',
+  'den-metabola-klockan',
+  'metoden-for-bukandning',
+
   // Danois
   'personlig-udvikling-dansk',
   'abdominal-vejrtraekning',
