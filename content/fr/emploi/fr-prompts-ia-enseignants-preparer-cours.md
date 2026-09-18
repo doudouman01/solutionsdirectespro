@@ -92,9 +92,9 @@ Cette bibliothèque devient un outil professionnel qui gagne en valeur au fil de
 
 **À lire aussi :**
 
-- [Comment utiliser l'intelligence artificielle quand on est enseignant](/articles/fr/fr-comment-utiliser-ia-enseignant)
-- [Différencier l'enseignement grâce à l'intelligence artificielle](/articles/fr/fr-differencier-enseignement-intelligence-artificielle)
-- [IA à l'école : éthique, RGPD et bonnes pratiques pour les enseignants](/articles/fr/fr-ia-ecole-ethique-rgpd-bonnes-pratiques)
+- [Comment utiliser l'intelligence artificielle quand on est enseignant](/articles/fr/emploi/fr-comment-utiliser-ia-enseignant)
+- [Différencier l'enseignement grâce à l'intelligence artificielle](/articles/fr/emploi/fr-differencier-enseignement-intelligence-artificielle)
+- [IA à l'école : éthique, RGPD et bonnes pratiques pour les enseignants](/articles/fr/emploi/fr-ia-ecole-ethique-rgpd-bonnes-pratiques)
 
 ---
 

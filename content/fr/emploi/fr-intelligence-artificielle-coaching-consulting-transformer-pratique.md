@@ -74,9 +74,9 @@ Une fois ce premier workflow maîtrisé, on peut élargir progressivement vers l
 
 **À lire aussi :**
 
-- [Automatiser son activité de consultant avec l'IA : guide complet](/articles/fr/fr-automatiser-activite-consultant-ia-guide-complet)
-- [Prompts IA pour coachs et consultants : exemples concrets à utiliser](/articles/fr/fr-prompts-ia-coachs-consultants-exemples-concrets)
-- [Scaler son activité de coaching grâce à l'intelligence artificielle](/articles/fr/fr-scaler-activite-coaching-intelligence-artificielle)
+- [Automatiser son activité de consultant avec l'IA : guide complet](/articles/fr/emploi/fr-automatiser-activite-consultant-ia-guide-complet)
+- [Prompts IA pour coachs et consultants : exemples concrets à utiliser](/articles/fr/emploi/fr-prompts-ia-coachs-consultants-exemples-concrets)
+- [Scaler son activité de coaching grâce à l'intelligence artificielle](/articles/fr/emploi/fr-scaler-activite-coaching-intelligence-artificielle)
 
 ---
 

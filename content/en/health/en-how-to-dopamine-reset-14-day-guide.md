@@ -102,9 +102,9 @@ The key is to treat a mini-reset as maintenance, not failure. Athletes stretch a
 
 **Also read:**
 
-- [What happens to your brain when you can't stop checking your phone](/articles/en/en-what-happens-brain-phone-addiction-dopamine)
-- [Signs you're addicted to your screen — and what it's doing to your focus](/articles/en/en-screen-addiction-signs-focus-impact)
-- [Screen addiction in teenagers: a science-based guide for parents](/articles/en/en-screen-addiction-teenagers-guide-parents)
+- [What happens to your brain when you can't stop checking your phone](/articles/en/health/en-what-happens-brain-phone-addiction-dopamine)
+- [Signs you're addicted to your screen — and what it's doing to your focus](/articles/en/health/en-screen-addiction-signs-focus-impact)
+- [Screen addiction in teenagers: a science-based guide for parents](/articles/en/health/en-screen-addiction-teenagers-guide-parents)
 
 ---
 

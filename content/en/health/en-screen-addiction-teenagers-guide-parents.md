@@ -94,9 +94,9 @@ The long game matters more than any single battle. Maintaining a warm, non-judgm
 
 **Also read:**
 
-- [What happens to your brain when you can't stop checking your phone](/articles/en/en-what-happens-brain-phone-addiction-dopamine)
-- [Signs you're addicted to your screen — and what it's doing to your focus](/articles/en/en-screen-addiction-signs-focus-impact)
-- [How to do a 14-day dopamine reset: a step-by-step guide](/articles/en/en-how-to-dopamine-reset-14-day-guide)
+- [What happens to your brain when you can't stop checking your phone](/articles/en/health/en-what-happens-brain-phone-addiction-dopamine)
+- [Signs you're addicted to your screen — and what it's doing to your focus](/articles/en/health/en-screen-addiction-signs-focus-impact)
+- [How to do a 14-day dopamine reset: a step-by-step guide](/articles/en/health/en-how-to-dopamine-reset-14-day-guide)
 
 ---
 

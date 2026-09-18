@@ -80,9 +80,9 @@ Le coût en temps est modeste — quelques minutes par dossier — mais l'impact
 
 **À lire aussi :**
 
-- [Comment l'IA transforme le métier de comptable et d'expert-comptable](/articles/fr/fr-ia-transforme-metier-comptable-expert-comptable)
-- [Automatiser les missions comptables avec l'IA : saisie, clôture et déclarations](/articles/fr/fr-automatiser-missions-comptables-ia-saisie-cloture)
-- [IA en cabinet comptable : secret professionnel, RGPD et déontologie](/articles/fr/fr-ia-cabinet-comptable-secret-professionnel-rgpd-deontologie)
+- [Comment l'IA transforme le métier de comptable et d'expert-comptable](/articles/fr/emploi/fr-ia-transforme-metier-comptable-expert-comptable)
+- [Automatiser les missions comptables avec l'IA : saisie, clôture et déclarations](/articles/fr/emploi/fr-automatiser-missions-comptables-ia-saisie-cloture)
+- [IA en cabinet comptable : secret professionnel, RGPD et déontologie](/articles/fr/emploi/fr-ia-cabinet-comptable-secret-professionnel-rgpd-deontologie)
 
 ---
 

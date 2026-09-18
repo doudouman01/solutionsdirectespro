@@ -106,9 +106,9 @@ Cette bibliothèque devient un actif professionnel qui gagne en valeur avec le t
 
 **À lire aussi :**
 
-- [Intelligence artificielle pour coachs et consultants : comment l'IA transforme la pratique](/articles/fr/fr-intelligence-artificielle-coaching-consulting-transformer-pratique)
-- [Automatiser son activité de consultant avec l'IA : guide complet](/articles/fr/fr-automatiser-activite-consultant-ia-guide-complet)
-- [Scaler son activité de coaching grâce à l'intelligence artificielle](/articles/fr/fr-scaler-activite-coaching-intelligence-artificielle)
+- [Intelligence artificielle pour coachs et consultants : comment l'IA transforme la pratique](/articles/fr/emploi/fr-intelligence-artificielle-coaching-consulting-transformer-pratique)
+- [Automatiser son activité de consultant avec l'IA : guide complet](/articles/fr/emploi/fr-automatiser-activite-consultant-ia-guide-complet)
+- [Scaler son activité de coaching grâce à l'intelligence artificielle](/articles/fr/emploi/fr-scaler-activite-coaching-intelligence-artificielle)
 
 ---
 

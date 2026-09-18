@@ -104,9 +104,9 @@ L'IA vous aide à concevoir cet écosystème de manière cohérente, en s'assura
 
 **À lire aussi :**
 
-- [Intelligence artificielle pour coachs et consultants : comment l'IA transforme la pratique](/articles/fr/fr-intelligence-artificielle-coaching-consulting-transformer-pratique)
-- [Automatiser son activité de consultant avec l'IA : guide complet](/articles/fr/fr-automatiser-activite-consultant-ia-guide-complet)
-- [Prompts IA pour coachs et consultants : exemples concrets à utiliser](/articles/fr/fr-prompts-ia-coachs-consultants-exemples-concrets)
+- [Intelligence artificielle pour coachs et consultants : comment l'IA transforme la pratique](/articles/fr/emploi/fr-intelligence-artificielle-coaching-consulting-transformer-pratique)
+- [Automatiser son activité de consultant avec l'IA : guide complet](/articles/fr/emploi/fr-automatiser-activite-consultant-ia-guide-complet)
+- [Prompts IA pour coachs et consultants : exemples concrets à utiliser](/articles/fr/emploi/fr-prompts-ia-coachs-consultants-exemples-concrets)
 
 ---
 

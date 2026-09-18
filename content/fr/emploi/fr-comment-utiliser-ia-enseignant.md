@@ -76,9 +76,9 @@ L'enseignement est fondamentalement un métier de relation humaine. L'IA est un 
 
 **À lire aussi :**
 
-- [Prompts IA pour enseignants : préparer ses cours efficacement](/articles/fr/fr-prompts-ia-enseignants-preparer-cours)
-- [Différencier l'enseignement grâce à l'intelligence artificielle](/articles/fr/fr-differencier-enseignement-intelligence-artificielle)
-- [IA à l'école : éthique, RGPD et bonnes pratiques pour les enseignants](/articles/fr/fr-ia-ecole-ethique-rgpd-bonnes-pratiques)
+- [Prompts IA pour enseignants : préparer ses cours efficacement](/articles/fr/emploi/fr-prompts-ia-enseignants-preparer-cours)
+- [Différencier l'enseignement grâce à l'intelligence artificielle](/articles/fr/emploi/fr-differencier-enseignement-intelligence-artificielle)
+- [IA à l'école : éthique, RGPD et bonnes pratiques pour les enseignants](/articles/fr/emploi/fr-ia-ecole-ethique-rgpd-bonnes-pratiques)
 
 ---
 

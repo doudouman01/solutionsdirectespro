@@ -84,9 +84,9 @@ Le solopreneur ne demande pas « est-ce que vous connaissez quelqu'un ? » — i
 
 **À lire aussi :**
 
-- [Comment l'intelligence artificielle transforme le quotidien des solopreneurs](/articles/fr/fr-ia-transforme-quotidien-solopreneurs)
-- [Automatiser son marketing de solopreneur avec l'intelligence artificielle](/articles/fr/fr-automatiser-marketing-solopreneur-ia)
-- [Automatiser les opérations de sa micro-entreprise avec l'IA](/articles/fr/fr-automatiser-operations-micro-entreprise-ia)
+- [Comment l'intelligence artificielle transforme le quotidien des solopreneurs](/articles/fr/emploi/fr-ia-transforme-quotidien-solopreneurs)
+- [Automatiser son marketing de solopreneur avec l'intelligence artificielle](/articles/fr/emploi/fr-automatiser-marketing-solopreneur-ia)
+- [Automatiser les opérations de sa micro-entreprise avec l'IA](/articles/fr/emploi/fr-automatiser-operations-micro-entreprise-ia)
 
 ---
 

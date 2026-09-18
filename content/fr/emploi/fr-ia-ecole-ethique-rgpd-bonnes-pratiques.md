@@ -92,9 +92,9 @@ Ces règles protègent les élèves, l'enseignant et l'institution, tout en perm
 
 **À lire aussi :**
 
-- [Comment utiliser l'intelligence artificielle quand on est enseignant](/articles/fr/fr-comment-utiliser-ia-enseignant)
-- [Prompts IA pour enseignants : préparer ses cours efficacement](/articles/fr/fr-prompts-ia-enseignants-preparer-cours)
-- [Différencier l'enseignement grâce à l'intelligence artificielle](/articles/fr/fr-differencier-enseignement-intelligence-artificielle)
+- [Comment utiliser l'intelligence artificielle quand on est enseignant](/articles/fr/emploi/fr-comment-utiliser-ia-enseignant)
+- [Prompts IA pour enseignants : préparer ses cours efficacement](/articles/fr/emploi/fr-prompts-ia-enseignants-preparer-cours)
+- [Différencier l'enseignement grâce à l'intelligence artificielle](/articles/fr/emploi/fr-differencier-enseignement-intelligence-artificielle)
 
 ---
 

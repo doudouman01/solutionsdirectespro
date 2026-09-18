@@ -82,9 +82,9 @@ Environmental design — changing the physical and digital environment to reduce
 
 **Also read:**
 
-- [Signs you're addicted to your screen — and what it's doing to your focus](/articles/en/en-screen-addiction-signs-focus-impact)
-- [How to do a 14-day dopamine reset: a step-by-step guide](/articles/en/en-how-to-dopamine-reset-14-day-guide)
-- [Screen addiction in teenagers: a science-based guide for parents](/articles/en/en-screen-addiction-teenagers-guide-parents)
+- [Signs you're addicted to your screen — and what it's doing to your focus](/articles/en/health/en-screen-addiction-signs-focus-impact)
+- [How to do a 14-day dopamine reset: a step-by-step guide](/articles/en/health/en-how-to-dopamine-reset-14-day-guide)
+- [Screen addiction in teenagers: a science-based guide for parents](/articles/en/health/en-screen-addiction-teenagers-guide-parents)
 
 ---
 

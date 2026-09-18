@@ -86,9 +86,9 @@ Chaque contenu produit avec l'IA passe par ce filtre de cohérence. Le résultat
 
 **À lire aussi :**
 
-- [Comment l'intelligence artificielle transforme le quotidien des solopreneurs](/articles/fr/fr-ia-transforme-quotidien-solopreneurs)
-- [Prospection et ventes : utiliser l'IA pour trouver et convertir des clients](/articles/fr/fr-prospection-ventes-ia-trouver-convertir-clients)
-- [Automatiser les opérations de sa micro-entreprise avec l'IA](/articles/fr/fr-automatiser-operations-micro-entreprise-ia)
+- [Comment l'intelligence artificielle transforme le quotidien des solopreneurs](/articles/fr/emploi/fr-ia-transforme-quotidien-solopreneurs)
+- [Prospection et ventes : utiliser l'IA pour trouver et convertir des clients](/articles/fr/emploi/fr-prospection-ventes-ia-trouver-convertir-clients)
+- [Automatiser les opérations de sa micro-entreprise avec l'IA](/articles/fr/emploi/fr-automatiser-operations-micro-entreprise-ia)
 
 ---
 

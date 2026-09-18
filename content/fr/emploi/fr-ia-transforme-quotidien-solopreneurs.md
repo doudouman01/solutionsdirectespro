@@ -80,9 +80,9 @@ La progression naturelle suit les domaines du business : contenu d'abord, puis p
 
 **À lire aussi :**
 
-- [Automatiser son marketing de solopreneur avec l'intelligence artificielle](/articles/fr/fr-automatiser-marketing-solopreneur-ia)
-- [Prospection et ventes : utiliser l'IA pour trouver et convertir des clients](/articles/fr/fr-prospection-ventes-ia-trouver-convertir-clients)
-- [Automatiser les opérations de sa micro-entreprise avec l'IA](/articles/fr/fr-automatiser-operations-micro-entreprise-ia)
+- [Automatiser son marketing de solopreneur avec l'intelligence artificielle](/articles/fr/emploi/fr-automatiser-marketing-solopreneur-ia)
+- [Prospection et ventes : utiliser l'IA pour trouver et convertir des clients](/articles/fr/emploi/fr-prospection-ventes-ia-trouver-convertir-clients)
+- [Automatiser les opérations de sa micro-entreprise avec l'IA](/articles/fr/emploi/fr-automatiser-operations-micro-entreprise-ia)
 
 ---
 

@@ -84,9 +84,9 @@ Le résultat est un projet authentiquement collaboratif où chaque élève est e
 
 **À lire aussi :**
 
-- [Comment utiliser l'intelligence artificielle quand on est enseignant](/articles/fr/fr-comment-utiliser-ia-enseignant)
-- [Prompts IA pour enseignants : préparer ses cours efficacement](/articles/fr/fr-prompts-ia-enseignants-preparer-cours)
-- [IA à l'école : éthique, RGPD et bonnes pratiques pour les enseignants](/articles/fr/fr-ia-ecole-ethique-rgpd-bonnes-pratiques)
+- [Comment utiliser l'intelligence artificielle quand on est enseignant](/articles/fr/emploi/fr-comment-utiliser-ia-enseignant)
+- [Prompts IA pour enseignants : préparer ses cours efficacement](/articles/fr/emploi/fr-prompts-ia-enseignants-preparer-cours)
+- [IA à l'école : éthique, RGPD et bonnes pratiques pour les enseignants](/articles/fr/emploi/fr-ia-ecole-ethique-rgpd-bonnes-pratiques)
 
 ---
 

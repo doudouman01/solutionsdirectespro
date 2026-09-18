@@ -98,9 +98,9 @@ La règle est simple : si le client peut percevoir que l'IA est intervenue, c'es
 
 **À lire aussi :**
 
-- [Intelligence artificielle pour coachs et consultants : comment l'IA transforme la pratique](/articles/fr/fr-intelligence-artificielle-coaching-consulting-transformer-pratique)
-- [Prompts IA pour coachs et consultants : exemples concrets à utiliser](/articles/fr/fr-prompts-ia-coachs-consultants-exemples-concrets)
-- [Scaler son activité de coaching grâce à l'intelligence artificielle](/articles/fr/fr-scaler-activite-coaching-intelligence-artificielle)
+- [Intelligence artificielle pour coachs et consultants : comment l'IA transforme la pratique](/articles/fr/emploi/fr-intelligence-artificielle-coaching-consulting-transformer-pratique)
+- [Prompts IA pour coachs et consultants : exemples concrets à utiliser](/articles/fr/emploi/fr-prompts-ia-coachs-consultants-exemples-concrets)
+- [Scaler son activité de coaching grâce à l'intelligence artificielle](/articles/fr/emploi/fr-scaler-activite-coaching-intelligence-artificielle)
 
 ---
 

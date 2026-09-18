@@ -92,9 +92,9 @@ Le professionnel qui intègre l'IA dans sa pratique tout en maintenant un cadre 
 
 **À lire aussi :**
 
-- [Comment l'IA transforme le métier de comptable et d'expert-comptable](/articles/fr/fr-ia-transforme-metier-comptable-expert-comptable)
-- [Automatiser les missions comptables avec l'IA : saisie, clôture et déclarations](/articles/fr/fr-automatiser-missions-comptables-ia-saisie-cloture)
-- [Développer son cabinet comptable grâce à l'intelligence artificielle](/articles/fr/fr-developper-cabinet-comptable-intelligence-artificielle)
+- [Comment l'IA transforme le métier de comptable et d'expert-comptable](/articles/fr/emploi/fr-ia-transforme-metier-comptable-expert-comptable)
+- [Automatiser les missions comptables avec l'IA : saisie, clôture et déclarations](/articles/fr/emploi/fr-automatiser-missions-comptables-ia-saisie-cloture)
+- [Développer son cabinet comptable grâce à l'intelligence artificielle](/articles/fr/emploi/fr-developper-cabinet-comptable-intelligence-artificielle)
 
 ---
 

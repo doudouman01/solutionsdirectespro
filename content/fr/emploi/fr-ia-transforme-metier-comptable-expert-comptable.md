@@ -68,9 +68,9 @@ Les cabinets qui ont suivi cette approche progressive rapportent une adoption ra
 
 **À lire aussi :**
 
-- [Automatiser les missions comptables avec l'IA : saisie, clôture et déclarations](/articles/fr/fr-automatiser-missions-comptables-ia-saisie-cloture)
-- [Développer son cabinet comptable grâce à l'intelligence artificielle](/articles/fr/fr-developper-cabinet-comptable-intelligence-artificielle)
-- [IA en cabinet comptable : secret professionnel, RGPD et déontologie](/articles/fr/fr-ia-cabinet-comptable-secret-professionnel-rgpd-deontologie)
+- [Automatiser les missions comptables avec l'IA : saisie, clôture et déclarations](/articles/fr/emploi/fr-automatiser-missions-comptables-ia-saisie-cloture)
+- [Développer son cabinet comptable grâce à l'intelligence artificielle](/articles/fr/emploi/fr-developper-cabinet-comptable-intelligence-artificielle)
+- [IA en cabinet comptable : secret professionnel, RGPD et déontologie](/articles/fr/emploi/fr-ia-cabinet-comptable-secret-professionnel-rgpd-deontologie)
 
 ---
 

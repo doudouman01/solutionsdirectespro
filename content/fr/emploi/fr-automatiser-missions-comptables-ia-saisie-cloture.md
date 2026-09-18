@@ -82,9 +82,9 @@ Le collaborateur peut demander à l'IA de résumer un texte réglementaire, d'id
 
 **À lire aussi :**
 
-- [Comment l'IA transforme le métier de comptable et d'expert-comptable](/articles/fr/fr-ia-transforme-metier-comptable-expert-comptable)
-- [Développer son cabinet comptable grâce à l'intelligence artificielle](/articles/fr/fr-developper-cabinet-comptable-intelligence-artificielle)
-- [IA en cabinet comptable : secret professionnel, RGPD et déontologie](/articles/fr/fr-ia-cabinet-comptable-secret-professionnel-rgpd-deontologie)
+- [Comment l'IA transforme le métier de comptable et d'expert-comptable](/articles/fr/emploi/fr-ia-transforme-metier-comptable-expert-comptable)
+- [Développer son cabinet comptable grâce à l'intelligence artificielle](/articles/fr/emploi/fr-developper-cabinet-comptable-intelligence-artificielle)
+- [IA en cabinet comptable : secret professionnel, RGPD et déontologie](/articles/fr/emploi/fr-ia-cabinet-comptable-secret-professionnel-rgpd-deontologie)
 
 ---
 

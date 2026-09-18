@@ -78,9 +78,9 @@ These changes don't require abandoning technology. They require recalibrating th
 
 **Also read:**
 
-- [What happens to your brain when you can't stop checking your phone](/articles/en/en-what-happens-brain-phone-addiction-dopamine)
-- [How to do a 14-day dopamine reset: a step-by-step guide](/articles/en/en-how-to-dopamine-reset-14-day-guide)
-- [Screen addiction in teenagers: a science-based guide for parents](/articles/en/en-screen-addiction-teenagers-guide-parents)
+- [What happens to your brain when you can't stop checking your phone](/articles/en/health/en-what-happens-brain-phone-addiction-dopamine)
+- [How to do a 14-day dopamine reset: a step-by-step guide](/articles/en/health/en-how-to-dopamine-reset-14-day-guide)
+- [Screen addiction in teenagers: a science-based guide for parents](/articles/en/health/en-screen-addiction-teenagers-guide-parents)
 
 ---
 

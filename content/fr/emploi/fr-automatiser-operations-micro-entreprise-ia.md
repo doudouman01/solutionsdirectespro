@@ -84,9 +84,9 @@ Au-delà du temps, d'autres indicateurs méritent d'être suivis : le nombre de 
 
 **À lire aussi :**
 
-- [Comment l'intelligence artificielle transforme le quotidien des solopreneurs](/articles/fr/fr-ia-transforme-quotidien-solopreneurs)
-- [Automatiser son marketing de solopreneur avec l'intelligence artificielle](/articles/fr/fr-automatiser-marketing-solopreneur-ia)
-- [Prospection et ventes : utiliser l'IA pour trouver et convertir des clients](/articles/fr/fr-prospection-ventes-ia-trouver-convertir-clients)
+- [Comment l'intelligence artificielle transforme le quotidien des solopreneurs](/articles/fr/emploi/fr-ia-transforme-quotidien-solopreneurs)
+- [Automatiser son marketing de solopreneur avec l'intelligence artificielle](/articles/fr/emploi/fr-automatiser-marketing-solopreneur-ia)
+- [Prospection et ventes : utiliser l'IA pour trouver et convertir des clients](/articles/fr/emploi/fr-prospection-ventes-ia-trouver-convertir-clients)
 
 ---
 
