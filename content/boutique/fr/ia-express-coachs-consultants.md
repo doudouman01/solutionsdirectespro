@@ -2,7 +2,7 @@
 title: "IA Express — Coachs & Consultants"
 type: "nonfiction"
 cover: "/covers/ia-express-coachs-consultants.png"
-amazon_link: "https://www.amazon.fr/dp/B0HK4R6W3T"
+amazon_link: "https://www.amazon.fr/dp/B0HK4Y1T5R"
 kindle_link: "https://www.amazon.fr/dp/B0HK4R6W3T"
 price_kindle: "6,99 EUR"
 price_paperback: "16,99 EUR"
