@@ -7,7 +7,7 @@ kindle_link: "https://www.amazon.com/dp/B0HK4DFMSD"
 price_kindle: "4.89 USD"
 price_paperback: "13.99 USD"
 market: "US"
-category: "health"
+category: "health-wellness"
 pages: 198
 language: "English"
 genre: "Digital Wellness"
