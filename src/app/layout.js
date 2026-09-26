@@ -7,6 +7,9 @@ export const metadata = {
   title: 'Solutions Directes Pro — Des solutions directes, partout dans le monde',
   description: 'Une plateforme multilingue qui vous guide pas à pas pour résoudre vos problèmes. Finances, emploi, santé, logement, droit, relations.',
   metadataBase: new URL('https://solutionsdirectespro.com'),
+  alternates: {
+    canonical: './',
+  },
   robots: {
     index: true,
     follow: true,
