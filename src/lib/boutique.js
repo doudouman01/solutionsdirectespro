@@ -45,6 +45,9 @@ function parseProduct(filePath, file, lang) {
     // Google Play fields
     google_play_link: data.google_play_link || null,
     price_google: data.price_google || '',
+    // Etsy fields
+    etsy_link: data.etsy_link || null,
+    price_etsy: data.price_etsy || '',
     // Keep legacy fields for backward compat
     amazon_link: data.amazon_link || '#',
     kindle_link: data.kindle_link || '#',
@@ -107,6 +110,8 @@ export function getProduct(lang, slug) {
     price_gumroad: data.price_gumroad || '',
     google_play_link: data.google_play_link || null,
     price_google: data.price_google || '',
+    etsy_link: data.etsy_link || null,
+    price_etsy: data.price_etsy || '',
     amazon_link: data.amazon_link || '#',
     kindle_link: data.kindle_link || '#',
     price_kindle: data.price_kindle || '',

@@ -702,6 +702,24 @@ a {
   background: #016e4f;
 }
 
+.btn-etsy {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  background: #F1641E;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.btn-etsy:hover {
+  background: #D4530F;
+}
+
 .product-features {
   display: flex;
   gap: 18px;
@@ -1057,6 +1075,11 @@ a {
 }
 
 .btn-google-sm {
+  padding: 8px 16px !important;
+  font-size: 0.82rem !important;
+}
+
+.btn-etsy-sm {
   padding: 8px 16px !important;
   font-size: 0.82rem !important;
 }

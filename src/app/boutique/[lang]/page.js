@@ -134,14 +134,31 @@ export default function BoutiqueLangPage({ params, searchParams }) {
     return `/boutique/${lang}${qs ? '?' + qs : ''}`;
   }
 
-  // Get display price for card (first market's price)
+  // Get display price for card (Etsy > Gumroad > Google Play > first market Kindle)
   function getDisplayPrice(product) {
+    if (product.etsy_link && product.etsy_link !== '#') {
+      return { kindle: product.price_etsy || '', paperback: '' };
+    }
+    if (product.gumroad_link && product.gumroad_link !== '#') {
+      return { kindle: product.price_gumroad || '', paperback: '' };
+    }
+    if (product.google_play_link && product.google_play_link !== '#') {
+      return { kindle: product.price_google || '', paperback: '' };
+    }
     const first = product.markets[0];
     if (!first) return { kindle: '', paperback: '' };
     return {
       kindle: first.price_kindle || product.price_kindle || '',
       paperback: first.price_paperback || product.price_paperback || '',
     };
+  }
+
+  // Get platform label for card price display
+  function getPlatformTag(product) {
+    if (product.etsy_link && product.etsy_link !== '#') return 'Etsy';
+    if (product.gumroad_link && product.gumroad_link !== '#') return 'Gumroad';
+    if (product.google_play_link && product.google_play_link !== '#') return 'Google Play';
+    return null;
   }
 
   return (
@@ -201,6 +218,7 @@ export default function BoutiqueLangPage({ params, searchParams }) {
         <div className="articles-grid">
           {products.map((product) => {
             const prices = getDisplayPrice(product);
+            const platformTag = getPlatformTag(product);
             return (
               <Link
                 key={product.slug}
@@ -253,9 +271,18 @@ export default function BoutiqueLangPage({ params, searchParams }) {
                   )}
                   <div className="article-card-meta">
                     <span>
-                      {prices.kindle && `${prices.kindle} Kindle`}
-                      {prices.kindle && prices.paperback && ' · '}
-                      {prices.paperback && `${prices.paperback} Paperback`}
+                      {platformTag ? (
+                        <>
+                          {prices.kindle && `${prices.kindle}`}
+                          {prices.kindle && ` ${platformTag}`}
+                        </>
+                      ) : (
+                        <>
+                          {prices.kindle && `${prices.kindle} Kindle`}
+                          {prices.kindle && prices.paperback && ' · '}
+                          {prices.paperback && `${prices.paperback} Paperback`}
+                        </>
+                      )}
                     </span>
                     <span className="article-card-link">{labels.buy} →</span>
                   </div>
