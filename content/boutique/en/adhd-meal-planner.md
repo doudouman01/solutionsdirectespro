@@ -1,0 +1,25 @@
+---
+title: "ADHD Meal Planner: Feed Your Brain. Simplify Your Life."
+type: "nonfiction"
+cover: "/covers/adhd-meal-planner.png"
+amazon_link: "https://www.amazon.com/dp/B0HLL887B4"
+kindle_link: "https://www.amazon.com/dp/B0HL6B2XMX"
+price_kindle: "4.99 USD"
+price_paperback: "24.99 USD"
+market: "US"
+category: "health-wellness"
+pages: 212
+language: "English"
+genre: "ADHD / Nutrition"
+excerpt: "Built from the ground up for brains that forget to eat, can't decide what to cook, or stare at a full fridge seeing nothing. The ADHD Meal Planner uses the Spoon Level System™ — a color-coded energy system so you never have to think about 'what can I actually handle today?' From Zero Spoon grab-and-go meals to Full Spoon hyperfocus recipes, plus the Quick Meal Builder, Emergency Meal Cheat Sheets, Grocery Lists by Store Aisle, and a 30-Day ADHD Meal Challenge."
+learn:
+  - "The Spoon Level System™ — color-coded energy levels from Zero Spoon (no cooking) to Full Spoon (hyperfocus cooking days)"
+  - "Quick Meal Builder — pick a protein, a vegetable, a starch. Done. No decision fatigue"
+  - "Emergency Meal Cheat Sheets — when your brain says 'I literally cannot decide,' these pages decide for you"
+  - "Grocery Lists by Store Aisle — no more wandering, no more forgetting, no more buying duplicates"
+  - "Fridge, Freezer & Pantry Inventory — visual tracker that fights ADHD 'object blindness'"
+  - "Dopamine-Friendly Food Guide — foods that naturally support focus and mood"
+  - "Hydration & Medication Tracking — because eating and meds go together, and ADHD brains forget both"
+  - "My Safe Foods System — track the foods that always work for you, even on hard days"
+  - "Batch Cooking Guide, Smoothie & Snack Builder, and 30-Day ADHD Meal Challenge"
+---
