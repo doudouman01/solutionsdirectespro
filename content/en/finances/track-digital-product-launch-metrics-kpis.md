@@ -54,7 +54,7 @@ Divide your total launch revenue by the number of email subscribers who received
 
 A list of five hundred subscribers that generates five hundred dollars per launch is worth one dollar per subscriber. That number becomes your baseline. Every improvement to your email copy, your sales page, or your product lineup moves this number up. Every neglected list or poorly crafted sequence pushes it down.
 
-Revenue per subscriber also helps you evaluate whether growing your list is a worthwhile investment. If each subscriber is worth one dollar per launch and you launch four products a year, each new subscriber is worth approximately four dollars annually. That math justifies investing time and money into list-building strategies.
+Revenue per subscriber also helps you evaluate whether growing your list is a worthwhile investment. If each subscriber is worth one dollar per launch and you launch four products a year, each new subscriber is worth approximately four dollars annually. Use an [ROI Calculator](https://toolcraftkit.com/tools/roi-calculator) to compare what you spend on list-building ads or lead magnets against the revenue each new subscriber generates over time — that math justifies investing time and money into list-building strategies.
 
 ### Traffic source breakdown
 
@@ -66,7 +66,7 @@ Most analytics tools — including the free tier of Google Analytics — provide
 
 ### Refund rate
 
-Digital product refund rates should stay below five percent. Above that threshold, there is a gap between what your sales page promised and what the product delivered.
+Digital product refund rates should stay below five percent. Above that threshold, there is a gap between what your sales page promised and what the product delivered. You can quickly check where you stand by plugging your refund count and total sales into a [Percentage Calculator](https://toolcraftkit.com/tools/percentage-calculator).
 
 A high refund rate is not always a product quality problem. Sometimes the sales page attracts the wrong buyer. A template designed for freelancers might get purchased by a corporate project manager who finds it too simple. The fix is more precise targeting in your copy, not a more complex product.
 
@@ -84,11 +84,11 @@ Tracking seven metrics sounds manageable in theory and overwhelming in practice,
 
 During the launch, check daily: sales page conversion rate and email metrics. These are the numbers you can act on in real time. If your conversion rate drops, update the sales page copy. If open rates are low, change your subject line approach for the next email.
 
-One week after launch, review: traffic source breakdown and revenue per subscriber. These mid-term metrics reveal which channels performed and how valuable your list is. They inform your strategy for the next launch but rarely require immediate action.
+One week after launch, review: traffic source breakdown and revenue per subscriber. These mid-term metrics reveal which channels performed and how valuable your list is. They inform your strategy for the next launch but rarely require immediate action. If you are [managing income from multiple revenue streams](/articles/en/finances/track-creator-income-multiple-revenue-streams), fold your launch data into the same tracking system so you see the full picture.
 
 One month after launch, analyze: refund rate and repeat purchase rate. These lagging indicators tell the full story of whether your product and positioning delivered on their promises. They shape your product development priorities for the next quarter.
 
-Record every metric from every launch in a single document. After three launches, you will have a personal benchmark set that is more useful than any industry average — because it reflects your audience, your products, and your business.
+Record every metric from every launch in a single document. After three launches, you will have a personal benchmark set that is more useful than any industry average — because it reflects your audience, your products, and your business. Pairing this data with [workflows that automate repetitive business tasks](/articles/en/employment/ai-automation-workflows-save-15-hours-week) frees you to spend more time acting on what the numbers tell you instead of gathering them.
 
 ---
 

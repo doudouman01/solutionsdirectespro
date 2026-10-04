@@ -30,7 +30,7 @@ Every dollar your business earns should be logged in one place. Not for accounti
 
 Build a revenue database with entries for each payment received. Tag each entry with the source — platform name, product name, client name. Add the date, the amount, and the category — product sale, sponsorship, affiliate commission, client payment, ad revenue.
 
-With this data centralized, you can filter by month, by source, or by category. Patterns emerge quickly. You might discover that your Etsy shop generates more monthly revenue than your Gumroad store with half the effort. That insight changes how you allocate your time — but only if the data is visible in one view.
+With this data centralized, you can filter by month, by source, or by category. Patterns emerge quickly. You might discover that your Etsy shop generates more monthly revenue than your Gumroad store with half the effort. That insight changes how you allocate your time — but only if the data is visible in one view. To quickly evaluate the profitability of each stream, run the numbers through a [profit margin calculator](https://toolcraftkit.com/tools/profit-margin-calculator) so you can compare net returns side by side.
 
 ### Pillar two — content planning
 
@@ -38,13 +38,13 @@ A content calendar is more than a list of dates and titles. It is a production p
 
 Build your content pipeline as a Notion board with columns for each stage. Each card represents one piece of content — a video, a blog post, a podcast episode, a social media campaign. Move cards across columns as they progress. Add due dates, assign priorities, and link related pieces together.
 
-The power of Notion here is the linking. A YouTube video card can reference the blog post that supports it, the social media posts that promote it, and the digital product it drives traffic toward. When you open any single piece of content, you see its entire ecosystem.
+The power of Notion here is the linking. A YouTube video card can reference the blog post that supports it, the social media posts that promote it, and the digital product it drives traffic toward. If you are looking to [automate your social media content with AI](/articles/en/employment/automate-social-media-content-ai-entrepreneur), connecting your scheduling workflow to this pipeline keeps everything synchronized.
 
 ### Pillar three — product inventory
 
 If you sell digital products, courses, templates, or any form of packaged knowledge, you need a living catalog that tracks more than just what you offer. Track where each product is listed, its current price on each platform, its total sales, and its conversion rate.
 
-A product database in Notion becomes your strategic asset. Sort by revenue to see your best performers. Filter by platform to identify distribution gaps. Flag products that have not been updated in six months and schedule a refresh. Link each product to the content that promotes it, so you can see which marketing efforts drive which sales.
+A product database in Notion becomes your strategic asset. Sort by revenue to see your best performers. Filter by platform to identify distribution gaps. Flag products that have not been updated in six months and schedule a refresh. Link each product to the content that promotes it, so you can see which marketing efforts drive which sales. If you are still deciding what to build next, exploring the [best digital products beginners can sell online](/articles/en/finances/best-digital-products-sell-online-beginners) can help you spot gaps in your catalog.
 
 ### Pillar four — growth metrics
 
@@ -62,7 +62,7 @@ A task database connected to your projects keeps everything visible. Each task h
 
 The real value of a Notion dashboard is not in any single database. It is in the relationships between them.
 
-A new product launch touches every pillar. The product goes into your inventory database. The launch content goes into your content pipeline. The promotional tasks go into your project management system. The sales revenue flows into your tracking. The impact shows up in your growth metrics.
+A new product launch touches every pillar. The product goes into your inventory database. The launch content goes into your content pipeline. The promotional tasks go into your project management system. The sales revenue flows into your tracking. The impact shows up in your growth metrics. Following a structured [30-day digital product launch plan](/articles/en/finances/30-day-digital-product-launch-plan-step-by-step) makes it easy to populate every database with the right entries from day one.
 
 In a fragmented system, these connections exist only in your head. In Notion, they exist as linked records that update across every view. Click on a product and see every piece of content that mentions it, every dollar it earned, and every task associated with its launch.
 

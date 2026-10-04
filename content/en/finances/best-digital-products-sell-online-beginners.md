@@ -30,7 +30,7 @@ Printables dominate Etsy's digital product category for a reason — they are ta
 
 Canva makes production accessible to non-designers. Start with a weekly planner, a habit tracker, or a goal-setting worksheet. Design one product, test it, and expand into bundles if it gains traction.
 
-Seasonal products perform especially well. Back-to-school planners in August. Holiday gift trackers in November. New Year goal-setting kits in December. Timing your launch to match when buyers are actively searching multiplies your visibility without any marketing effort.
+Seasonal products perform especially well. Back-to-school planners in August. Holiday gift trackers in November. New Year goal-setting kits in December. Timing your launch to match when buyers are actively searching multiplies your visibility without any marketing effort. For a structured approach to seasonal releases, a [step-by-step launch plan](/articles/en/finances/30-day-digital-product-launch-plan-step-by-step) helps you time production and promotion around peak demand windows.
 
 ## Short practical guides
 
@@ -38,7 +38,7 @@ Time to ship: three to five days.
 
 Not a two-hundred-page book. A focused guide of fifteen to thirty pages that solves one problem completely. How to negotiate a salary raise. How to start a container garden on a balcony. How to set up a home recording studio for under five hundred dollars.
 
-Short guides work because they respect the buyer's time. Nobody wants to read a textbook to learn something they can implement in a weekend. The constraint forces you to cut theory and deliver instructions, which is exactly what buyers want to pay for.
+Short guides work because they respect the buyer's time. Nobody wants to read a textbook to learn something they can implement in a weekend. The constraint forces you to cut theory and deliver instructions, which is exactly what buyers want to pay for. A [word counter](https://toolcraftkit.com/tools/word-counter) helps you stay in the sweet spot — too short feels thin, too long breaks the promise of a quick, actionable read.
 
 Price these between five and fifteen dollars depending on the depth and the niche. Higher-income audiences pay more for specialized knowledge, even in short formats.
 
@@ -48,7 +48,7 @@ Time to ship: three to five days.
 
 An email course is a series of five to seven emails delivered automatically over a week or two. Each email teaches one lesson. The entire sequence walks the subscriber through a transformation — going from confused to competent on a specific topic.
 
-Technically, an email course is free for the subscriber. The product you sell is the course infrastructure itself — a package that another creator or business owner plugs into their email platform and uses as a lead magnet or onboarding sequence.
+Technically, an email course is free for the subscriber. The product you sell is the course infrastructure itself — a package that another creator or business owner plugs into their email platform and uses as a lead magnet or onboarding sequence. If the email angle interests you, learn how [AI-powered email marketing prompts](/articles/en/finances/ai-email-marketing-prompts-save-time) can help you draft entire sequences in a fraction of the time.
 
 Alternatively, you sell access to the email course directly on Gumroad and deliver it as a PDF bundle or a drip-fed email automation. Both models work. The bundle version is easier to set up if you are just starting.
 
@@ -66,7 +66,7 @@ Production is minimal. One well-organized page in Canva or Google Docs, exported
 
 Time to ship: two to four days.
 
-As AI tools become standard business infrastructure, prompt packs have emerged as a legitimate product category. A collection of fifty prompts for real estate agents. A prompt library for social media managers. A set of customer service response templates powered by AI.
+As AI tools become standard business infrastructure, prompt packs have emerged as a legitimate product category. A collection of fifty prompts for real estate agents. A prompt library for social media managers. A set of customer service response templates powered by AI. For inspiration on which prompts actually move the needle, see how sellers package [AI prompts that help people make money online](/articles/en/finances/ai-prompts-make-money-online-guide).
 
 The value is not in the prompts themselves — it is in the expertise behind the selection and structure. Anyone can write a prompt. Knowing which prompts produce the best results for a specific profession requires domain knowledge that the buyer does not have time to develop.
 
@@ -80,7 +80,7 @@ A mini-course is longer and more structured than a guide but smaller than a full
 
 This format works well for skill-based topics where the learner needs to practice between lessons. Photography basics. Introduction to watercolor. Beginner bookkeeping for freelancers. Each lesson introduces a concept and assigns a practical exercise.
 
-Video mini-courses take longer to produce but command higher prices — typically twenty-five to fifty dollars. PDF-based courses sell in the ten to twenty-five dollar range. Pick the format that matches your comfort level and the topic's teaching requirements.
+Video mini-courses take longer to produce but command higher prices — typically twenty-five to fifty dollars. PDF-based courses sell in the ten to twenty-five dollar range. Pick the format that matches your comfort level and the topic's teaching requirements. Use an [invoice generator](https://toolcraftkit.com/tools/invoice-generator) to handle payment tracking professionally once orders start coming in, especially for custom bundles or direct sales outside a marketplace.
 
 ## How do you decide which one to build first?
 

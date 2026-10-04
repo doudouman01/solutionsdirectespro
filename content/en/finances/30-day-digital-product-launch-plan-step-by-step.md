@@ -24,13 +24,13 @@ The first week is about preparation, not promotion. Everything you do this week 
 
 ### Days 1 and 2 — define your launch goal and audience
 
-Write down a specific revenue target. Not "I want sales." A number. Fifty sales at twenty dollars, totaling one thousand dollars. This number determines every decision that follows — how aggressively you promote, which channels you prioritize, and how you measure success.
+Write down a specific revenue target. Not "I want sales." A number. Fifty sales at twenty dollars, totaling one thousand dollars. This number determines every decision that follows — how aggressively you promote, which channels you prioritize, and how you measure success. Run your numbers through a [Profit Margin Calculator](https://toolcraftkit.com/tools/profit-margin-calculator) to understand exactly what each sale nets you after platform fees.
 
 Define exactly who this product serves. Not "everyone who wants to be productive." The specific person with a specific problem your product solves. A freelance graphic designer who wastes three hours a week on invoicing. A first-time Etsy seller who does not know how to write product descriptions. The narrower your audience definition, the sharper your messaging.
 
 ### Days 3 and 4 — prepare your sales page and assets
 
-Your sales page is where purchasing decisions happen. Write it before you start promoting. The page needs a headline that names the problem, a description that explains the solution, bullet points listing what is included, a price with clear value framing, and a purchase button.
+Your sales page is where purchasing decisions happen. Write it before you start promoting. The page needs a headline that names the problem, a description that explains the solution, bullet points listing what is included, a price with clear value framing, and a purchase button. If writing persuasive copy does not come naturally, [tested prompts for sales copy](/articles/en/employment/ai-prompts-sales-copy-that-converts) can help you draft high-converting page text in a fraction of the time.
 
 Prepare your visual assets: product mockups, screenshots, social media graphics in every format you will need. Doing this upfront means you never stall mid-launch because you need a graphic and do not have one.
 
@@ -60,7 +60,7 @@ This approach works because it humanizes the transaction. You are not a faceless
 
 Make it official. Tell your audience that the product launches on a specific date. This creates a mental bookmark — people are more likely to act on a date they have anchored in their minds than on a vague "coming soon."
 
-Post the announcement across every channel you use. Pin it to your profile. Add it to your email signature. The launch date becomes a recurring reference point for everything you share in weeks three and four.
+Post the announcement across every channel you use. Pin it to your profile. Add it to your email signature. The launch date becomes a recurring reference point for everything you share in weeks three and four. If you want to [automate your social media content](/articles/en/employment/automate-social-media-content-ai-entrepreneur) during this phase, scheduling tools paired with AI can keep posts flowing without manual effort.
 
 ## Week three — build anticipation (Days 15 through 21)
 
@@ -104,7 +104,7 @@ Share customer wins as they come in. Post different angles on the value proposit
 
 If you offered a launch discount, close it on time. Announce the final day clearly. Last-chance urgency is the most effective kind because it is genuinely true — the discount is ending, and everyone knows it.
 
-After the close, review your numbers. Total revenue, total units sold, email conversion rate, best-performing channel, biggest surprise, biggest disappointment. Write it all down. This data is the blueprint for your next launch, and the second launch is always stronger than the first because you are building on evidence instead of guessing.
+After the close, review your numbers. Total revenue, total units sold, email conversion rate, best-performing channel, biggest surprise, biggest disappointment. Write it all down. Knowing [which launch metrics actually matter](/articles/en/finances/track-digital-product-launch-metrics-kpis) turns raw numbers into an actionable blueprint for your next launch, and the second launch is always stronger than the first because you are building on evidence instead of guessing.
 
 ---
 

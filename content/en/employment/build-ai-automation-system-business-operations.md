@@ -56,7 +56,7 @@ Every workflow in your system should produce output in a consistent, predictable
 
 Standardization is boring. It is also what makes a system a system instead of a collection of one-off tools. When every piece fits together because they all follow the same structural conventions, adding a new workflow means plugging it into the existing framework rather than reinventing the connections.
 
-Create a simple format guide for your business. Define what a task looks like — title, owner, deadline, status. Define what a client record includes. Define your expense categories. These definitions become the shared language your entire automation system speaks.
+Create a simple format guide for your business. Define what a task looks like — title, owner, deadline, status. Define what a client record includes. Define your expense categories. These definitions become the shared language your entire automation system speaks. A [Notion-based dashboard for your creator business](/articles/en/employment/organize-creator-business-notion-dashboard) is one practical way to house these standards so every workflow references the same source of truth.
 
 ## Step five — add workflows one layer at a time
 
@@ -64,7 +64,7 @@ With your first connected pair working reliably, extend the chain in one directi
 
 Each new workflow connects to the existing system at a defined handoff point. You are building outward from a working core, not assembling disconnected pieces and hoping they fit.
 
-A practical expansion sequence for a service business might look like this. Month one: meeting notes and action items. Month two: add client communication drafts based on action items. Month three: add weekly status reports generated from completed tasks. Month four: add invoice generation triggered by project milestones. Each layer builds on the previous one, and by month four, a significant portion of your post-meeting workflow runs with minimal manual intervention.
+A practical expansion sequence for a service business might look like this. Month one: meeting notes and action items. Month two: add client communication drafts based on action items. Month three: add weekly status reports generated from completed tasks. Month four: add invoice generation triggered by project milestones — use the [Invoice Generator](https://toolcraftkit.com/tools/invoice-generator) to standardize the format your workflow produces. Each layer builds on the previous one, and by month four, a significant portion of your post-meeting workflow runs with minimal manual intervention. If you are also selling digital products, a [30-day launch plan](/articles/en/finances/30-day-digital-product-launch-plan-step-by-step) follows the same layered approach to connect marketing, email, and delivery workflows into a single sequence.
 
 ## Step six — create your trigger checklist
 
@@ -84,7 +84,7 @@ Small refinements each month prevent the slow drift that turns a useful system i
 
 One workflow saves you fifteen minutes. Two connected workflows save you forty-five — because you also eliminated the handoff time and the mental switching cost between them. A full operational chain of five connected workflows can replace an entire afternoon of administrative work with twenty minutes of review and approval.
 
-The math is not additive. It is multiplicative. Each new connection amplifies the value of every workflow already in the system because the gaps between them — where work stalls, gets forgotten, or requires you to manually bridge two processes — disappear.
+The math is not additive. It is multiplicative. Run the numbers through an [ROI Calculator](https://toolcraftkit.com/tools/roi-calculator) and you will see that each new connection amplifies the value of every workflow already in the system because the gaps between them — where work stalls, gets forgotten, or requires you to manually bridge two processes — disappear. The same compound logic applies when you [batch-create content using AI prompts](/articles/en/employment/batch-content-creation-ai-prompts-workflow) — connecting content workflows into a chain produces far more output than running each one in isolation.
 
 This is why building a system matters more than collecting individual automation tricks. The tricks give you incremental improvements. The system gives you a fundamentally different relationship with the operational side of your business.
 

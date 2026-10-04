@@ -22,7 +22,7 @@ The range is wider than most people realize. Here are the main categories where 
 
 ### Digital product creation
 
-Ebooks, templates, checklists, planners, and guides can all be drafted and structured using carefully written prompts. The key is to bring your own expertise and let AI handle the formatting, expansion, and polishing. A fitness coach who knows programming can prompt AI to turn their knowledge into a structured 30-day workout plan PDF — that is a sellable product built in hours instead of weeks.
+Ebooks, templates, checklists, planners, and guides can all be drafted and structured using carefully written prompts. The key is to bring your own expertise and let AI handle the formatting, expansion, and polishing. A fitness coach who knows programming can prompt AI to turn their knowledge into a structured 30-day workout plan PDF — that is a sellable product built in hours instead of weeks. If you want a full walkthrough of this process, see our guide on [how to create digital products with AI step by step](/articles/en/employment/create-digital-products-with-ai-step-by-step).
 
 ### Freelance service delivery
 
@@ -30,7 +30,7 @@ Copywriters, virtual assistants, and consultants use prompt libraries to deliver
 
 ### Content systems that attract customers
 
-Blog posts, email sequences, social media calendars — these are the engines that drive traffic to offers. Well-crafted prompts help creators maintain consistent publishing schedules without burnout. The content brings visitors, and the offers convert them.
+Blog posts, email sequences, social media calendars — these are the engines that drive traffic to offers. Well-crafted prompts help creators [batch create content efficiently](/articles/en/employment/batch-content-creation-ai-prompts-workflow) and maintain consistent publishing schedules without burnout. The content brings visitors, and the offers convert them.
 
 ## How do you write a prompt that actually produces sellable output?
 
@@ -40,7 +40,7 @@ First, define the role. Tell the AI who it is acting as — a conversion copywri
 
 Second, describe the audience. Age, experience level, pain points, goals. The more the AI understands the reader, the more relevant its output becomes.
 
-Third, specify the format. Number of words, sections, bullet points versus paragraphs, calls to action. Leaving format open produces rambling, unusable text.
+Third, specify the format. Number of words, sections, bullet points versus paragraphs, calls to action. Leaving format open produces rambling, unusable text. A [word counter](https://toolcraftkit.com/tools/word-counter) can help you verify that your AI output hits the target length before you publish.
 
 Fourth, add constraints. What to avoid, what tone to use, what facts to include. Constraints are where amateur prompt writers and professionals diverge.
 
@@ -60,9 +60,9 @@ You do not need fifty prompts to build one product. A focused set of five to ten
 
 ## Where should a beginner start today?
 
-Pick one income model — digital products, freelance delivery, or content marketing. Write three prompts targeting that model. Test them. Refine them based on the output quality. Then use the results to either list a product for sale or pitch a service to a client.
+Pick one income model — digital products, freelance delivery, or content marketing. Write three prompts targeting that model. Test them. Refine them based on the output quality. Then use the results to either list a product for sale or pitch a service to a client. If you are not sure which product type fits your skills, our breakdown of [digital products beginners can build and sell online](/articles/en/finances/best-digital-products-sell-online-beginners) is a practical starting point.
 
-The barrier to entry has never been lower. The differentiator is not access to AI — everyone has that now. It is the quality of your prompts and the depth of your expertise behind them.
+The barrier to entry has never been lower. The differentiator is not access to AI — everyone has that now. It is the quality of your prompts and the depth of your expertise behind them. Before you set a price, run your numbers through a [profit margin calculator](https://toolcraftkit.com/tools/profit-margin-calculator) to make sure your pricing actually supports a sustainable business.
 
 ---
 

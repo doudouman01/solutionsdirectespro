@@ -24,7 +24,7 @@ An AI workflow for customer replies takes the incoming message, identifies which
 
 Late payments are a universal small business headache. Chasing invoices is uncomfortable, time-consuming, and easy to procrastinate on. Most business owners either send awkward reminders too late or avoid sending them altogether.
 
-An invoice reminder workflow takes your overdue invoice list and generates appropriate follow-up messages calibrated to how late each payment is. A three-day overdue invoice gets a gentle nudge. A thirty-day overdue invoice gets a firmer message with payment options. The tone escalates naturally without you having to write uncomfortable emails from scratch every time.
+An invoice reminder workflow takes your overdue invoice list — which you can prepare quickly with the [Invoice Generator](https://toolcraftkit.com/tools/invoice-generator) — and generates appropriate follow-up messages calibrated to how late each payment is. A three-day overdue invoice gets a gentle nudge. A thirty-day overdue invoice gets a firmer message with payment options. The tone escalates naturally without you having to write uncomfortable emails from scratch every time.
 
 ## 3. Summarizing meeting notes into action items
 
@@ -48,7 +48,7 @@ A status report workflow takes your raw inputs — key metrics, completed tasks,
 
 Sorting receipts into categories, matching them to business accounts, and preparing expense summaries for your bookkeeper or accountant. It is pure pattern-matching work that requires attention but not creativity.
 
-An expense workflow takes a list of transactions — copied from your bank statement or accounting tool — and categorizes each one according to your chart of accounts. It flags anything unusual, separates business from personal expenses when they share an account, and outputs a formatted summary ready for your bookkeeper.
+An expense workflow takes a list of transactions — copied from your bank statement or accounting tool — and categorizes each one according to your chart of accounts. It flags anything unusual, separates business from personal expenses when they share an account, and outputs a formatted summary ready for your bookkeeper. Pair this with a [Profit Margin Calculator](https://toolcraftkit.com/tools/profit-margin-calculator) and you can quickly see how those categorized expenses affect your margins on each service or product line. If you run multiple income sources, a dedicated system to [track revenue across all your streams](/articles/en/finances/track-creator-income-multiple-revenue-streams) makes the expense data even more actionable.
 
 ## 7. Creating standard operating procedures
 
@@ -60,7 +60,7 @@ An SOP workflow takes your verbal or written description of how you do something
 
 Whether you are reaching out to potential partners, following up with leads, or reconnecting with past clients, personalized outreach is effective but labor-intensive. Copying a template and swapping the name does not count as personalization — recipients recognize mail merge immediately.
 
-An outreach workflow takes the recipient's name, their business or role, one relevant detail about them — a recent project, a shared connection, an industry challenge — and produces a message that reads like you spent five minutes thinking about them specifically. Multiply that across twenty outreach messages and the time savings compounds into hours.
+An outreach workflow takes the recipient's name, their business or role, one relevant detail about them — a recent project, a shared connection, an industry challenge — and produces a message that reads like you spent five minutes thinking about them specifically. The same structured approach works for [writing sales copy that converts](/articles/en/employment/ai-prompts-sales-copy-that-converts) and for [automating your social media content](/articles/en/employment/automate-social-media-content-ai-entrepreneur). Multiply that across twenty outreach messages and the time savings compounds into hours.
 
 ## 9. Preparing client proposals
 

@@ -36,7 +36,7 @@ Weak bullet points list features. Strong bullet points connect each feature to a
 
 Instead of prompting "list the features of my course," try this approach: describe each module of your course, then ask the AI to rewrite each feature as a benefit statement that answers the reader's question "what does this do for me?" Specify that each bullet should start with an action or outcome, not a noun.
 
-The difference looks like this. Feature: "Module 3 covers email marketing basics." Benefit-driven: "Build an email sequence that turns new subscribers into paying customers within their first week on your list."
+The difference looks like this. Feature: "Module 3 covers email marketing basics." Benefit-driven: "Build an email sequence that turns new subscribers into paying customers within their first week on your list." For a deeper dive into that specific skill, our guide on [AI prompts for email marketing](/articles/en/finances/ai-email-marketing-prompts-save-time) covers the full workflow.
 
 Same information. Completely different impact on the reader.
 
@@ -64,7 +64,7 @@ Trying to generate the entire sales page in a single prompt. A sales page is a s
 
 Prompting section by section lets you control the tone, pacing, and intensity of each part. You can dial up the emotion in the opening and keep the proof section factual and credible. That contrast is what makes sales copy persuasive.
 
-Write one prompt per section. Review each output before moving on. Edit for your voice. Then assemble the page and read it start to finish as your customer would. If any section breaks the flow or sounds disconnected, rewrite that prompt with more context.
+Write one prompt per section. Review each output before moving on. Edit for your voice. Then assemble the page and read it start to finish as your customer would. If any section breaks the flow or sounds disconnected, rewrite that prompt with more context. Once the page is live, [track your launch metrics](/articles/en/finances/track-digital-product-launch-metrics-kpis) so you know which sections are working and which need revision. A [percentage calculator](https://toolcraftkit.com/tools/percentage-calculator) makes it easy to turn raw click and conversion numbers into rates you can actually compare across versions.
 
 ---
 

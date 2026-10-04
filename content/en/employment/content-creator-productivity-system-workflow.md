@@ -74,7 +74,7 @@ Set this week's sprint. Choose your three to five major tasks from across all ca
 
 Reflect on last week. Did you complete your sprint? If not, why? If a task has been carried over for three consecutive weeks, it is either not important enough to do or too large to finish in a week. Split it or drop it.
 
-This thirty-minute ritual replaces hours of daily scrambling. Creators who adopt a weekly review consistently report that the anxiety of "forgetting something important" disappears within the first month — because the system remembers for them.
+This thirty-minute ritual replaces hours of daily scrambling. Creators who adopt a weekly review consistently report that the anxiety of "forgetting something important" disappears within the first month — because the system remembers for them. A [Pomodoro timer](https://toolcraftkit.com/tools/pomodoro-timer) can help you stay focused during each sprint block, especially on days when context-switching threatens to eat your entire afternoon.
 
 ## Choosing the right tool without the tool trap
 
@@ -92,7 +92,7 @@ Creators who build and maintain a productivity system do not just get more done.
 
 When you can see your entire business laid out — every content piece in production, every product in your catalog, every revenue stream tracked, every task assigned to a week — you stop reacting and start directing. You notice that a certain type of content always leads to product sales, so you plan more of it. You see that a revenue stream is declining before it disappears, so you pivot early. You recognize that you are spending three hours a week on a platform that generates no measurable return, so you stop.
 
-These decisions are available to every creator. But they are only visible to creators who have built the system that surfaces them.
+These decisions are available to every creator. But they are only visible to creators who have built the system that surfaces them. If you want to reclaim even more time, identifying the [small business tasks you can automate with AI right now](/articles/en/employment/small-business-tasks-automate-ai-now) is a natural next step once your system reveals where the repetitive work hides. And when your workflow involves regular content production, [AI automation workflows that save 15 hours a week](/articles/en/employment/ai-automation-workflows-save-15-hours-week) show how to put the most tedious parts on autopilot.
 
 ---
 
