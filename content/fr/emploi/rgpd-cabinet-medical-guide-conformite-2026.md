@@ -114,6 +114,4 @@ L'affichage en salle d'attente d'une notice d'information conforme à l'article 
 
 - [Les meilleurs outils de productivité pour professionnels indépendants en 2026](/articles/fr/emploi/outils-productivite-professionnels-independants-2026)
 
-- [Freelance client onboarding: the complete checklist for 2026](/articles/en/employment/freelance-client-onboarding-checklist-2026)
-
 ---
