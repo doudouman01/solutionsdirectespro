@@ -81,4 +81,4 @@ Cette dimension communautaire explique aussi le succès du genre sur les réseau
 
 Vous cherchez une saga romantasy avec académie de magie, romance slow burn et intrigues profondes ? Découvrez *Les Chroniques de Valdris*, une série qui plonge ses lecteurs dans un univers où les secrets sont aussi dangereux que la magie elle-même.
 
-**[>>> Découvrir Les Chroniques de Valdris <<<](/boutique/fr/les-chroniques-de-valdris)**
+**[>>> Découvrir Les Chroniques de Valdris <<<](/boutique/fr/le-mensonge-des-brillants)**
