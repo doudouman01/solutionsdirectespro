@@ -76,10 +76,3 @@ Con los títulos de 2026, tanto nacionales como traducidos, el lector de suspens
 
 - [Los mejores thrillers psicológicos en español para 2026](/articles/es/entretenimiento/mejores-thrillers-psicologicos-espanol-2026)
 
----
-
-## Descubre más lecturas que enganchan
-
-¿Buscas más recomendaciones de libros que no podrás soltar? Explora nuestra selección de novelas y guías de lectura para encontrar tu próxima obsesión literaria.
-
-**[>>> Explorar la boutique <<<](/boutique/es/)**

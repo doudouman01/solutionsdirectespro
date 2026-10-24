@@ -88,12 +88,5 @@ De folklore van Beverwijk en Kennemerland herinnert ons eraan dat het geloof in 
 
 **Lees ook:**
 
-- [Heksenvervolgingen in Nederland: de complete geschiedenis](/articles/nl/cultuur/heksenvervolgingen-nederland-geschiedenis-2026)
+- [Heksenvervolgingen in Nederland: de complete geschiedenis](/articles/nl/entertainment/heksenvervolgingen-nederland-geschiedenis-2026)
 
----
-
-## Ontdek meer over Nederlandse geschiedenis en cultuur
-
-De duistere verhalen uit Amsterdam en Beverwijk maken deel uit van een rijke Nederlandse traditie van folklore, mysterie en verborgen geschiedenis. Ontdek meer verhalen die u nergens anders vindt.
-
-**[>>> Bekijk onze collectie Nederlandse cultuur en geschiedenis <<<](/boutique/nl)**

@@ -76,12 +76,5 @@ Participarea la cluburi de carte dedicate thrillerelor psihologice poate transfo
 
 **Lectură recomandată:**
 
-- [Descoperă mai multe romane de suspans și thriller](/articles/ro/divertisment/)
+- [Descoperă mai multe romane de suspans și thriller](/ro#divertisment)
 
----
-
-## Găsește-ți următoarea lectură captivantă
-
-Dacă ești în căutarea unui thriller psihologic care te va ține treaz toată noaptea, explorează colecția noastră completă de recomandări literare. Fiecare titlu a fost selectat pentru capacitatea sa de a surprinde, de a provoca și de a oferi o experiență de lectură de neuitat.
-
-**[>>> Explorează toate recomandările noastre <<<](/boutique/ro/)**

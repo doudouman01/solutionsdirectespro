@@ -68,7 +68,7 @@ La clave está en no limitarse a un solo estilo. Los mejores lectores de thrille
 
 **Te puede interesar:**
 
-- [Novelas de suspense psicológico que enganchan desde la primera página](/articles/es/entretenimiento/novelas-suspense-psicologico-enganchan)
+- [Novelas de suspense psicológico que enganchan desde la primera página](/articles/es/entretenimiento/novelas-suspense-psicologico-enganchan-2026)
 
 ---
 

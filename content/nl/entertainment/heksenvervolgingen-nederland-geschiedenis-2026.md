@@ -78,7 +78,7 @@ Het Nationaal Heksenmonument in Roermond wordt niet alleen een plek van herdenki
 
 **Lees ook:**
 
-- [Ontdek meer artikelen over cultuur en geschiedenis](/articles/nl/cultuur/)
+- [Hekserij in Amsterdam en Beverwijk: duistere verhalen uit de Gouden Eeuw](/articles/nl/entertainment/hekserij-amsterdam-beverwijk-verhalen-2026)
 
 ---
 

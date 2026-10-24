@@ -112,8 +112,8 @@ The investment in building this system is front-loaded, but the return compounds
 
 **Read also:**
 
-- [ADHD Impulse Spending: How to Stop and Take Control of Your Finances](/articles/en/well-being/adhd-impulse-spending-how-to-stop-2026)
-- [Executive Dysfunction at Work: Strategies That Actually Help](/articles/en/well-being/executive-dysfunction-at-work-strategies-2026)
+- [ADHD Impulse Spending: How to Stop and Take Control of Your Finances](/articles/en/health/adhd-impulse-spending-how-to-stop-2026)
+- [Executive Dysfunction at Work: Strategies That Actually Help](/articles/en/health/executive-dysfunction-at-work-strategies-2026)
 
 ---
 

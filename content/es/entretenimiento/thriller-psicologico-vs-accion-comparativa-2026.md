@@ -81,10 +81,3 @@ Una estrategia que funciona bien es alternar entre ambos subgéneros. Después d
 - [Los mejores thrillers psicológicos en español para 2026](/articles/es/entretenimiento/mejores-thrillers-psicologicos-espanol-2026)
 - [Novelas de suspense psicológico que enganchan desde la primera página](/articles/es/entretenimiento/novelas-suspense-psicologico-enganchan-2026)
 
----
-
-## Encuentra tu próxima lectura de suspense
-
-¿Buscas más recomendaciones personalizadas de thrillers, novela negra y suspense? Explora nuestra selección de guías de lectura y descubre títulos que se adaptan a tu estilo, tu idioma y tu estado de ánimo.
-
-**[>>> Explorar las guías de lectura <<<](/boutique/es/)**
