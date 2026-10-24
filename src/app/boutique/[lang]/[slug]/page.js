@@ -487,7 +487,17 @@ export default function ProductPage({ params }) {
     );
   }
 
-  const otherProducts = getProducts(lang).filter(p => p.slug !== slug);
+  /* ── Smart "Also by": prioritize same genre > same category > same type ── */
+  const otherProducts = getProducts(lang)
+    .filter(p => p.slug !== slug)
+    .map(p => {
+      let score = 0;
+      if (product.genre && p.genre && product.genre.toLowerCase() === p.genre.toLowerCase()) score += 3;
+      if (product.category && p.category && product.category === p.category) score += 2;
+      if (product.type && p.type && product.type === p.type) score += 1;
+      return { ...p, _score: score };
+    })
+    .sort((a, b) => b._score - a._score);
 
   const productUrl = `https://solutionsdirectespro.com/boutique/${lang}/${slug}`;
   const firstMarket = product.markets && product.markets[0];
