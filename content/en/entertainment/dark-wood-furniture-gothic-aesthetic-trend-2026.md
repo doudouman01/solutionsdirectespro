@@ -89,9 +89,3 @@ If your shelves are filled with stories of moonlit libraries, forbidden corridor
 - [Best Steamy Paranormal Romance Series to Devour in 2026](/articles/en/entertainment/best-steamy-paranormal-romance-series-2026)
 
 ---
-
-## Transform your space with dark academia inspiration
-
-Looking for curated collections that blend gothic atmosphere with timeless design? Explore our lifestyle selections for inspiration that bridges the worlds of literature and living.
-
-**[>>> Explore Our Lifestyle Collections <<<](/boutique/en)**

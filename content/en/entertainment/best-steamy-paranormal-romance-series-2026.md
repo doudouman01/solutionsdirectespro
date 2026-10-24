@@ -86,12 +86,6 @@ For readers, the message is simple: there has never been a better time to dive i
 
 **Read also:**
 
-- [Dark academia romantasy: the books that transport you to another world](/articles/en/entertainment/romantasy-academie-magie-livres)
+- [How to create the perfect gothic dark academia room aesthetic in 2026](/articles/en/entertainment/gothic-dark-academia-room-aesthetic-guide-2026)
 
----
-
-## Find your next paranormal obsession
-
-Looking for a saga that blends supernatural intrigue, slow-burn tension, and a world where secrets are as dangerous as the magic itself? Discover *The Chronicles of Valdris*, a series that will keep you turning pages long after the lights should have gone out.
-
-**[>>> Discover The Chronicles of Valdris <<<](/boutique/en/the-chronicles-of-valdris)**
+- [Paranormal romance reading platforms compared in 2026](/articles/en/entertainment/paranormal-romance-reading-platforms-compared-2026)

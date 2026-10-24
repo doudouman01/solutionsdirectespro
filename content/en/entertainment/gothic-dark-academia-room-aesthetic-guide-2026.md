@@ -94,7 +94,7 @@ In spring and summer, lighten the mood without abandoning the core palette. Swap
 
 **Read more:**
 
-- [Dark wood furniture and the gothic aesthetic trend in 2026](/articles/en/lifestyle/dark-wood-furniture-gothic-aesthetic-trend-2026)
+- [Dark wood furniture and the gothic aesthetic trend in 2026](/articles/en/entertainment/dark-wood-furniture-gothic-aesthetic-trend-2026)
 - [Best steamy paranormal romance series to read in 2026](/articles/en/entertainment/best-steamy-paranormal-romance-series-2026)
 
 ---
