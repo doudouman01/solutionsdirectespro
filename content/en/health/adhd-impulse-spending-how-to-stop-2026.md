@@ -54,7 +54,7 @@ Understanding your triggers transforms impulse spending from an unpredictable fo
 
 Late-night browsing deserves special attention because it combines multiple triggers at once — fatigue, boredom, reduced impulse control, and the infinite scroll of shopping platforms. Building a nightly shutdown routine can neutralize this danger zone. Log out of all shopping apps after a set time. Move those apps off your phone's home screen so they require deliberate effort to open. Charge your phone in a different room from where you sleep. These environmental changes work because they do not rely on willpower, which is precisely the resource that is depleted at night.
 
-Transition times — the gaps between finishing one task and starting another — are another high-risk window. Having a [dopamine menu](/articles/en/well-being/dopamine-menu-adhd-step-by-step-guide-2026) ready for these moments gives your brain a healthier source of stimulation than opening a shopping app. A quick walk, a favorite song, a few minutes of stretching — any of these can satisfy the dopamine need without the financial consequences.
+Transition times — the gaps between finishing one task and starting another — are another high-risk window. Having a [dopamine menu](/articles/en/health/dopamine-menu-adhd-step-by-step-guide-2026) ready for these moments gives your brain a healthier source of stimulation than opening a shopping app. A quick walk, a favorite song, a few minutes of stretching — any of these can satisfy the dopamine need without the financial consequences.
 
 ### How do accountability and support systems help with ADHD spending?
 
@@ -76,7 +76,7 @@ Next, look at your budget and move money from a flexible category to cover the p
 
 Finally, match a new guardrail to the specific trigger that caused the purchase. If it happened during late-night scrolling, that is the night you move your phone to another room. If it was triggered by a sale email, that is the day you unsubscribe from that retailer's mailing list. Each impulse purchase becomes data that strengthens your system rather than evidence of failure.
 
-Understanding that [executive dysfunction is not laziness](/articles/en/well-being/executive-dysfunction-vs-laziness-guide) applies to financial management just as much as it applies to productivity. Struggling with impulse spending is a neurological challenge, not a character flaw, and approaching it with curiosity rather than judgment makes every strategy more effective.
+Understanding that [executive dysfunction is not laziness](/articles/en/health/executive-dysfunction-vs-laziness-guide) applies to financial management just as much as it applies to productivity. Struggling with impulse spending is a neurological challenge, not a character flaw, and approaching it with curiosity rather than judgment makes every strategy more effective.
 
 ## When is it time to seek professional support?
 
@@ -86,7 +86,7 @@ An ADHD-informed therapist or financial coach can help you build personalized sy
 
 ---
 
-**À lire aussi :**
+**Read also:**
 
-- [Dopamine Menu for ADHD: Build Your Personal Dopamenu](/articles/en/well-being/dopamine-menu-adhd-step-by-step-guide-2026)
-- [Executive Dysfunction vs Laziness: Understanding the Real Difference](/articles/en/well-being/executive-dysfunction-vs-laziness-guide)
+- [Dopamine Menu for ADHD: Build Your Personal Dopamenu](/articles/en/health/dopamine-menu-adhd-step-by-step-guide-2026)
+- [Executive Dysfunction vs Laziness: Understanding the Real Difference](/articles/en/health/executive-dysfunction-vs-laziness-guide)

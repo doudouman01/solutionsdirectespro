@@ -58,7 +58,7 @@ Breaking tasks into micro-steps addresses the initiation problem directly. Inste
 
 Environmental design means arranging your physical space so that the right action is the easiest action. Placing your running shoes by the door, keeping your work materials open on your desk, or removing distractions from your workspace all reduce the number of decisions and steps required before you can begin. The fewer barriers between you and the task, the less executive function you need to get started.
 
-Building a personal dopamine menu — a pre-made list of activities organized by effort and reward — can also help bridge the gap between inaction and engagement. When executive dysfunction makes it impossible to think of what to do, having a menu to consult eliminates the decision-making step entirely. You can learn how to build one in our [step-by-step dopamine menu guide](/articles/en/well-being/dopamine-menu-adhd-step-by-step-guide-2026).
+Building a personal dopamine menu — a pre-made list of activities organized by effort and reward — can also help bridge the gap between inaction and engagement. When executive dysfunction makes it impossible to think of what to do, having a menu to consult eliminates the decision-making step entirely. You can learn how to build one in our [step-by-step dopamine menu guide](/articles/en/health/dopamine-menu-adhd-step-by-step-guide-2026).
 
 ### When should you seek professional evaluation?
 
@@ -68,11 +68,11 @@ A thorough evaluation typically involves a clinical interview, standardized ques
 
 If you suspect ADHD specifically, it is worth knowing that the condition is frequently underdiagnosed in adults, in women, and in people who performed well academically despite their struggles. High intelligence can mask executive dysfunction for years by compensating for it, but the compensation comes at an enormous cost in terms of stress, exhaustion, and mental health. If the descriptions in this article resonate with your experience, that recognition alone is a valid reason to seek an assessment.
 
-Managing executive dysfunction often involves addressing related challenges as well. Many people with ADHD find that [impulse spending](/articles/en/well-being/adhd-impulse-spending-how-to-stop-2026) is one of the most disruptive consequences of their condition, and learning targeted strategies for financial self-regulation can significantly improve quality of life alongside broader executive function support.
+Managing executive dysfunction often involves addressing related challenges as well. Many people with ADHD find that [impulse spending](/articles/en/health/adhd-impulse-spending-how-to-stop-2026) is one of the most disruptive consequences of their condition, and learning targeted strategies for financial self-regulation can significantly improve quality of life alongside broader executive function support.
 
 ---
 
-**À lire aussi :**
+**Read also:**
 
-- [Dopamine Menu for ADHD: Build Your Personal Dopamenu](/articles/en/well-being/dopamine-menu-adhd-step-by-step-guide-2026)
-- [ADHD Impulse Spending: How to Stop the Cycle](/articles/en/well-being/adhd-impulse-spending-how-to-stop-2026)
+- [Dopamine Menu for ADHD: Build Your Personal Dopamenu](/articles/en/health/dopamine-menu-adhd-step-by-step-guide-2026)
+- [ADHD Impulse Spending: How to Stop the Cycle](/articles/en/health/adhd-impulse-spending-how-to-stop-2026)

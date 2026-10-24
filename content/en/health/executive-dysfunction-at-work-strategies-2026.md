@@ -88,10 +88,10 @@ Sustainable routines account for this reality by building in more recovery time 
 
 ---
 
-**À lire aussi :**
+**Read also:**
 
-- [Executive Dysfunction vs Laziness: How to Tell the Difference](/articles/en/well-being/executive-dysfunction-vs-laziness-guide)
-- [Dopamine Menu for ADHD: A Step-by-Step Guide](/articles/en/well-being/dopamine-menu-adhd-step-by-step-guide-2026)
+- [Executive Dysfunction vs Laziness: How to Tell the Difference](/articles/en/health/executive-dysfunction-vs-laziness-guide)
+- [Dopamine Menu for ADHD: A Step-by-Step Guide](/articles/en/health/dopamine-menu-adhd-step-by-step-guide-2026)
 
 ---
 

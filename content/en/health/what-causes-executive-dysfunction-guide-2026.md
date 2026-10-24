@@ -86,8 +86,8 @@ Environmental modifications deserve more attention than they typically receive. 
 
 **Read more:**
 
-- [Executive Dysfunction vs Laziness: How to Tell the Difference](/articles/en/well-being/executive-dysfunction-vs-laziness-guide)
-- [Executive Dysfunction at Work: Practical Strategies That Help](/articles/en/well-being/executive-dysfunction-at-work-strategies-2026)
+- [Executive Dysfunction vs Laziness: How to Tell the Difference](/articles/en/health/executive-dysfunction-vs-laziness-guide)
+- [Executive Dysfunction at Work: Practical Strategies That Help](/articles/en/health/executive-dysfunction-at-work-strategies-2026)
 
 ---
 

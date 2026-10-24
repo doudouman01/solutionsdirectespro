@@ -16,7 +16,7 @@ Dopamine is a neurotransmitter that plays a central role in motivation, reward a
 
 The practical result is familiar to anyone with ADHD. Tasks that neurotypical brains find mildly engaging feel unbearably boring to you, while activities that deliver intense stimulation become almost magnetically attractive. Your brain is not broken or lazy — it is actively seeking the level of stimulation it needs to function. The challenge is finding sources of that stimulation that build your life up rather than drain it.
 
-This is exactly where intentional dopamine-boosting activities come in. By choosing activities that match the level of stimulation your brain genuinely needs, you work with your neurology rather than against it. If you have not already, building a personal [dopamine menu](/articles/en/well-being/dopamine-menu-adhd-step-by-step-guide-2026) is one of the most effective ways to keep these options visible when you need them most.
+This is exactly where intentional dopamine-boosting activities come in. By choosing activities that match the level of stimulation your brain genuinely needs, you work with your neurology rather than against it. If you have not already, building a personal [dopamine menu](/articles/en/health/dopamine-menu-adhd-step-by-step-guide-2026) is one of the most effective ways to keep these options visible when you need them most.
 
 ## Quick dopamine boosts for immediate reset
 
@@ -78,7 +78,7 @@ The difference between healthy and unhealthy social dopamine often comes down to
 
 The biggest challenge for ADHD adults is not finding dopamine-boosting activities — it is maintaining them. Novelty is a core driver of ADHD dopamine response, which means that any activity eventually loses its stimulating edge. This is not a failure of willpower. It is your neurology working exactly as designed.
 
-The solution is rotation rather than repetition. Instead of forcing yourself to stick with one activity until it becomes boring, maintain a diverse portfolio of dopamine sources that you cycle through as your interest naturally ebbs and flows. This is where the [dopamine menu](/articles/en/well-being/dopamine-menu-adhd-step-by-step-guide-2026) becomes invaluable — it gives you a visible reference of options so that when one activity loses its spark, you have alternatives already identified.
+The solution is rotation rather than repetition. Instead of forcing yourself to stick with one activity until it becomes boring, maintain a diverse portfolio of dopamine sources that you cycle through as your interest naturally ebbs and flows. This is where the [dopamine menu](/articles/en/health/dopamine-menu-adhd-step-by-step-guide-2026) becomes invaluable — it gives you a visible reference of options so that when one activity loses its spark, you have alternatives already identified.
 
 Combining activities amplifies their dopamine effect and extends their novelty. Listening to a podcast while cooking, walking with a friend instead of alone, or playing music while organizing all create compound stimulation that keeps your brain engaged longer than any single activity would. This stacking approach works because each element provides a slightly different type of stimulation, and the combination feels novel even when the individual components are familiar.
 
@@ -86,11 +86,11 @@ Anchoring dopamine activities to existing transition points in your day also hel
 
 Understanding your own novelty-seeking tendency as a strength rather than a weakness shifts the entire framework. ADHD adults who embrace their need for variety often discover that their lives become richer and more interesting than those of people who can sustain the same routine indefinitely. You may never stick with one hobby for ten years, but you might develop competence in dozens of activities that keep your brain engaged and your life fulfilling.
 
-If you find that your dopamine-seeking has shifted toward costly patterns — compulsive spending, excessive screen time, or substance use — the strategies in our guide on [stopping ADHD impulse spending](/articles/en/well-being/adhd-impulse-spending-how-to-stop-2026) can help you redirect that energy toward healthier sources. And if under-stimulation is consistently disrupting your work, relationships, or finances despite your best efforts, speaking with a professional who understands ADHD can open up additional options including medication and coaching that work alongside these lifestyle strategies.
+If you find that your dopamine-seeking has shifted toward costly patterns — compulsive spending, excessive screen time, or substance use — the strategies in our guide on [stopping ADHD impulse spending](/articles/en/health/adhd-impulse-spending-how-to-stop-2026) can help you redirect that energy toward healthier sources. And if under-stimulation is consistently disrupting your work, relationships, or finances despite your best efforts, speaking with a professional who understands ADHD can open up additional options including medication and coaching that work alongside these lifestyle strategies.
 
 ---
 
 **Read next:**
 
-- [Dopamine Menu for ADHD: A Step-by-Step Guide to Building Your Personal Dopamenu](/articles/en/well-being/dopamine-menu-adhd-step-by-step-guide-2026)
-- [ADHD Impulse Spending: How to Stop the Cycle](/articles/en/well-being/adhd-impulse-spending-how-to-stop-2026)
+- [Dopamine Menu for ADHD: A Step-by-Step Guide to Building Your Personal Dopamenu](/articles/en/health/dopamine-menu-adhd-step-by-step-guide-2026)
+- [ADHD Impulse Spending: How to Stop the Cycle](/articles/en/health/adhd-impulse-spending-how-to-stop-2026)

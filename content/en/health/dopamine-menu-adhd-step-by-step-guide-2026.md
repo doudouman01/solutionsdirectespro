@@ -78,10 +78,10 @@ If your stimulation-seeking has shifted toward patterns that carry real conseque
 
 ---
 
-**À lire aussi :**
+**Read also:**
 
-- [ADHD Impulse Spending: How to Stop Before It Wrecks Your Budget](/articles/en/well-being/adhd-impulse-spending-how-to-stop-2026)
-- [Executive Dysfunction vs Laziness: Understanding the Real Difference](/articles/en/well-being/executive-dysfunction-vs-laziness-guide)
+- [ADHD Impulse Spending: How to Stop Before It Wrecks Your Budget](/articles/en/health/adhd-impulse-spending-how-to-stop-2026)
+- [Executive Dysfunction vs Laziness: Understanding the Real Difference](/articles/en/health/executive-dysfunction-vs-laziness-guide)
 
 ---
 
