@@ -5,7 +5,7 @@ cover: "/covers/mega-halloween-coloring-bundle-kids.png"
 etsy_link: "https://www.etsy.com/ca-fr/listing/4587800813/mega-coffret-de-coloriages-dhalloween-5"
 price_etsy: "19.99 USD"
 market: "US"
-category: "entertainment"
+category: "halloween"
 pages: 260
 language: "English"
 genre: "Kids Activity / Halloween / Coloring Bundle"

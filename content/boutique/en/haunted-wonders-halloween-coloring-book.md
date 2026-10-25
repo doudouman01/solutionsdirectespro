@@ -5,7 +5,7 @@ cover: "/covers/haunted-wonders-halloween-coloring-book.png"
 etsy_link: "https://www.etsy.com/ca-fr/listing/4587068437/haunted-wonders-halloween-coloring-book"
 price_etsy: "7.99 USD"
 market: "US"
-category: "entertainment"
+category: "halloween"
 pages: 50
 language: "English"
 genre: "Kids Activity / Halloween"

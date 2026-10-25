@@ -5,7 +5,7 @@ cover: "/covers/jack-o-lantern-path-art-set.png"
 etsy_link: "https://www.etsy.com/listing/4584640947/"
 price_etsy: "$7.99"
 market: US
-category: "entertainment"
+category: "halloween"
 pages: "6 prints"
 language: "English"
 genre: "Digital Wall Art"

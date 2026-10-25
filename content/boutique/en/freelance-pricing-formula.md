@@ -5,7 +5,7 @@ cover: "/covers/freelance-pricing-formula.png"
 gumroad_link: "https://indiepress.gumroad.com/l/rtjfr"
 price_gumroad: "$19"
 market: "US"
-category: "personal-development"
+category: "employment"
 pages: 0
 language: "English"
 genre: "Freelancing"

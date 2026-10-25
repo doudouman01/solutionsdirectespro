@@ -7,7 +7,7 @@ kindle_link: "https://www.amazon.com/dp/B0HL6B2XMX"
 price_kindle: "4.99 USD"
 price_paperback: "24.99 USD"
 market: "US"
-category: "health-wellness"
+category: "health"
 pages: 212
 language: "English"
 genre: "ADHD / Nutrition"

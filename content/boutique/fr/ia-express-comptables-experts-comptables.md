@@ -7,7 +7,7 @@ kindle_link: "https://www.amazon.fr/dp/B0HJP29GHG"
 price_kindle: "6,99 EUR"
 price_paperback: "14,99 EUR"
 market: "FR"
-category: "emploi"
+category: "employment"
 pages: 202
 language: "Francais"
 genre: "Guide pratique IA"

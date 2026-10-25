@@ -5,7 +5,7 @@ cover: "/covers/scary-girls-halloween-coloring-book.png"
 etsy_link: "https://www.etsy.com/ca-fr/listing/4587757717/livre-de-coloriage-dhalloween-filles"
 price_etsy: "7.99 USD"
 market: "US"
-category: "entertainment"
+category: "halloween"
 pages: 100
 language: "English"
 genre: "Kids Activity / Halloween"

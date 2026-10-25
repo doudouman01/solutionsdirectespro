@@ -5,7 +5,7 @@ cover: "/covers/halloween-abc-coloring-book-kids.png"
 etsy_link: "https://www.etsy.com/ca-fr/listing/4587765257/livre-de-coloriage-dhalloween-abc-pour"
 price_etsy: "7.99 USD"
 market: "US"
-category: "entertainment"
+category: "halloween"
 pages: 26
 language: "English"
 genre: "Kids Activity / Halloween / Educational"

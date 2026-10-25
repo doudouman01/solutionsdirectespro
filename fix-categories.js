@@ -1,10 +1,16 @@
 /**
- * fix-categories.js
- * ==================
- * Script pour ajouter le champ "category" manquant dans tous les fichiers
- * boutique de SolutionsDirectesPro, toutes langues confondues.
+ * fix-categories.js — v2 (STRUCTURE FINALE VALIDEE)
+ * ====================================================
+ * Corrige le champ "category" dans TOUS les fichiers boutique
+ * de SolutionsDirectesPro, toutes langues confondues.
  *
- * UTILISATION:
+ * 14 CATEGORIES :
+ *   literature, employment, writing-publishing, health,
+ *   halloween, memorial, personal-development, travel,
+ *   personal-finance, holiday, natural-medicine, young-mothers,
+ *   seniors, relationships
+ *
+ * UTILISATION :
  *   1. Place ce fichier a la racine de ton projet (a cote de package.json)
  *   2. Ouvre un terminal dans le dossier du projet
  *   3. Tape:  node fix-categories.js
@@ -16,10 +22,15 @@ const fs = require('fs');
 const path = require('path');
 
 // ============================================================
-// MAPPING SLUG → CATEGORY (pour tous les produits connus)
+// MAPPING SLUG → CATEGORY
 // ============================================================
 const SLUG_TO_CATEGORY = {
-  // === LITERATURE (romans / fiction) ===
+
+  // ==========================================================
+  // LITERATURE (romans / fiction) — toutes langues
+  // ==========================================================
+
+  // EN novels
   'blood-debt-the-fall': 'literature',
   'dead-frequency': 'literature',
   'hexes-and-homicides': 'literature',
@@ -41,6 +52,19 @@ const SLUG_TO_CATEGORY = {
   'vow-of-thorns': 'literature',
 
   // FR novels
+  'l-ange-des-cendres': 'literature',
+  'l-epouse-de-cendre': 'literature',
+  'le-contrat': 'literature',
+  'heritiers-de-belmont': 'literature',
+  'le-mensonge-des-brillants': 'literature',
+  'le-murmure-des-pierres': 'literature',
+  'le-prix-du-secret': 'literature',
+  'le-prix-du-secret-chroniques-valdris-tome-2': 'literature',
+  'le-sang-du-diable': 'literature',
+  'le-voile-dechire-les-veines-du-diable-tome-2': 'literature',
+  'les-funerailles': 'literature',
+  'protection-rapprochee-tome-1': 'literature',
+  'quelquun-est-entre-chez-moi': 'literature',
   'protection-rapprochee': 'literature',
   'les-chroniques-de-valdris': 'literature',
   'la-femme-de-remplacement': 'literature',
@@ -56,37 +80,18 @@ const SLUG_TO_CATEGORY = {
   'frequence-mortelle': 'literature',
   'la-premiere-lettre': 'literature',
   'la-librairie-de-seabrook': 'literature',
-  'les-funerailles': 'literature',
   'linvisible-leveil': 'literature',
   'leveil': 'literature',
   'le-serment-des-gardiens-depine': 'literature',
   'lheritage-de-thornwood': 'literature',
   'voeu-depines': 'literature',
 
-  // ES novels
-  'sangre-y-silencio': 'literature',
-  'la-ladrona-de-estrellas': 'literature',
-  'la-esposa-de-cristal': 'literature',
-  'la-esposa-sustituta': 'literature',
-  'asesinato-en-la-libreria': 'literature',
-  'el-cottage-de-los-cotswolds': 'literature',
-  'el-hombre-equivocado': 'literature',
-  'el-juramento-de-la-bruja-mayor': 'literature',
-  'el-silencio-entre-nosotros': 'literature',
-  'frecuencia-mortal': 'literature',
-  'hechizos-y-homicidios': 'literature',
-  'la-compañera-reluctante-del-alfa': 'literature',
-  'la-primera-carta': 'literature',
-  'la-libreria-de-seabrook': 'literature',
-  'el-funeral': 'literature',
-  'lo-invisible-el-despertar': 'literature',
-  'el-despertar': 'literature',
-  'el-juramento-de-los-guardianes-de-espinos': 'literature',
-  'la-herencia-de-thornwood': 'literature',
-  'juramento-de-espinas': 'literature',
-  'deuda-de-sangre': 'literature',
-
   // DE novels
+  'die-erwaehlte': 'literature',
+  'die-stille-frau': 'literature',
+  'die-tochter-des-schweigens': 'literature',
+  'flammenblut': 'literature',
+  'persephones-wahl': 'literature',
   'die-ersatzfrau': 'literature',
   'die-glaserne-ehefrau': 'literature',
   'mord-im-buchladen': 'literature',
@@ -107,7 +112,36 @@ const SLUG_TO_CATEGORY = {
   'schwur-der-dornen': 'literature',
   'blutschuld': 'literature',
 
+  // ES novels
+  'sangre-y-silencio': 'literature',
+  'la-ladrona-de-estrellas': 'literature',
+  'la-profecia-de-las-alas': 'literature',
+  'el-detective-de-sangre': 'literature',
+  'la-esposa-de-cristal': 'literature',
+  'la-esposa-sustituta': 'literature',
+  'asesinato-en-la-libreria': 'literature',
+  'el-cottage-de-los-cotswolds': 'literature',
+  'el-hombre-equivocado': 'literature',
+  'el-juramento-de-la-bruja-mayor': 'literature',
+  'el-silencio-entre-nosotros': 'literature',
+  'frecuencia-mortal': 'literature',
+  'hechizos-y-homicidios': 'literature',
+  'la-primera-carta': 'literature',
+  'la-libreria-de-seabrook': 'literature',
+  'el-funeral': 'literature',
+  'lo-invisible-el-despertar': 'literature',
+  'el-despertar': 'literature',
+  'el-juramento-de-los-guardianes-de-espinos': 'literature',
+  'la-herencia-de-thornwood': 'literature',
+  'juramento-de-espinas': 'literature',
+  'deuda-de-sangre': 'literature',
+
   // IT novels
+  'il-patto': 'literature',
+  'l-appartamento-vuoto': 'literature',
+  'l-incatenata': 'literature',
+  'la-citta-dei-ricordi-perduti': 'literature',
+  'la-preda': 'literature',
   'la-moglie-sostituta': 'literature',
   'la-moglie-di-vetro': 'literature',
   'omicidio-in-libreria': 'literature',
@@ -117,7 +151,6 @@ const SLUG_TO_CATEGORY = {
   'il-silenzio-tra-noi': 'literature',
   'frequenza-mortale': 'literature',
   'sortilegi-e-omicidi': 'literature',
-  'la-compagna-riluttante-dellalfa': 'literature',
   'la-prima-lettera': 'literature',
   'la-libreria-di-seabrook': 'literature',
   'il-funerale': 'literature',
@@ -128,17 +161,22 @@ const SLUG_TO_CATEGORY = {
   'giuramento-di-spine': 'literature',
   'debito-di-sangue': 'literature',
 
+  // NL novels
+  'de-verdronken-heks': 'literature',
+  'de-watergeest': 'literature',
+  'het-stille-water': 'literature',
+  'de-vervangende-echtgenote': 'literature',
+  'de-glazen-vrouw': 'literature',
+
   // PT novels
+  'o-boto': 'literature',
+  'o-contrato': 'literature',
   'a-esposa-substituta': 'literature',
   'a-esposa-de-vidro': 'literature',
   'assassinato-na-livraria': 'literature',
   'o-cottage-dos-cotswolds': 'literature',
   'o-homem-errado': 'literature',
-  'o-juramento-da-bruxa-anciã': 'literature',
   'o-silencio-entre-nos': 'literature',
-  'frequencia-mortal': 'literature',
-  'feiticos-e-homicidios': 'literature',
-  'a-companheira-relutante-do-alfa': 'literature',
   'a-primeira-carta': 'literature',
   'a-livraria-de-seabrook': 'literature',
   'o-funeral': 'literature',
@@ -161,60 +199,35 @@ const SLUG_TO_CATEGORY = {
   // VI novels
   'su-thuc-tinh': 'literature',
 
-  // JA novels
+  // JA
   'sutoikku-risetto': 'literature',
 
-  // NL novels
-  'de-vervangende-echtgenote': 'literature',
-  'de-glazen-vrouw': 'literature',
+  // ==========================================================
+  // EMPLOYMENT (Emploi et carriere) — IA Express + Business/Freelance
+  // ==========================================================
 
-  // === PERSONAL DEVELOPMENT ===
-  'mastering-anger-through-stoicism': 'personal-development',
-  'psychology-of-self-love': 'personal-development',
-  'the-reckoning': 'personal-development',
-  'rise-unapologetic': 'personal-development',
-  // FR
-  'maitriser-la-colere-par-le-stoicisme': 'personal-development',
-  'la-psychologie-de-lamour-de-soi': 'personal-development',
-  'le-bilan': 'personal-development',
-  'debout-sans-excuses': 'personal-development',
-  // ES
-  'dominar-la-ira-con-estoicismo': 'personal-development',
-  'la-psicologia-del-amor-propio': 'personal-development',
-  'el-ajuste-de-cuentas': 'personal-development',
-  'levantate-sin-disculpas': 'personal-development',
-  // DE
-  'wut-meistern-durch-stoizismus': 'personal-development',
-  'die-psychologie-der-selbstliebe': 'personal-development',
-  'die-abrechnung': 'personal-development',
-  'steh-auf-ohne-entschuldigung': 'personal-development',
+  // EN business & freelance tools
+  'ai-business-automation-toolkit': 'employment',
+  'client-onboarding-management-kit': 'employment',
+  'creator-business-dashboard-notion-template': 'employment',
+  'digital-product-launch-planner': 'employment',
+  'freelance-money-tracker-tax-prep-kit': 'employment',
+  'freelance-pricing-formula': 'employment',
+  'side-hustle-digital-products-playbook': 'employment',
+  'winning-proposals-pitch-pack': 'employment',
 
-  // === HEALTH ===
-  'aging-with-grace': 'health',
-  'slow-aging': 'health',
-  'the-14-day-dopamine-reset': 'health',
-  'perimenopause-guide': 'health',
-  'natural-snack-kitchen': 'health',
-  // FR
-  'vieillir-avec-grace': 'health',
-  'ralentir-le-vieillissement': 'health',
-  'reset-dopamine-14-jours': 'health',
-  'guide-perimenopause': 'health',
-  'cuisine-snacks-naturels': 'health',
+  // FR — IA Express (outils pro par metier)
+  'ia-express-coachs-consultants': 'employment',
+  'ia-express-comptables-experts-comptables': 'employment',
+  'ia-express-enseignants': 'employment',
+  'ia-express-entrepreneurs-solopreneurs': 'employment',
+  'ia-express-professionnels-de-sante': 'employment',
+  'ia-express-agents-immobiliers': 'employment',
 
-  // === PERSONAL FINANCE ===
-  'drive-smarter-spend-less': 'personal-finance',
-  'rewire-your-money-mind': 'personal-finance',
-  // FR
-  'conduire-malin-depenser-moins': 'personal-finance',
-  'reprogrammer-votre-esprit-financier': 'personal-finance',
+  // ==========================================================
+  // WRITING-PUBLISHING (Ecriture et edition) — Outils auteurs/KDP
+  // ==========================================================
 
-  // === TRAVEL ===
-  'road-trip-usa': 'travel',
-  'travel-light': 'travel',
-  'family-travel-planner': 'travel',
-
-  // === WRITING & PUBLISHING ===
   '10-free-ai-prompts-that-make-you-money': 'writing-publishing',
   'ai-book-production-workflow': 'writing-publishing',
   'ai-content-machine-201-prompts': 'writing-publishing',
@@ -225,7 +238,8 @@ const SLUG_TO_CATEGORY = {
   'romance-author-toolkit': 'writing-publishing',
   'self-publishing-launch-playbook': 'writing-publishing',
   'complete-indiepress-toolkit': 'writing-publishing',
-  // FR
+
+  // FR writing tools
   'ia-express-creer-un-livre': 'writing-publishing',
   'ia-express-description-de-livre': 'writing-publishing',
   'ia-express-mots-cles-kdp': 'writing-publishing',
@@ -239,26 +253,88 @@ const SLUG_TO_CATEGORY = {
   '10-prompts-ia-gratuits-qui-rapportent': 'writing-publishing',
   'modeles-description-livre': 'writing-publishing',
 
-  // === BUSINESS ===
-  'ai-business-automation-toolkit': 'business',
-  'client-onboarding-management-kit': 'business',
-  'creator-business-dashboard-notion-template': 'business',
-  'digital-product-launch-planner': 'business',
-  'freelance-money-tracker-tax-prep-kit': 'business',
-  'freelance-pricing-formula': 'business',
-  'side-hustle-digital-products-playbook': 'business',
-  'winning-proposals-pitch-pack': 'business',
+  // ==========================================================
+  // HEALTH (Sante et bien-etre) — sante + ADHD planners
+  // ==========================================================
 
-  // === PLANNERS (ADHD) ===
-  'adhd-brain-dump-planner': 'planners',
-  'adhd-budget-planner': 'planners',
-  'adhd-cleaning-planner': 'planners',
-  'adhd-dopamine-menu-planner': 'planners',
-  'adhd-meal-planner': 'planners',
-  'adhd-planner-bundle': 'planners',
-  'adhd-task-paralysis-breaker': 'planners',
+  // EN health books
+  'aging-with-grace': 'health',
+  'slow-aging': 'health',
+  'the-14-day-dopamine-reset': 'health',
+  'perimenopause-guide': 'health',
+  'natural-snack-kitchen': 'health',
 
-  // === HALLOWEEN ===
+  // EN ADHD planners (→ health)
+  'adhd-brain-dump-planner': 'health',
+  'adhd-budget-planner': 'health',
+  'adhd-cleaning-planner': 'health',
+  'adhd-dopamine-menu-planner': 'health',
+  'adhd-meal-planner': 'health',
+  'adhd-planner-bundle': 'health',
+  'adhd-task-paralysis-breaker': 'health',
+
+  // FR health
+  'perte-de-poids-apres-40': 'health',
+  'vieillir-avec-grace': 'health',
+  'ralentir-le-vieillissement': 'health',
+  'reset-dopamine-14-jours': 'health',
+  'guide-perimenopause': 'health',
+  'cuisine-snacks-naturels': 'health',
+
+  // DE health
+  'meal-prep-abnehmen': 'health',
+
+  // IT health
+  'detox-dal-cortisolo': 'health',
+
+  // ==========================================================
+  // PERSONAL DEVELOPMENT (Developpement personnel)
+  // ==========================================================
+
+  'mastering-anger-through-stoicism': 'personal-development',
+  'psychology-of-self-love': 'personal-development',
+  'the-reckoning': 'personal-development',
+  'rise-unapologetic': 'personal-development',
+
+  // ES
+  'basta': 'personal-development',
+
+  // PT
+  'liberdade-reconquistada': 'personal-development',
+
+  // FR
+  'maitriser-la-colere-par-le-stoicisme': 'personal-development',
+  'la-psychologie-de-lamour-de-soi': 'personal-development',
+  'le-bilan': 'personal-development',
+  'debout-sans-excuses': 'personal-development',
+
+  // DE
+  'wut-meistern-durch-stoizismus': 'personal-development',
+  'die-psychologie-der-selbstliebe': 'personal-development',
+  'die-abrechnung': 'personal-development',
+  'steh-auf-ohne-entschuldigung': 'personal-development',
+
+  // ==========================================================
+  // PERSONAL FINANCE (Finances personnelles)
+  // ==========================================================
+
+  'drive-smarter-spend-less': 'personal-finance',
+  'rewire-your-money-mind': 'personal-finance',
+  'conduire-malin-depenser-moins': 'personal-finance',
+  'reprogrammer-votre-esprit-financier': 'personal-finance',
+
+  // ==========================================================
+  // TRAVEL (Voyage)
+  // ==========================================================
+
+  'road-trip-usa': 'travel',
+  'travel-light': 'travel',
+  'family-travel-planner': 'travel',
+
+  // ==========================================================
+  // HALLOWEEN
+  // ==========================================================
+
   'blood-moon-wolf-art-set': 'halloween',
   'creepy-halloween-wall-art-set': 'halloween',
   'curiosity-cabinet-art-set': 'halloween',
@@ -285,7 +361,10 @@ const SLUG_TO_CATEGORY = {
   'scary-girls-halloween-coloring-book': 'halloween',
   'trick-or-treat-halloween-coloring-book-kids': 'halloween',
 
-  // === MEMORIAL (funeral templates) ===
+  // ==========================================================
+  // MEMORIAL (Funerailles et memorial)
+  // ==========================================================
+
   'funeral-welcome-sign-religious-cross': 'memorial',
   'funeral-prayer-card-religious-cross': 'memorial',
   'funeral-bookmark-religious-cross': 'memorial',
@@ -300,7 +379,7 @@ const SLUG_TO_CATEGORY = {
   'funeral-bundle-elegant-floral': 'memorial',
   'funeral-bookmark-classic-dark': 'memorial',
   'funeral-bundle-classic-dark': 'memorial',
-  // FR
+  // FR memorial
   'funerailles-signet-croix-religieuse': 'memorial',
   'funerailles-carte-priere-croix-religieuse': 'memorial',
   'funerailles-panneau-bienvenue-croix-religieuse': 'memorial',
@@ -316,21 +395,27 @@ const SLUG_TO_CATEGORY = {
   'funerailles-signet-classique-sombre': 'memorial',
   'funerailles-bundle-classique-sombre': 'memorial',
 
-  // === HOLIDAY ===
+  // ==========================================================
+  // HOLIDAY (Fetes et saisons)
+  // ==========================================================
+
   'the-absolute-art-of-christmas-cocktails': 'holiday',
   'christmas-cocktails-premium-guide': 'holiday',
-  // FR
   'lart-absolu-des-cocktails-de-noel': 'holiday',
   'guide-premium-cocktails-noel': 'holiday',
 
-  // === YOUNG MOTHERS ===
+  // ==========================================================
+  // YOUNG MOTHERS (Jeunes mamans)
+  // ==========================================================
+
   'first-time-mom-after-35': 'young-mothers',
-  // FR
   'premiere-maman-apres-35-ans': 'young-mothers',
 
-  // === NATURAL MEDICINE ===
+  // ==========================================================
+  // NATURAL MEDICINE (Medecine naturelle)
+  // ==========================================================
+
   'essential-natural-remedies': 'natural-medicine',
-  // FR
   'remedes-naturels-essentiels': 'natural-medicine',
 };
 
@@ -343,11 +428,13 @@ function guessCategory(slug, frontmatter) {
 
   // 2. Pattern-based fallback
   if (slug.includes('funeral') || slug.includes('funerailles') || slug.includes('memorial')) return 'memorial';
-  if (slug.includes('halloween') || slug.includes('haunted') || slug.includes('spooky') || slug.includes('ghost') || slug.includes('skull') || slug.includes('jack-o-lantern') || slug.includes('headless') || slug.includes('coloring-book-kids') || slug.includes('blood-moon') || slug.includes('curiosity-cabinet')) return 'halloween';
-  if (slug.includes('adhd') || slug.includes('planner-bundle')) return 'planners';
+  if (slug.includes('halloween') || slug.includes('haunted') || slug.includes('spooky') || slug.includes('ghost') || slug.includes('skull') || slug.includes('jack-o-lantern') || slug.includes('headless') || slug.includes('blood-moon') || slug.includes('curiosity-cabinet')) return 'halloween';
+  if (slug.includes('coloring-book-kids') || slug.includes('coloring-bundle-kids')) return 'halloween';
+  if (slug.includes('adhd')) return 'health';
   if (slug.includes('christmas') || slug.includes('cocktails-de-noel') || slug.includes('noel')) return 'holiday';
-  if (slug.includes('kdp') || slug.includes('indiepress') || slug.includes('publishing') || slug.includes('auto-edition') || slug.includes('ia-express') || slug.includes('author') || slug.includes('auteur') || slug.includes('book-description') || slug.includes('blurb') || slug.includes('romance-toolkit') || slug.includes('series-bible')) return 'writing-publishing';
-  if (slug.includes('freelance') || slug.includes('business') || slug.includes('onboarding') || slug.includes('proposal') || slug.includes('pitch') || slug.includes('dashboard') || slug.includes('side-hustle') || slug.includes('digital-product-launch')) return 'business';
+  if (slug.includes('ia-express')) return 'employment';
+  if (slug.includes('kdp') || slug.includes('indiepress') || slug.includes('auto-edition') || slug.includes('author') || slug.includes('auteur') || slug.includes('book-description') || slug.includes('blurb') || slug.includes('romance-toolkit') || slug.includes('series-bible') || slug.includes('publishing') || slug.includes('prompts')) return 'writing-publishing';
+  if (slug.includes('freelance') || slug.includes('business') || slug.includes('onboarding') || slug.includes('proposal') || slug.includes('pitch') || slug.includes('dashboard') || slug.includes('side-hustle') || slug.includes('digital-product-launch')) return 'employment';
 
   // 3. Type-based fallback from frontmatter
   if (frontmatter.includes('type: "roman"') || frontmatter.includes("type: 'roman'") || frontmatter.includes('type: roman')) return 'literature';
@@ -356,15 +443,42 @@ function guessCategory(slug, frontmatter) {
   const genreMatch = frontmatter.match(/genre:\s*["']?([^"'\n]+)/);
   if (genreMatch) {
     const genre = genreMatch[1].toLowerCase();
-    if (genre.includes('thriller') || genre.includes('romance') || genre.includes('mystery') || genre.includes('fantasy') || genre.includes('fiction') || genre.includes('gothic') || genre.includes('drama')) return 'literature';
-    if (genre.includes('self-help') || genre.includes('psychology') || genre.includes('stoic')) return 'personal-development';
-    if (genre.includes('health') || genre.includes('wellness') || genre.includes('aging') || genre.includes('dopamine') || genre.includes('perimenopause')) return 'health';
-    if (genre.includes('finance') || genre.includes('money') || genre.includes('budget')) return 'personal-finance';
-    if (genre.includes('travel')) return 'travel';
+    if (genre.includes('thriller') || genre.includes('romance') || genre.includes('mystery') || genre.includes('fantasy') || genre.includes('fiction') || genre.includes('gothic') || genre.includes('drama') || genre.includes('noir') || genre.includes('horror')) return 'literature';
+    if (genre.includes('self-help') || genre.includes('psychology') || genre.includes('stoic') || genre.includes('desarrollo') || genre.includes('developpement')) return 'personal-development';
+    if (genre.includes('health') || genre.includes('wellness') || genre.includes('aging') || genre.includes('dopamine') || genre.includes('perimenopause') || genre.includes('salute') || genre.includes('sante') || genre.includes('cortisol') || genre.includes('nutrition') || genre.includes('abnehmen') || genre.includes('poids')) return 'health';
+    if (genre.includes('finance') || genre.includes('money') || genre.includes('budget') || genre.includes('fuel')) return 'personal-finance';
+    if (genre.includes('travel') || genre.includes('voyage')) return 'travel';
   }
 
-  return null; // Pas de categorie trouvee
+  return null;
 }
+
+// ============================================================
+// VALEURS ACCEPTEES (pour corriger les anciennes valeurs)
+// ============================================================
+const VALID_CATEGORIES = new Set([
+  'literature', 'employment', 'writing-publishing', 'health',
+  'halloween', 'memorial', 'personal-development', 'travel',
+  'personal-finance', 'holiday', 'natural-medicine', 'young-mothers',
+  'seniors', 'relationships', 'housing', 'law', 'entertainment'
+]);
+
+// Mapping des anciennes valeurs vers les nouvelles
+const CATEGORY_MIGRATION = {
+  'finances': 'personal-finance',
+  'finance': 'personal-finance',
+  'business': 'employment',
+  'planners': 'health',
+  'planner': 'health',
+  'developpement-personnel': 'personal-development',
+  'dev-perso': 'personal-development',
+  'sante': 'health',
+  'roman': 'literature',
+  'romans': 'literature',
+  'nonfiction': null, // needs slug-based resolution
+  'funeraire': 'memorial',
+  'noel': 'holiday',
+};
 
 // ============================================================
 // MAIN
@@ -378,17 +492,18 @@ function main() {
     process.exit(1);
   }
 
-  // Lister toutes les langues
   const langs = fs.readdirSync(boutiqueDir).filter(f => {
     return fs.statSync(path.join(boutiqueDir, f)).isDirectory();
   });
 
-  console.log(`\n===== FIX CATEGORIES - SolutionsDirectesPro =====`);
+  console.log(`\n===== FIX CATEGORIES v2 — SolutionsDirectesPro =====`);
+  console.log(`Structure: 14 categories validees`);
   console.log(`Langues trouvees: ${langs.join(', ')}\n`);
 
   let totalFixed = 0;
   let totalSkipped = 0;
   let totalAlreadyOk = 0;
+  let totalMigrated = 0;
   let unknowns = [];
 
   for (const lang of langs) {
@@ -409,7 +524,6 @@ function main() {
         continue;
       }
 
-      // Extraire le frontmatter
       const fmEnd = content.indexOf('---', 3);
       if (fmEnd === -1) {
         console.log(`  SKIP ${file} (frontmatter mal forme)`);
@@ -420,63 +534,87 @@ function main() {
       const frontmatter = content.substring(0, fmEnd + 3);
       const body = content.substring(fmEnd + 3);
 
-      // Verifier si category existe deja
-      const hasCategoryLine = /^category:/m.test(frontmatter);
+      // Extraire la categorie actuelle
+      const catMatch = frontmatter.match(/^category:\s*["']?([^"'\n]*)["']?\s*$/m);
+      const currentCat = catMatch ? catMatch[1].trim() : null;
 
-      if (hasCategoryLine) {
-        // Verifier si la valeur est vide
-        const catMatch = frontmatter.match(/^category:\s*["']?([^"'\n]*)["']?\s*$/m);
-        if (catMatch && catMatch[1].trim()) {
-          console.log(`  OK   ${file} (category: "${catMatch[1].trim()}")`);
-          totalAlreadyOk++;
-          continue;
+      // Determiner la bonne categorie
+      let targetCategory = null;
+
+      if (currentCat) {
+        // Verifier si la valeur actuelle est valide
+        if (VALID_CATEGORIES.has(currentCat)) {
+          // Verifier quand meme si le slug a un mapping explicite different
+          const explicitCat = SLUG_TO_CATEGORY[slug];
+          if (explicitCat && explicitCat !== currentCat) {
+            targetCategory = explicitCat;
+            console.log(`  MIG  ${file} : "${currentCat}" -> "${targetCategory}" (correction)`);
+            totalMigrated++;
+          } else {
+            console.log(`  OK   ${file} (category: "${currentCat}")`);
+            totalAlreadyOk++;
+            continue;
+          }
+        } else if (CATEGORY_MIGRATION[currentCat]) {
+          // Ancienne valeur connue → migrer
+          targetCategory = CATEGORY_MIGRATION[currentCat];
+          console.log(`  MIG  ${file} : "${currentCat}" -> "${targetCategory}"`);
+          totalMigrated++;
+        } else {
+          // Valeur inconnue → essayer le mapping slug
+          targetCategory = guessCategory(slug, frontmatter);
+          if (targetCategory) {
+            console.log(`  MIG  ${file} : "${currentCat}" -> "${targetCategory}"`);
+            totalMigrated++;
+          }
+        }
+      } else {
+        // Pas de category → en ajouter une
+        targetCategory = guessCategory(slug, frontmatter);
+        if (targetCategory) {
+          console.log(`  ADD  ${file} -> category: "${targetCategory}"`);
+          totalFixed++;
         }
       }
 
-      // Determiner la bonne categorie
-      const category = guessCategory(slug, frontmatter);
-
-      if (!category) {
-        console.log(`  ???  ${file} (categorie inconnue - a verifier manuellement)`);
+      if (!targetCategory) {
+        console.log(`  ???  ${file} (categorie inconnue - verifier manuellement)`);
         unknowns.push(`${lang}/${file}`);
         totalSkipped++;
         continue;
       }
 
-      // Ajouter ou corriger le champ category
+      // Appliquer la modification
       let newFrontmatter;
-      if (hasCategoryLine) {
-        // Remplacer la ligne category existante (vide)
-        newFrontmatter = frontmatter.replace(/^category:.*$/m, `category: "${category}"`);
+      if (catMatch) {
+        // Remplacer la ligne category existante
+        newFrontmatter = frontmatter.replace(/^category:.*$/m, `category: "${targetCategory}"`);
       } else {
-        // Ajouter category avant la fermeture ---
-        // On l'insere apres "type:" si present, sinon avant le ---
+        // Ajouter category
         const typeLineMatch = frontmatter.match(/^type:.*$/m);
         if (typeLineMatch) {
           newFrontmatter = frontmatter.replace(
             typeLineMatch[0],
-            `${typeLineMatch[0]}\ncategory: "${category}"`
+            `${typeLineMatch[0]}\ncategory: "${targetCategory}"`
           );
         } else {
-          // Ajouter juste avant le dernier ---
-          newFrontmatter = frontmatter.substring(0, fmEnd) + `category: "${category}"\n---`;
+          newFrontmatter = frontmatter.substring(0, fmEnd) + `category: "${targetCategory}"\n---`;
         }
       }
 
       const newContent = newFrontmatter + body;
       fs.writeFileSync(filePath, newContent, 'utf8');
-      console.log(`  FIX  ${file} -> category: "${category}"`);
-      totalFixed++;
     }
     console.log('');
   }
 
   // Resume
   console.log('===== RESUME =====');
-  console.log(`Fichiers corriges:   ${totalFixed}`);
-  console.log(`Deja corrects:       ${totalAlreadyOk}`);
-  console.log(`Ignores/inconnus:    ${totalSkipped}`);
-  console.log(`Total traites:       ${totalFixed + totalAlreadyOk + totalSkipped}`);
+  console.log(`Categories ajoutees:    ${totalFixed}`);
+  console.log(`Categories migrees:     ${totalMigrated}`);
+  console.log(`Deja corrects:          ${totalAlreadyOk}`);
+  console.log(`Ignores/inconnus:       ${totalSkipped}`);
+  console.log(`Total traites:          ${totalFixed + totalMigrated + totalAlreadyOk + totalSkipped}`);
 
   if (unknowns.length > 0) {
     console.log(`\n⚠️  Fichiers sans categorie determinee (a verifier):`);

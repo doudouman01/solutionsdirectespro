@@ -5,7 +5,7 @@ cover: "/covers/freelance-money-tracker-tax-prep-kit.png"
 gumroad_link: "https://indiepress.gumroad.com/l/kxmxi"
 price_gumroad: "$24"
 market: "US"
-category: "personal-development"
+category: "employment"
 pages: 0
 language: "English"
 genre: "Freelancing"

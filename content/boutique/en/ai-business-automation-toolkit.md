@@ -5,7 +5,7 @@ cover: "/covers/ai-business-automation-toolkit.png"
 gumroad_link: "https://indiepress.gumroad.com/l/prhfvz"
 price_gumroad: "$29"
 market: "US"
-category: "personal-development"
+category: "employment"
 pages: 0
 language: "English"
 genre: "Business Productivity"

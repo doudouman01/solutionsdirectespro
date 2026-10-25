@@ -7,7 +7,7 @@ kindle_link: "https://www.amazon.fr/dp/B0HKGJVDZ7"
 price_kindle: "12.99 EUR"
 price_paperback: "19.99 EUR"
 market: "FR"
-category: "personal-development"
+category: "employment"
 pages: 353
 language: "Francais"
 genre: "IA / Sante"

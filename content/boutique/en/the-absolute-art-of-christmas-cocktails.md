@@ -5,7 +5,7 @@ cover: "/covers/the-absolute-art-of-christmas-cocktails.png"
 etsy_link: "https://www.etsy.com/listing/4584815327/"
 price_etsy: "$12.99"
 market: US
-category: "entertainment"
+category: "holiday"
 pages: "136"
 language: "English"
 genre: "Holiday Recipes & Entertaining"

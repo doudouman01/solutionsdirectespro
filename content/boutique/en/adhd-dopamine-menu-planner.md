@@ -5,7 +5,7 @@ cover: "/covers/adhd-dopamine-menu-planner.png"
 etsy_link: "https://www.etsy.com/listing/4580259168/"
 price_etsy: "$9.99"
 market: US
-category: "productivity"
+category: "health"
 pages: "25 pages"
 language: "English"
 genre: "Digital Planner"

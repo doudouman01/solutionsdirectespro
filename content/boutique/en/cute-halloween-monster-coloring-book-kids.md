@@ -5,7 +5,7 @@ cover: "/covers/cute-halloween-monster-coloring-book-kids.png"
 etsy_link: "https://www.etsy.com/ca-fr/listing/4587790085/livre-de-coloriage-de-monstres"
 price_etsy: "7.99 USD"
 market: "US"
-category: "entertainment"
+category: "halloween"
 pages: 40
 language: "English"
 genre: "Kids Activity / Halloween / Coloring"

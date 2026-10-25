@@ -5,7 +5,7 @@ cover: "/covers/digital-product-launch-planner.png"
 gumroad_link: "https://indiepress.gumroad.com/l/gtiajs"
 price_gumroad: "$14"
 market: "US"
-category: "personal-development"
+category: "employment"
 pages: 0
 language: "English"
 genre: "Business Productivity"

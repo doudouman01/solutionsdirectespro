@@ -5,7 +5,7 @@ cover: "/covers/client-onboarding-management-kit.png"
 gumroad_link: "https://indiepress.gumroad.com/l/cibpiv"
 price_gumroad: "$24"
 market: "US"
-category: "personal-development"
+category: "employment"
 pages: 0
 language: "English"
 genre: "Business Productivity"

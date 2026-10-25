@@ -12,7 +12,7 @@ language: "en"
 author: "Adrian Phoenix Vale"
 asin: "B0HH8FJP8J"
 publishedDate: "2026-08-31"
-category: "health"
+category: "personal-development"
 genre: "Counseling & Psychology / Mental Health"
 excerpt: "Your anger is not the problem. Your relationship with it is. This book combines Stoic philosophy with cutting-edge neuroscience to transform anger from a destructive force into a strategic advantage."
 ---

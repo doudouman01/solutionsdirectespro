@@ -5,7 +5,7 @@ cover: "/covers/ai-content-machine-201-prompts.png"
 gumroad_link: "https://indiepress.gumroad.com/l/jasvbw"
 price_gumroad: "$19"
 market: "US"
-category: "personal-development"
+category: "writing-publishing"
 pages: 0
 language: "English"
 genre: "AI Productivity"

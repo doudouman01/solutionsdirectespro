@@ -5,7 +5,7 @@ cover: "/covers/adhd-cleaning-planner.png"
 etsy_link: "https://www.etsy.com/listing/4580960155/"
 price_etsy: "$8.99"
 market: US
-category: "productivity"
+category: "health"
 pages: "35 pages"
 language: "English"
 genre: "Digital Planner"

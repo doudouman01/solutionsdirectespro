@@ -5,7 +5,7 @@ cover: "/covers/side-hustle-digital-products-playbook.png"
 gumroad_link: "https://indiepress.gumroad.com/l/jalmtw"
 price_gumroad: "$24"
 market: "US"
-category: "personal-development"
+category: "employment"
 pages: 0
 language: "English"
 genre: "Business"

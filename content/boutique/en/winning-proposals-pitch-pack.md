@@ -5,7 +5,7 @@ cover: "/covers/winning-proposals-pitch-pack.png"
 gumroad_link: "https://indiepress.gumroad.com/l/jafxfx"
 price_gumroad: "$19"
 market: "US"
-category: "personal-development"
+category: "employment"
 pages: 0
 language: "English"
 genre: "Freelancing"

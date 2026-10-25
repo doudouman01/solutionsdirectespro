@@ -5,7 +5,7 @@ cover: "/covers/creator-business-dashboard-notion-template.png"
 gumroad_link: "https://indiepress.gumroad.com/l/gdcewx"
 price_gumroad: "$19"
 market: "US"
-category: "personal-development"
+category: "employment"
 pages: 0
 language: "English"
 genre: "Business Productivity"

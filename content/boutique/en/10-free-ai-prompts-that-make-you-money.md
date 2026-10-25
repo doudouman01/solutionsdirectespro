@@ -5,7 +5,7 @@ cover: "/covers/10-free-ai-prompts-that-make-you-money.png"
 gumroad_link: "https://indiepress.gumroad.com/l/pcxre"
 price_gumroad: "Free"
 market: "US"
-category: "personal-development"
+category: "writing-publishing"
 pages: 0
 language: "English"
 genre: "AI Productivity"

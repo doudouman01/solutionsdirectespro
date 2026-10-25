@@ -12,7 +12,7 @@ language: "pt"
 author: "Adrian Phoenix Vale"
 asin: "B0HH8LVSRT"
 publishedDate: "2026-08-31"
-category: "health"
+category: "personal-development"
 genre: "Autoajuda / Autogestão"
 excerpt: "Você não precisa ganhar a próxima aposta. Precisa recuperar a sua vida. Este guia foi criado para quem decidiu interromper o ciclo do vício em apostas online."
 ---
