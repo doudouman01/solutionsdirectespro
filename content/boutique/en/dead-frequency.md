@@ -15,6 +15,7 @@ markets:
     amazon_link: "https://www.amazon.com/dp/B0HGPVGL65"
     price: "$15.99"
 excerpt: "A mysterious signal is altering minds. No one heard it coming. A gripping near-future sci-fi thriller where technology turns deadly."
+category: "literature"
 ---
 
 In a near-future world where technology has woven itself into every aspect of daily life, a mysterious frequency begins to emerge. People are changing. Minds are shifting. And no one can explain why. Dead Frequency explores the dark intersection of technology, consciousness, and control.

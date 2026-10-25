@@ -4,6 +4,7 @@ excerpt: "She was the perfect wife. She was also the most dangerous person in th
 cover: "/covers/the-glass-wife.png"
 genre: "Domestic Thriller"
 type: "roman"
+category: "literature"
 pages: 335
 language: "English"
 date: "2026-09-01"

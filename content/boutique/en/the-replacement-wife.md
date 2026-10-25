@@ -4,6 +4,7 @@ excerpt: "She was hired to replace a woman who had died. But that woman isn't de
 cover: "/covers/the-replacement-wife.png"
 genre: "Gothic Psychological Thriller"
 type: "roman"
+category: "literature"
 pages: 323
 language: "English"
 date: "2026-08-31"

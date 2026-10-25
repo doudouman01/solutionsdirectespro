@@ -4,6 +4,7 @@ excerpt: "Her nose bled in English class. By sundown, she'd learned that everyth
 cover: "/covers/the-awakening.png"
 genre: "Southern Gothic Paranormal Romance"
 type: "roman"
+category: "literature"
 pages: 306
 language: "English"
 date: "2026-08-31"

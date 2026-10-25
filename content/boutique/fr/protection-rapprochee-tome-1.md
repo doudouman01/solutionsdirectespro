@@ -4,6 +4,7 @@ excerpt: "Elle a détruit l'empire de son père pour sauver la vérité. Il a ju
 cover: "/covers/protection-rapprochee-tome-1.png"
 genre: "Romance Suspense / Thriller d'espionnage"
 type: "roman"
+category: "literature"
 pages: 330
 language: "Français"
 date: "2026-08-31"

@@ -4,6 +4,7 @@ excerpt: "Is your body aging faster than the calendar says it should? Most of wh
 cover: "/covers/slow-aging.png"
 genre: "Health & Longevity"
 type: "nonfiction"
+category: "health"
 pages: 201
 language: "English"
 date: "2026-09-01"
