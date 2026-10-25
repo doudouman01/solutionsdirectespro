@@ -1,13 +1,13 @@
 /**
- * fix-categories.js — v2 (STRUCTURE FINALE VALIDEE)
+ * fix-categories.js — v3 (SLUGS CORRIGES)
  * ====================================================
  * Corrige le champ "category" dans TOUS les fichiers boutique
  * de SolutionsDirectesPro, toutes langues confondues.
  *
  * 14 CATEGORIES :
- *   literature, employment, writing-publishing, health,
+ *   literature, employment, writing-publishing, health-wellness,
  *   halloween, memorial, personal-development, travel,
- *   personal-finance, holiday, natural-medicine, young-mothers,
+ *   finance, holiday, natural-medicine, young-mothers,
  *   seniors, relationships
  *
  * UTILISATION :
@@ -254,38 +254,38 @@ const SLUG_TO_CATEGORY = {
   'modeles-description-livre': 'writing-publishing',
 
   // ==========================================================
-  // HEALTH (Sante et bien-etre) — sante + ADHD planners
+  // HEALTH-WELLNESS (Sante et bien-etre) — sante + ADHD planners
   // ==========================================================
 
   // EN health books
-  'aging-with-grace': 'health',
-  'slow-aging': 'health',
-  'the-14-day-dopamine-reset': 'health',
-  'perimenopause-guide': 'health',
-  'natural-snack-kitchen': 'health',
+  'aging-with-grace': 'health-wellness',
+  'slow-aging': 'health-wellness',
+  'the-14-day-dopamine-reset': 'health-wellness',
+  'perimenopause-guide': 'health-wellness',
+  'natural-snack-kitchen': 'health-wellness',
 
-  // EN ADHD planners (→ health)
-  'adhd-brain-dump-planner': 'health',
-  'adhd-budget-planner': 'health',
-  'adhd-cleaning-planner': 'health',
-  'adhd-dopamine-menu-planner': 'health',
-  'adhd-meal-planner': 'health',
-  'adhd-planner-bundle': 'health',
-  'adhd-task-paralysis-breaker': 'health',
+  // EN ADHD planners (→ health-wellness)
+  'adhd-brain-dump-planner': 'health-wellness',
+  'adhd-budget-planner': 'health-wellness',
+  'adhd-cleaning-planner': 'health-wellness',
+  'adhd-dopamine-menu-planner': 'health-wellness',
+  'adhd-meal-planner': 'health-wellness',
+  'adhd-planner-bundle': 'health-wellness',
+  'adhd-task-paralysis-breaker': 'health-wellness',
 
   // FR health
-  'perte-de-poids-apres-40': 'health',
-  'vieillir-avec-grace': 'health',
-  'ralentir-le-vieillissement': 'health',
-  'reset-dopamine-14-jours': 'health',
-  'guide-perimenopause': 'health',
-  'cuisine-snacks-naturels': 'health',
+  'perte-de-poids-apres-40': 'health-wellness',
+  'vieillir-avec-grace': 'health-wellness',
+  'ralentir-le-vieillissement': 'health-wellness',
+  'reset-dopamine-14-jours': 'health-wellness',
+  'guide-perimenopause': 'health-wellness',
+  'cuisine-snacks-naturels': 'health-wellness',
 
   // DE health
-  'meal-prep-abnehmen': 'health',
+  'meal-prep-abnehmen': 'health-wellness',
 
   // IT health
-  'detox-dal-cortisolo': 'health',
+  'detox-dal-cortisolo': 'health-wellness',
 
   // ==========================================================
   // PERSONAL DEVELOPMENT (Developpement personnel)
@@ -315,13 +315,13 @@ const SLUG_TO_CATEGORY = {
   'steh-auf-ohne-entschuldigung': 'personal-development',
 
   // ==========================================================
-  // PERSONAL FINANCE (Finances personnelles)
+  // FINANCE (Finances personnelles)
   // ==========================================================
 
-  'drive-smarter-spend-less': 'personal-finance',
-  'rewire-your-money-mind': 'personal-finance',
-  'conduire-malin-depenser-moins': 'personal-finance',
-  'reprogrammer-votre-esprit-financier': 'personal-finance',
+  'drive-smarter-spend-less': 'finance',
+  'rewire-your-money-mind': 'finance',
+  'conduire-malin-depenser-moins': 'finance',
+  'reprogrammer-votre-esprit-financier': 'finance',
 
   // ==========================================================
   // TRAVEL (Voyage)
@@ -430,7 +430,7 @@ function guessCategory(slug, frontmatter) {
   if (slug.includes('funeral') || slug.includes('funerailles') || slug.includes('memorial')) return 'memorial';
   if (slug.includes('halloween') || slug.includes('haunted') || slug.includes('spooky') || slug.includes('ghost') || slug.includes('skull') || slug.includes('jack-o-lantern') || slug.includes('headless') || slug.includes('blood-moon') || slug.includes('curiosity-cabinet')) return 'halloween';
   if (slug.includes('coloring-book-kids') || slug.includes('coloring-bundle-kids')) return 'halloween';
-  if (slug.includes('adhd')) return 'health';
+  if (slug.includes('adhd')) return 'health-wellness';
   if (slug.includes('christmas') || slug.includes('cocktails-de-noel') || slug.includes('noel')) return 'holiday';
   if (slug.includes('ia-express')) return 'employment';
   if (slug.includes('kdp') || slug.includes('indiepress') || slug.includes('auto-edition') || slug.includes('author') || slug.includes('auteur') || slug.includes('book-description') || slug.includes('blurb') || slug.includes('romance-toolkit') || slug.includes('series-bible') || slug.includes('publishing') || slug.includes('prompts')) return 'writing-publishing';
@@ -445,8 +445,8 @@ function guessCategory(slug, frontmatter) {
     const genre = genreMatch[1].toLowerCase();
     if (genre.includes('thriller') || genre.includes('romance') || genre.includes('mystery') || genre.includes('fantasy') || genre.includes('fiction') || genre.includes('gothic') || genre.includes('drama') || genre.includes('noir') || genre.includes('horror')) return 'literature';
     if (genre.includes('self-help') || genre.includes('psychology') || genre.includes('stoic') || genre.includes('desarrollo') || genre.includes('developpement')) return 'personal-development';
-    if (genre.includes('health') || genre.includes('wellness') || genre.includes('aging') || genre.includes('dopamine') || genre.includes('perimenopause') || genre.includes('salute') || genre.includes('sante') || genre.includes('cortisol') || genre.includes('nutrition') || genre.includes('abnehmen') || genre.includes('poids')) return 'health';
-    if (genre.includes('finance') || genre.includes('money') || genre.includes('budget') || genre.includes('fuel')) return 'personal-finance';
+    if (genre.includes('health') || genre.includes('wellness') || genre.includes('aging') || genre.includes('dopamine') || genre.includes('perimenopause') || genre.includes('salute') || genre.includes('sante') || genre.includes('cortisol') || genre.includes('nutrition') || genre.includes('abnehmen') || genre.includes('poids')) return 'health-wellness';
+    if (genre.includes('finance') || genre.includes('money') || genre.includes('budget') || genre.includes('fuel')) return 'finance';
     if (genre.includes('travel') || genre.includes('voyage')) return 'travel';
   }
 
@@ -457,22 +457,23 @@ function guessCategory(slug, frontmatter) {
 // VALEURS ACCEPTEES (pour corriger les anciennes valeurs)
 // ============================================================
 const VALID_CATEGORIES = new Set([
-  'literature', 'employment', 'writing-publishing', 'health',
+  'literature', 'employment', 'writing-publishing', 'health-wellness',
   'halloween', 'memorial', 'personal-development', 'travel',
-  'personal-finance', 'holiday', 'natural-medicine', 'young-mothers',
+  'finance', 'holiday', 'natural-medicine', 'young-mothers',
   'seniors', 'relationships', 'housing', 'law', 'entertainment'
 ]);
 
 // Mapping des anciennes valeurs vers les nouvelles
 const CATEGORY_MIGRATION = {
-  'finances': 'personal-finance',
-  'finance': 'personal-finance',
+  'finances': 'finance',
+  'personal-finance': 'finance',
   'business': 'employment',
-  'planners': 'health',
-  'planner': 'health',
+  'planners': 'health-wellness',
+  'planner': 'health-wellness',
+  'health': 'health-wellness',
   'developpement-personnel': 'personal-development',
   'dev-perso': 'personal-development',
-  'sante': 'health',
+  'sante': 'health-wellness',
   'roman': 'literature',
   'romans': 'literature',
   'nonfiction': null, // needs slug-based resolution
@@ -496,8 +497,8 @@ function main() {
     return fs.statSync(path.join(boutiqueDir, f)).isDirectory();
   });
 
-  console.log(`\n===== FIX CATEGORIES v2 — SolutionsDirectesPro =====`);
-  console.log(`Structure: 14 categories validees`);
+  console.log(`\n===== FIX CATEGORIES v3 — SolutionsDirectesPro =====`);
+  console.log(`Structure: 14 categories (slugs corriges: health-wellness, finance)`);
   console.log(`Langues trouvees: ${langs.join(', ')}\n`);
 
   let totalFixed = 0;

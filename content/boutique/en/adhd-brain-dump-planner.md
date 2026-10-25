@@ -5,7 +5,7 @@ cover: "/covers/adhd-brain-dump-planner.png"
 etsy_link: "https://www.etsy.com/listing/4580971128/"
 price_etsy: "$8.99"
 market: US
-category: "health"
+category: "health-wellness"
 pages: "35 pages"
 language: "English"
 genre: "Digital Planner"

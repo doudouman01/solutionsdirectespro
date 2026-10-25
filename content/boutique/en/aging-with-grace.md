@@ -12,7 +12,7 @@ language: "en"
 author: "Adrian Phoenix Vale"
 asin: "B0HH8PTSBZ"
 publishedDate: "2026-08-31"
-category: "health"
+category: "health-wellness"
 ---
 
 What if the best years of your life haven't happened yet? Science says they haven't — and this book shows you exactly how to claim them.

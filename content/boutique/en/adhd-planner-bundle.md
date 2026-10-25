@@ -5,7 +5,7 @@ cover: "/covers/adhd-planner-bundle.png"
 etsy_link: "https://www.etsy.com/listing/4580966242/"
 price_etsy: "$19.99"
 market: US
-category: "health"
+category: "health-wellness"
 pages: "146 pages"
 language: "English"
 genre: "Digital Planner"

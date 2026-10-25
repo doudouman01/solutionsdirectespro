@@ -5,7 +5,7 @@ cover: "/covers/adhd-task-paralysis-breaker.png"
 etsy_link: "https://www.etsy.com/listing/4580262557/"
 price_etsy: "$7.99"
 market: US
-category: "health"
+category: "health-wellness"
 pages: "15 pages"
 language: "English"
 genre: "Digital Planner"
