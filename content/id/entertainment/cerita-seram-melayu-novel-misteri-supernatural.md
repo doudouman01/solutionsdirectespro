@@ -112,7 +112,7 @@ Bagi pencinta horor Melayu, *Kebangkitan* menawarkan sesuatu yang segar: perspek
 
 **[Baca Kebangkitan: Yang Terbangkitkan dari Beaumont di Google Play Books](https://play.google.com/store/books/details?id=wfgJEgAAQBAJ)**
 
-Jika anda menikmati *Kebangkitan*, pastikan anda juga meneroka panduan [novel supernatural terbaik tentang kebangkitan dan dunia ghaib](/articles/ms/entertainment/novel-supernatural-terbaik-2026) kami untuk lebih banyak rekomendasi dalam vein yang sama.
+Jika anda menikmati *Kebangkitan*, pastikan anda juga meneroka panduan [novel supernatural terbaik tentang kebangkitan dan dunia ghaib](/articles/id/entertainment/novel-supernatural-terbaik-2026) kami untuk lebih banyak rekomendasi dalam vein yang sama.
 
 ### Kos Putri No. 7: Kamar yang Menunggu — Buku 1 (Adrian Phoenix Vale)
 
@@ -128,7 +128,7 @@ Novel ini akan bergema kuat dengan sesiapa yang pernah tinggal di kos-kosan, asr
 
 **[Baca Kos Putri No. 7: Kamar yang Menunggu di Google Play Books](https://play.google.com/store/books/details?id=afkJEgAAQBAJ)**
 
-Untuk lebih banyak novel horor berlatar penginapan, jangan lepaskan panduan [novel horor kos-kosan dan rumah berhantu terbaik](/articles/ms/entertainment/novel-horor-kos-kosan-rumah-berhantu) kami.
+Untuk lebih banyak novel horor berlatar penginapan, jangan lepaskan panduan [novel horor kos-kosan dan rumah berhantu terbaik](/articles/id/entertainment/novel-horor-kos-kosan-rumah-berhantu) kami.
 
 ### Tari Terakhir di Ubud: Penjaga Niskala — Buku 1 (Adrian Phoenix Vale)
 
@@ -144,7 +144,7 @@ Elemen-elemen seperti Leyak (penyihir jahat yang boleh mengubah bentuk), Rangda 
 
 **[Baca Tari Terakhir di Ubud: Penjaga Niskala di Google Play Books](https://play.google.com/store/books/details?id=U_wJEgAAQBAJ)**
 
-Jika dunia Niskala Bali memikat anda, terokai panduan lengkap [novel misteri Bali dan budaya Niskala](/articles/ms/entertainment/novel-misteri-bali-budaya-niskala) kami.
+Jika dunia Niskala Bali memikat anda, terokai panduan lengkap [novel misteri Bali dan budaya Niskala](/articles/id/entertainment/novel-misteri-bali-budaya-niskala) kami.
 
 ### Rekomendasi Tambahan yang Layak Dibaca
 
@@ -230,8 +230,8 @@ Soalan yang tinggal hanyalah: adakah anda cukup berani untuk membukanya?
 
 *Ingin menerokai lebih banyak novel seram Melayu? Layari panduan-panduan kami yang lain:*
 
-- [Novel Supernatural Terbaik tentang Kebangkitan dan Dunia Ghaib 2026](/articles/ms/entertainment/novel-supernatural-terbaik-2026)
-- [Novel Horor Kos-Kosan dan Rumah Berhantu Terbaik 2026](/articles/ms/entertainment/novel-horor-kos-kosan-rumah-berhantu)
-- [Novel Misteri Bali dan Budaya Niskala Terbaik 2026](/articles/ms/entertainment/novel-misteri-bali-budaya-niskala)
+- [Novel Supernatural Terbaik tentang Kebangkitan dan Dunia Ghaib 2026](/articles/id/entertainment/novel-supernatural-terbaik-2026)
+- [Novel Horor Kos-Kosan dan Rumah Berhantu Terbaik 2026](/articles/id/entertainment/novel-horor-kos-kosan-rumah-berhantu)
+- [Novel Misteri Bali dan Budaya Niskala Terbaik 2026](/articles/id/entertainment/novel-misteri-bali-budaya-niskala)
 
 *Untuk alat-alat produktiviti dan penulisan, layari [ToolCraftKit](https://toolcraftkit.com) — koleksi alat digital percuma untuk penulis dan pembuat kandungan.*

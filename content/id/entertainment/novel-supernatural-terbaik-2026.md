@@ -112,7 +112,7 @@ Jika anda menikmati horor psikologi yang bersandarkan kepada setting yang realis
 
 **[Baca Kos Putri No. 7: Kamar yang Menunggu di Google Play Books](https://play.google.com/store/books/details?id=afkJEgAAQBAJ)**
 
-Untuk lebih banyak novel horor bertema rumah kos dan bangunan berhantu, baca panduan kami tentang [novel horor kos-kosan dan rumah berhantu terbaik](/articles/ms/entertainment/novel-horor-kos-kosan-rumah-berhantu).
+Untuk lebih banyak novel horor bertema rumah kos dan bangunan berhantu, baca panduan kami tentang [novel horor kos-kosan dan rumah berhantu terbaik](/articles/id/entertainment/novel-horor-kos-kosan-rumah-berhantu).
 
 ### 3. Tari Terakhir di Ubud: Penjaga Niskala — Buku 1
 
@@ -132,7 +132,7 @@ Bagi pembaca yang berminat dengan budaya Bali dan supernatural Asia Tenggara, *T
 
 **[Baca Tari Terakhir di Ubud: Penjaga Niskala di Google Play Books](https://play.google.com/store/books/details?id=U_wJEgAAQBAJ)**
 
-Ingin mendalami dunia Niskala dan supernatural Bali? Jangan lepaskan panduan kami tentang [novel misteri Bali dan budaya Niskala](/articles/ms/entertainment/novel-misteri-bali-budaya-niskala).
+Ingin mendalami dunia Niskala dan supernatural Bali? Jangan lepaskan panduan kami tentang [novel misteri Bali dan budaya Niskala](/articles/id/entertainment/novel-misteri-bali-budaya-niskala).
 
 ### 4. Karya Klasik Supernatural Melayu yang Kekal Relevan
 
@@ -232,7 +232,7 @@ Konflik antara tradisi dan kemodenan adalah tema yang kerap muncul dalam novel s
 
 ## Senarai Bacaan Tambahan: Lebih Banyak Cerita Seram Melayu
 
-Jika anda sudah menikmati novel-novel yang disenaraikan di atas dan menginginkan lebih banyak bacaan supernatural, jangan lepaskan koleksi lengkap [cerita seram Melayu: novel misteri dan supernatural](/articles/ms/entertainment/cerita-seram-melayu-novel-misteri-supernatural) yang kami telah susun untuk pencinta genre ini.
+Jika anda sudah menikmati novel-novel yang disenaraikan di atas dan menginginkan lebih banyak bacaan supernatural, jangan lepaskan koleksi lengkap [cerita seram Melayu: novel misteri dan supernatural](/articles/id/entertainment/cerita-seram-melayu-novel-misteri-supernatural) yang kami telah susun untuk pencinta genre ini.
 
 Genre supernatural Melayu juga melangkaui novel sahaja. Cerpen seram, komik horor, dan podcast cerita hantu — semuanya menyumbang kepada ekosistem yang kaya dan berkembang. Meneroka pelbagai medium ini akan memperkaya pengalaman anda sebagai pencinta supernatural.
 
@@ -266,4 +266,4 @@ Soalannya bukan sama ada anda berani membaca novel-novel ini. Soalannya ialah �
 
 ---
 
-*Terokai lagi novel-novel supernatural dan horor Melayu terbaik di SolutionsDirectesPro. Dari [cerita seram klasik hingga karya moden](/articles/ms/entertainment/cerita-seram-melayu-novel-misteri-supernatural), daripada [horor rumah berhantu](/articles/ms/entertainment/novel-horor-kos-kosan-rumah-berhantu) hingga [misteri budaya Bali](/articles/ms/entertainment/novel-misteri-bali-budaya-niskala), kami menyusun senarai bacaan terbaik untuk pencinta supernatural Nusantara.*
+*Terokai lagi novel-novel supernatural dan horor Melayu terbaik di SolutionsDirectesPro. Dari [cerita seram klasik hingga karya moden](/articles/id/entertainment/cerita-seram-melayu-novel-misteri-supernatural), daripada [horor rumah berhantu](/articles/id/entertainment/novel-horor-kos-kosan-rumah-berhantu) hingga [misteri budaya Bali](/articles/id/entertainment/novel-misteri-bali-budaya-niskala), kami menyusun senarai bacaan terbaik untuk pencinta supernatural Nusantara.*

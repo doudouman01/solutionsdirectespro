@@ -54,7 +54,7 @@ Apa yang menjadikan novel ini luar biasa ialah penghormatan mendalam terhadap bu
 
 **[Baca Tari Terakhir di Ubud: Penjaga Niskala di Google Play Books](https://play.google.com/store/books/details?id=U_wJEgAAQBAJ)**
 
-> Jika anda ingin mendalami khususnya novel-novel berlatar Bali dan konsep Niskala, baca juga panduan kami tentang [novel misteri Bali dan budaya Niskala](/articles/ms/entertainment/novel-misteri-bali-budaya-niskala).
+> Jika anda ingin mendalami khususnya novel-novel berlatar Bali dan konsep Niskala, baca juga panduan kami tentang [novel misteri Bali dan budaya Niskala](/articles/id/entertainment/novel-misteri-bali-budaya-niskala).
 
 ### Sunda: Jurig, Siluman, dan Hutan yang Bernyawa
 
@@ -116,7 +116,7 @@ Dari penulis yang sama datang sebuah lagi karya yang menggoncangkan genre supern
 
 Dalam budaya Melayu dan Indonesia, konsep "yang terbangkitkan" mempunyai resonans yang sangat mendalam. Dari strigoi Romania hingga pontianak Melayu, setiap budaya mempunyai versinya sendiri tentang orang mati yang kembali. Phoenix Vale mengambil premis ini dan membinanya menjadi thriller supernatural yang tidak dapat anda letakkan.
 
-> Untuk senarai lengkap novel supernatural terbaik termasuk *Kebangkitan*, layari panduan kami tentang [novel supernatural terbaik tentang kebangkitan dan dunia ghaib](/articles/ms/entertainment/novel-supernatural-terbaik-2026).
+> Untuk senarai lengkap novel supernatural terbaik termasuk *Kebangkitan*, layari panduan kami tentang [novel supernatural terbaik tentang kebangkitan dan dunia ghaib](/articles/id/entertainment/novel-supernatural-terbaik-2026).
 
 **[Baca Kebangkitan di Google Play Books](https://play.google.com/store/books/details?id=wfgJEgAAQBAJ)**
 
@@ -214,7 +214,7 @@ Dengan begitu banyak pilihan, bagaimana anda memilih novel horor budaya yang ses
 - **Pembaca berpengalaman**: *Tari Terakhir di Ubud* atau *Gentayangan* untuk cabaran intelektual dan budaya
 - **Pembaca yang suka siri**: *Kebangkitan* (Buku 1) atau *Kos Putri No. 7* (Buku 1) — kedua-duanya menjanjikan kelanjutan cerita
 
-> Untuk lebih banyak rekomendasi horor Melayu, jangan lepaskan panduan lengkap kami tentang [cerita seram Melayu: novel misteri dan supernatural](/articles/ms/entertainment/cerita-seram-melayu-novel-misteri-supernatural).
+> Untuk lebih banyak rekomendasi horor Melayu, jangan lepaskan panduan lengkap kami tentang [cerita seram Melayu: novel misteri dan supernatural](/articles/id/entertainment/cerita-seram-melayu-novel-misteri-supernatural).
 
 ## Masa Depan Horor Budaya Indonesia
 
@@ -247,8 +247,8 @@ Selamat membaca. Dan jangan lupa tutup pintu.
 ---
 
 *Artikel ini adalah sebahagian daripada siri panduan horor kami. Baca juga:*
-- *[Novel Misteri Bali dan Budaya Niskala Terbaik 2026](/articles/ms/entertainment/novel-misteri-bali-budaya-niskala)*
-- *[Novel Supernatural Terbaik tentang Kebangkitan dan Dunia Ghaib](/articles/ms/entertainment/novel-supernatural-terbaik-2026)*
-- *[Cerita Seram Melayu: Novel Misteri dan Supernatural](/articles/ms/entertainment/cerita-seram-melayu-novel-misteri-supernatural)*
+- *[Novel Misteri Bali dan Budaya Niskala Terbaik 2026](/articles/id/entertainment/novel-misteri-bali-budaya-niskala)*
+- *[Novel Supernatural Terbaik tentang Kebangkitan dan Dunia Ghaib](/articles/id/entertainment/novel-supernatural-terbaik-2026)*
+- *[Cerita Seram Melayu: Novel Misteri dan Supernatural](/articles/id/entertainment/cerita-seram-melayu-novel-misteri-supernatural)*
 
 *Untuk alat dan sumber yang berguna untuk penulis dan pembaca, lawati [ToolCraftKit](https://toolcraftkit.com).*

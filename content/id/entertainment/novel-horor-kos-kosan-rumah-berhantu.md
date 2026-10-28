@@ -100,7 +100,7 @@ Untuk pembaca yang menikmati Kos Putri No. 7, Kebangkitan menawarkan pengalaman 
 
 📖 **[Baca Kebangkitan: Yang Terbangkitkan dari Beaumont di Google Play Books](https://play.google.com/store/books/details?id=wfgJEgAAQBAJ)** — sebuah kisah menghantui tentang kebangkitan, identiti, dan sempadan antara hidup dan mati.
 
-Baca juga: [Novel supernatural terbaik tentang kebangkitan dan dunia ghaib](/articles/ms/entertainment/novel-supernatural-terbaik-2026) untuk ulasan yang lebih mendalam mengenai karya ini.
+Baca juga: [Novel supernatural terbaik tentang kebangkitan dan dunia ghaib](/articles/id/entertainment/novel-supernatural-terbaik-2026) untuk ulasan yang lebih mendalam mengenai karya ini.
 
 ### 3. Tari Terakhir di Ubud: Penjaga Niskala — Adrian Phoenix Vale
 
@@ -117,7 +117,7 @@ Bagi pembaca yang sudah membaca Kos Putri No. 7 dan Kebangkitan, Tari Terakhir m
 
 📖 **[Baca Tari Terakhir di Ubud: Penjaga Niskala di Google Play Books](https://play.google.com/store/books/details?id=U_wJEgAAQBAJ)** — jelajahi dunia Niskala Bali dalam novel horor budaya yang memukau.
 
-Untuk ulasan penuh tentang novel ini dan dunia Niskala, baca: [Novel misteri Bali dan budaya Niskala](/articles/ms/entertainment/novel-misteri-bali-budaya-niskala).
+Untuk ulasan penuh tentang novel ini dan dunia Niskala, baca: [Novel misteri Bali dan budaya Niskala](/articles/id/entertainment/novel-misteri-bali-budaya-niskala).
 
 ### 4. Klasik Horor Kos-Kosan yang Perlu Anda Kenali
 
@@ -287,6 +287,6 @@ Jangan tunggu lagi. Malam ini, padamkan lampu, buka novel pilihan anda, dan biar
 
 *Untuk lebih banyak novel horor dan misteri dalam Bahasa Melayu, layari koleksi kami:*
 
-- [Cerita seram Melayu: novel misteri dan supernatural](/articles/ms/entertainment/cerita-seram-melayu-novel-misteri-supernatural)
-- [Novel supernatural terbaik tentang kebangkitan dan dunia ghaib](/articles/ms/entertainment/novel-supernatural-terbaik-2026)
-- [Novel misteri Bali dan budaya Niskala](/articles/ms/entertainment/novel-misteri-bali-budaya-niskala)
+- [Cerita seram Melayu: novel misteri dan supernatural](/articles/id/entertainment/cerita-seram-melayu-novel-misteri-supernatural)
+- [Novel supernatural terbaik tentang kebangkitan dan dunia ghaib](/articles/id/entertainment/novel-supernatural-terbaik-2026)
+- [Novel misteri Bali dan budaya Niskala](/articles/id/entertainment/novel-misteri-bali-budaya-niskala)

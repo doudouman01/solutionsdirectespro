@@ -231,8 +231,8 @@ Dan ingat: ada bilik-bilik yang menunggu.
 ---
 
 **Baca juga:**
-- [Novel horor kos-kosan dan rumah berhantu terbaik 2026](/articles/ms/entertainment/novel-horor-kos-kosan-rumah-berhantu)
-- [Novel supernatural terbaik tentang kebangkitan dan dunia ghaib](/articles/ms/entertainment/novel-supernatural-terbaik-2026)
-- [Cerita seram Melayu: novel misteri dan supernatural](/articles/ms/entertainment/cerita-seram-melayu-novel-misteri-supernatural)
+- [Novel horor kos-kosan dan rumah berhantu terbaik 2026](/articles/id/entertainment/novel-horor-kos-kosan-rumah-berhantu)
+- [Novel supernatural terbaik tentang kebangkitan dan dunia ghaib](/articles/id/entertainment/novel-supernatural-terbaik-2026)
+- [Cerita seram Melayu: novel misteri dan supernatural](/articles/id/entertainment/cerita-seram-melayu-novel-misteri-supernatural)
 
 *Cari lebih banyak alat berguna untuk penulis dan pembaca di [ToolCraftKit](https://toolcraftkit.com).*

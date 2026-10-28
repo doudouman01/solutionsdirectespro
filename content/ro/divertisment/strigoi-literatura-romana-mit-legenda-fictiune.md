@@ -225,7 +225,7 @@ Pentru cei care doresc să aprofundeze subiectul, iată câteva direcții de exp
 - Bram Stoker — *Dracula* (pentru a înțelege distorsiunea occidentală)
 - Emily Gerard — *The Land Beyond the Forest* (sursa lui Stoker)
 
-Descoperă și mai multe recomandări de lectură horror românească în articolul nostru complet: **[Cele mai bune cărți horror românești de citit în 2026](/articles/ro/entertainment/cele-mai-bune-carti-horror-romanesti-2026)**.
+Descoperă și mai multe recomandări de lectură horror românească în articolul nostru complet: **[Cele mai bune cărți horror românești de citit în 2026](/articles/ro/divertisment/cele-mai-bune-carti-horror-romanesti-2026)**.
 
 ---
 

@@ -52,7 +52,7 @@ Ceea ce impresionează la acest roman este echilibrul între rigurozitatea cerce
 
 **[Citește STRIGOI — Cel Care S-a Întors pe Google Play Books](https://play.google.com/store/books/details?id=f1YSEgAAQBAJ)**
 
-Pentru o analiză mai aprofundată a modului în care mitul strigoiului a evoluat de la credință populară la ficțiune literară, citește și articolul nostru dedicat: [Strigoi în literatura română: mit, legendă și ficțiune modernă](/articles/ro/entertainment/strigoi-literatura-romana-mit-legenda-fictiune).
+Pentru o analiză mai aprofundată a modului în care mitul strigoiului a evoluat de la credință populară la ficțiune literară, citește și articolul nostru dedicat: [Strigoi în literatura română: mit, legendă și ficțiune modernă](/articles/ro/divertisment/strigoi-literatura-romana-mit-legenda-fictiune).
 
 ## Clasicii Horror-ului Românesc: Temelia Genului
 
@@ -276,4 +276,4 @@ Iar pentru cititor, aceasta înseamnă un lucru simplu: nu a existat niciodată 
 
 ---
 
-*Acest articol face parte din seria noastră dedicată celor mai bune cărți pe genuri din literatura română. Pentru mai multe despre mitul strigoiului și evoluția sa literară, citește: [Strigoi în literatura română: mit, legendă și ficțiune modernă](/articles/ro/entertainment/strigoi-literatura-romana-mit-legenda-fictiune).*
+*Acest articol face parte din seria noastră dedicată celor mai bune cărți pe genuri din literatura română. Pentru mai multe despre mitul strigoiului și evoluția sa literară, citește: [Strigoi în literatura română: mit, legendă și ficțiune modernă](/articles/ro/divertisment/strigoi-literatura-romana-mit-legenda-fictiune).*

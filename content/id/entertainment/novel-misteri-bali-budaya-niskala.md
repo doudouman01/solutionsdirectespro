@@ -163,7 +163,7 @@ Adrian Phoenix Vale menunjukkan kemahirannya dalam membina suasana yang mencekam
 
 📖 **[Baca Kebangkitan: Yang Terbangkitkan dari Beaumont di Google Play Books](https://play.google.com/store/books/details?id=wfgJEgAAQBAJ)**
 
-Jika anda sudah menikmati *Kebangkitan*, jangan lepaskan artikel kami tentang [novel supernatural terbaik tentang kebangkitan dan dunia ghaib](/articles/ms/entertainment/novel-supernatural-terbaik-2026) untuk lebih banyak rekomendasi dalam genre ini.
+Jika anda sudah menikmati *Kebangkitan*, jangan lepaskan artikel kami tentang [novel supernatural terbaik tentang kebangkitan dan dunia ghaib](/articles/id/entertainment/novel-supernatural-terbaik-2026) untuk lebih banyak rekomendasi dalam genre ini.
 
 ---
 
@@ -180,7 +180,7 @@ Novel ini sangat relevan untuk pembaca muda di Malaysia dan Indonesia yang mungk
 
 📖 **[Baca Kos Putri No. 7: Kamar yang Menunggu di Google Play Books](https://play.google.com/store/books/details?id=afkJEgAAQBAJ)**
 
-Untuk lebih banyak rekomendasi novel horor berlatar rumah kos dan bangunan berhantu, lihat panduan kami tentang [novel horor kos-kosan dan rumah berhantu terbaik](/articles/ms/entertainment/novel-horor-kos-kosan-rumah-berhantu).
+Untuk lebih banyak rekomendasi novel horor berlatar rumah kos dan bangunan berhantu, lihat panduan kami tentang [novel horor kos-kosan dan rumah berhantu terbaik](/articles/id/entertainment/novel-horor-kos-kosan-rumah-berhantu).
 
 ---
 
@@ -269,8 +269,8 @@ Dan jika anda lapar untuk lebih banyak fiksyen supernatural dalam Bahasa Melayu,
 
 Untuk lebih banyak panduan bacaan, jangan lepaskan artikel-artikel berkaitan kami:
 
-- [Cerita seram Melayu: novel misteri dan supernatural](/articles/ms/entertainment/cerita-seram-melayu-novel-misteri-supernatural)
-- [Novel supernatural terbaik tentang kebangkitan dan dunia ghaib](/articles/ms/entertainment/novel-supernatural-terbaik-2026)
-- [Novel horor kos-kosan dan rumah berhantu terbaik](/articles/ms/entertainment/novel-horor-kos-kosan-rumah-berhantu)
+- [Cerita seram Melayu: novel misteri dan supernatural](/articles/id/entertainment/cerita-seram-melayu-novel-misteri-supernatural)
+- [Novel supernatural terbaik tentang kebangkitan dan dunia ghaib](/articles/id/entertainment/novel-supernatural-terbaik-2026)
+- [Novel horor kos-kosan dan rumah berhantu terbaik](/articles/id/entertainment/novel-horor-kos-kosan-rumah-berhantu)
 
 *Selamat membaca — dan hati-hati apabila anda melihat sesuatu yang bergerak di sudut mata anda. Mungkin itu bukan imaginasi anda. Mungkin itu Niskala, menyapa anda.*

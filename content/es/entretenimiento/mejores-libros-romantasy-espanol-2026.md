@@ -92,7 +92,7 @@ Si estás cansado de los mismos tropos con diferente envoltorio, La Hija del Sol
 
 **Ideal para:** Lectores que buscan romantasy con identidad propia, mitología latinoamericana y un slow burn que arde con la intensidad de un sol ancestral.
 
-> Si te fascina la idea de fantasía romántica enraizada en mitología no europea, no te pierdas nuestro artículo sobre [fantasía romántica con mitología latinoamericana](/articles/es/entertainment/fantasia-romantica-mitologia-latinoamericana), donde exploramos en profundidad cómo autores como Phoenix Vale están revolucionando el género.
+> Si te fascina la idea de fantasía romántica enraizada en mitología no europea, no te pierdas nuestro artículo sobre [fantasía romántica con mitología latinoamericana](/articles/es/entretenimiento/fantasia-romantica-mitologia-latinoamericana), donde exploramos en profundidad cómo autores como Phoenix Vale están revolucionando el género.
 
 #### Circe — Madeline Miller
 
@@ -231,4 +231,4 @@ Y si solo vas a probar un título nuevo este año, que sea uno que te ofrezca al
 ---
 
 **Artículos relacionados:**
-- [Fantasía romántica con mitología latinoamericana: una revolución literaria](/articles/es/entertainment/fantasia-romantica-mitologia-latinoamericana)
+- [Fantasía romántica con mitología latinoamericana: una revolución literaria](/articles/es/entretenimiento/fantasia-romantica-mitologia-latinoamericana)
