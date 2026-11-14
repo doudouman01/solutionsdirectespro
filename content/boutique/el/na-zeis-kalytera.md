@@ -1,0 +1,13 @@
+---
+title: "Na Zeis Kalytera me Ligotera - O Odigos Oikonomikis Epivivasis gia tin Ellada tou 2026/2027"
+type: "nonfiction"
+cover: "/covers/na-zeis-kalytera.png"
+google_play_link: "https://play.google.com/store/books/details?id=Tn0pEgAAQBAJ"
+price_google: "4.99"
+market: "GR"
+category: "finance"
+pages: "400"
+language: "Ellinika"
+genre: "Oikonomika / Prosopika Oikonomika / Apostamiefsi"
+excerpt: "O plirestaros odigos oikonomikis epivivasis gia Ellines -- apo logariamous kai diatrofi mechri forologia kai pathitiko eisodima. Me 20 kefalaia, 3 profil exoikonomisis, side hustles, mikroependyseis kai ta bonus: Excel proypologismos, checklist 30 kiniseon, forologiko imerologio 2026."
+---
