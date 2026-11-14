@@ -419,6 +419,7 @@ export const languages = {
 // Boutique categories per language
 export const boutiqueCategories = {
   en: {
+    'ai-express': 'AI Express — Pro Guides',
     'health-wellness': 'Health & Wellness',
     'personal-development': 'Personal Development',
     'literature': 'Literature & Novels',
@@ -437,6 +438,7 @@ export const boutiqueCategories = {
     'holiday': 'Holiday & Seasonal',
   },
   fr: {
+    'ai-express': 'IA Express — Guides Pro',
     'health-wellness': 'Santé & Bien-être',
     'personal-development': 'Développement Personnel',
     'literature': 'Romans & Littérature',
@@ -455,6 +457,7 @@ export const boutiqueCategories = {
     'holiday': 'Fetes & Saisons',
   },
   de: {
+    'ai-express': 'AI Express — Profi-Guides',
     'health-wellness': 'Gesundheit & Wohlbefinden',
     'personal-development': 'Persönliche Entwicklung',
     'literature': 'Romane & Literatur',
@@ -473,6 +476,7 @@ export const boutiqueCategories = {
     'holiday': 'Feiertage & Saison',
   },
   es: {
+    'ai-express': 'IA Express — Guías Pro',
     'health-wellness': 'Salud & Bienestar',
     'personal-development': 'Desarrollo Personal',
     'literature': 'Novelas & Literatura',
@@ -491,6 +495,7 @@ export const boutiqueCategories = {
     'holiday': 'Fiestas & Temporada',
   },
   it: {
+    'ai-express': 'AI Express — Guide Pro',
     'health-wellness': 'Salute & Benessere',
     'personal-development': 'Sviluppo Personale',
     'literature': 'Romanzi & Letteratura',
@@ -509,6 +514,7 @@ export const boutiqueCategories = {
     'holiday': 'Festivita & Stagione',
   },
   hi: {
+    'ai-express': 'AI Express — प्रो गाइड',
     'health-wellness': 'स्वास्थ्य और कल्याण',
     'personal-development': 'आत्म-विकास',
     'literature': 'साहित्य और उपन्यास',
@@ -527,6 +533,7 @@ export const boutiqueCategories = {
     'holiday': 'त्योहार और मौसम',
   },
   ja: {
+    'ai-express': 'AI Express — プロガイド',
     'health-wellness': '健康とウェルネス',
     'personal-development': '自己啓発',
     'literature': '文学と小説',
@@ -545,6 +552,7 @@ export const boutiqueCategories = {
     'holiday': '祝日と季節',
   },
   nl: {
+    'ai-express': 'AI Express — Professionele Gidsen',
     'health-wellness': 'Gezondheid & Welzijn',
     'personal-development': 'Persoonlijke Ontwikkeling',
     'literature': 'Romans & Literatuur',
@@ -555,6 +563,7 @@ export const boutiqueCategories = {
     'holiday': 'Feestdagen & Seizoen',
   },
   pt: {
+    'ai-express': 'AI Express — Guias Pro',
     'health-wellness': 'Saude & Bem-Estar',
     'personal-development': 'Desenvolvimento Pessoal',
     'literature': 'Romances & Literatura',
@@ -563,6 +572,30 @@ export const boutiqueCategories = {
     'halloween': 'Halloween',
     'memorial': 'Homenagem & Funerario',
     'holiday': 'Feriados & Temporada',
+  },
+  da: {
+    'ai-express': 'AI Express — Professionelle Guides',
+    'literature': 'Romaner & Litteratur',
+    'health-wellness': 'Sundhed & Velvære',
+    'employment': 'AI & Beskæftigelse',
+  },
+  sv: {
+    'ai-express': 'AI Express — Proffsguider',
+    'literature': 'Romaner & Litteratur',
+    'health-wellness': 'Hälsa & Välbefinnande',
+    'employment': 'AI & Arbete',
+  },
+  pl: {
+    'ai-express': 'AI Express — Przewodniki Pro',
+    'literature': 'Powieści & Literatura',
+    'health-wellness': 'Zdrowie & Dobre Samopoczucie',
+    'employment': 'AI & Praca',
+  },
+  fi: {
+    'ai-express': 'AI Express — Ammattioppaat',
+    'literature': 'Romaanit & Kirjallisuus',
+    'health-wellness': 'Terveys & Hyvinvointi',
+    'employment': 'AI & Työ',
   },
 };
 

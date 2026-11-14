@@ -7,7 +7,7 @@ kindle_link: "https://www.amazon.com/dp/B0HNNXQQ5Y"
 price_kindle: "$12.99"
 price_paperback: "$29.99"
 market: "US"
-category: "finance"
+category: "ai-express"
 pages: 745
 language: "English"
 genre: "Finance / Artificial Intelligence"
