@@ -8,7 +8,7 @@ const boutiqueDir = path.join(process.cwd(), 'content', 'boutique');
 
 function readFile(filePath) {
   const raw = fs.readFileSync(filePath, 'utf-8');
-  return raw.replace(/^\uFEFF/, '');
+  return raw.replace(/^﻿/, '');
 }
 
 // Convert old single-market format to new markets array
@@ -66,6 +66,7 @@ function parseProduct(filePath, file, lang) {
     for_you: data.for_you || [],
     benefits: data.benefits || [],
     also_by: data.also_by || [],
+    bonus: data.bonus || [],
     content: content,
     lang: lang,
   };
@@ -128,6 +129,7 @@ export function getProduct(lang, slug) {
     for_you: data.for_you || [],
     benefits: data.benefits || [],
     also_by: data.also_by || [],
+    bonus: data.bonus || [],
     html: marked(content),
     lang: lang,
   };
