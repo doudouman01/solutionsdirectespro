@@ -1113,3 +1113,137 @@ a {
 .article-content a:hover {
   color: #b8862e;
 }
+
+/* ── Bonus Downloads Section ── */
+.product-bonus-section {
+  margin: 2.5rem 0;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 100%);
+  border-radius: 16px;
+  border: 1px solid #bbf7d0;
+}
+
+.product-bonus-section h2 {
+  margin-bottom: 1.25rem;
+  font-size: 1.4rem;
+}
+
+.product-bonus-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.product-bonus-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #d1fae5;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.product-bonus-card:hover {
+  border-color: #34d399;
+  box-shadow: 0 4px 12px rgba(52, 211, 153, 0.15);
+  transform: translateY(-1px);
+}
+
+.product-bonus-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.product-bonus-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.product-bonus-label {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #1a1a1a;
+}
+
+.product-bonus-desc {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.product-bonus-dl {
+  flex-shrink: 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #059669;
+  padding: 0.4rem 0.9rem;
+  background: #ecfdf5;
+  border-radius: 8px;
+  border: 1px solid #a7f3d0;
+  transition: all 0.2s ease;
+}
+
+.product-bonus-card:hover .product-bonus-dl {
+  background: #059669;
+  color: #fff;
+  border-color: #059669;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .product-bonus-section {
+    background: linear-gradient(135deg, #022c22 0%, #064e3b 100%);
+    border-color: #065f46;
+  }
+
+  .product-bonus-card {
+    background: #0a0a0a;
+    border-color: #065f46;
+  }
+
+  .product-bonus-card:hover {
+    border-color: #34d399;
+    box-shadow: 0 4px 12px rgba(52, 211, 153, 0.1);
+  }
+
+  .product-bonus-label {
+    color: #f0fdf4;
+  }
+
+  .product-bonus-desc {
+    color: #9ca3af;
+  }
+
+  .product-bonus-dl {
+    background: #064e3b;
+    color: #6ee7b7;
+    border-color: #065f46;
+  }
+
+  .product-bonus-card:hover .product-bonus-dl {
+    background: #059669;
+    color: #fff;
+  }
+}
+
+@media (max-width: 640px) {
+  .product-bonus-section {
+    padding: 1.25rem;
+  }
+
+  .product-bonus-card {
+    padding: 0.85rem 1rem;
+  }
+
+  .product-bonus-dl {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
+
