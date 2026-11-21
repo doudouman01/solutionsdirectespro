@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { quizUI, quizQuestions, langLabels } from '../../../data/quiz-manipulation';
+import EmailCapture from '../../../components/EmailCapture';
 
 /* ── Component ── */
 export default function ManipulationQuiz() {
@@ -113,6 +114,7 @@ export default function ManipulationQuiz() {
             <button onClick={restart} className="quiz-retry-btn">↻ {t.tryAgain}</button>
             <Link href={t.guideLink} className="quiz-guide-link">📖 {t.readMore}</Link>
           </div>
+          <EmailCapture lang={lang} source="quiz-manipulation" variant="compact" />
         </div>
       </div>
     );

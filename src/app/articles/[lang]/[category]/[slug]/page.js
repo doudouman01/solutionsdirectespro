@@ -4,6 +4,7 @@ import { getArticle, getAllArticlePaths } from '../../../../../lib/articles';
 import { getProduct } from '../../../../../lib/boutique';
 import ProductBox from '../../../../../components/ProductBox';
 import { QuizBannerSingle } from '../../../../../components/QuizBanner';
+import EmailCapture from '../../../../../components/EmailCapture';
 
 export function generateStaticParams() {
   return getAllArticlePaths();
@@ -203,6 +204,9 @@ export default function ArticlePage({ params }) {
         lang={lang}
         type={['relations', 'relationships', 'relaciones', 'psychagogia', 'beziehungen', 'relazioni', 'relacionamentos', 'relaties', 'relationer', 'suhteet', 'forhold'].includes(category) ? 'manipulation' : 'bookMatch'}
       />
+
+      {/* Email Capture */}
+      <EmailCapture lang={lang} source="article" variant="compact" />
 
       <div style={{ marginTop: '48px', paddingTop: '24px', borderTop: '1px solid var(--color-border)' }}>
         <Link href={`/articles/${lang}/${category}`} className="article-back">

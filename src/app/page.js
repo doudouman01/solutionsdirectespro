@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { languages } from '../lib/config';
 import { getArticles } from '../lib/articles';
 import { QuizBannerDouble } from '../components/QuizBanner';
+import EmailCapture from '../components/EmailCapture';
 
 export default function HomePage() {
   // Get latest 6 articles across all languages
@@ -113,6 +114,11 @@ export default function HomePage() {
           </div>
         </section>
       )}
+
+      {/* EMAIL CAPTURE */}
+      <section className="section">
+        <EmailCapture lang="fr" source="homepage" />
+      </section>
     </>
   );
 }

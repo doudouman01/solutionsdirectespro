@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import EmailCapture from '../../../components/EmailCapture';
 
 /* ── UI translations ── */
 const ui = {
@@ -201,6 +202,7 @@ export default function BookMatchQuiz() {
           </div>
           <Link href={t.seeAllLink} className="quiz-bestof-link">📚 {t.seeAll} →</Link>
           <div className="quiz-actions"><button onClick={restart} className="quiz-retry-btn">↻ {t.tryAgain}</button></div>
+          <EmailCapture lang={lang} source="quiz-book-match" variant="compact" />
         </div>
       </div>
     );
