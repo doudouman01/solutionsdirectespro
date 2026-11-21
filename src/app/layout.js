@@ -5,8 +5,11 @@ import GoogleAnalytics from '../components/GoogleAnalytics';
 import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
-  title: 'Solutions Directes Pro — Des solutions directes, partout dans le monde',
-  description: 'Une plateforme multilingue qui vous guide pas à pas pour résoudre vos problèmes. Finances, emploi, santé, logement, droit, relations.',
+  title: {
+    default: 'Solutions Directes Pro — Guides pratiques et livres multilingues',
+    template: '%s | Solutions Directes Pro',
+  },
+  description: 'Guides pratiques, livres et outils pour reprendre le controle. Psychologie, productivite, IA, finances, sante — en 15+ langues.',
   metadataBase: new URL('https://solutionsdirectespro.com'),
   alternates: {
     canonical: './',

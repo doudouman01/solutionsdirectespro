@@ -309,24 +309,49 @@ export function generateStaticParams() {
   return getAllProductPaths();
 }
 
+/* ── Locale mapping ── */
+const localeMap = {
+  fr: 'fr_FR', en: 'en_US', de: 'de_DE', es: 'es_ES', it: 'it_IT',
+  pt: 'pt_PT', nl: 'nl_NL', sv: 'sv_SE', da: 'da_DK', pl: 'pl_PL',
+  fi: 'fi_FI', ja: 'ja_JP', hi: 'hi_IN', vi: 'vi_VN', id: 'id_ID',
+  ms: 'ms_MY', ro: 'ro_RO', el: 'el_GR', cs: 'cs_CZ', is: 'is_IS',
+};
+
+/* ── Price prefix by language for title tag ── */
+const pricePrefix = {
+  en: 'from', fr: 'des', de: 'ab', es: 'desde', it: 'da',
+  pt: 'a partir de', nl: 'vanaf', sv: 'från', da: 'fra', pl: 'od',
+  fi: 'alkaen', ja: '', hi: '', id: 'mulai', vi: 'tu',
+  ms: 'dari', ro: 'de la', el: 'απο', cs: 'od', is: 'fra',
+};
+
 export function generateMetadata({ params }) {
   const product = getProduct(params.lang, params.slug);
   if (!product) return { title: 'Boutique — Solutions Directes Pro' };
 
-  const pageTitle = `${product.title} — Solutions Directes Pro`;
-  const pageDescription = product.excerpt || '';
+  /* ── Optimized title: product name + author (no site name) ── */
+  const pageTitle = `${product.title} — Adrian Phoenix Vale`;
+  /* ── Optimized description: excerpt + price for click appeal ── */
+  const firstMarket = product.markets && product.markets[0];
+  const displayPrice = product.price_etsy || product.price_gumroad || product.price_google || firstMarket?.price_kindle || '';
+  const rawDesc = product.excerpt || product.title;
+  const priceTag = displayPrice ? ` ${pricePrefix[params.lang] || ''} ${displayPrice}`.trim() : '';
+  const descWithPrice = priceTag ? `${rawDesc} — ${priceTag}` : rawDesc;
+  const pageDescription = descWithPrice.length > 155 ? descWithPrice.substring(0, 152) + '...' : descWithPrice;
   const productUrl = `https://solutionsdirectespro.com/boutique/${params.lang}/${params.slug}`;
   const coverImage = product.cover ? `https://solutionsdirectespro.com${product.cover}` : undefined;
 
   return {
-    title: pageTitle,
+    title: {
+      absolute: pageTitle,
+    },
     description: pageDescription,
     openGraph: {
       title: pageTitle,
       description: pageDescription,
       url: productUrl,
       siteName: 'Solutions Directes Pro',
-      locale: params.lang === 'fr' ? 'fr_FR' : params.lang === 'en' ? 'en_US' : params.lang === 'de' ? 'de_DE' : params.lang === 'es' ? 'es_ES' : params.lang === 'it' ? 'it_IT' : params.lang === 'pt' ? 'pt_PT' : params.lang === 'nl' ? 'nl_NL' : params.lang === 'sv' ? 'sv_SE' : params.lang === 'da' ? 'da_DK' : params.lang === 'pl' ? 'pl_PL' : params.lang === 'fi' ? 'fi_FI' : params.lang === 'ja' ? 'ja_JP' : params.lang === 'hi' ? 'hi_IN' : params.lang === 'vi' ? 'vi_VN' : params.lang === 'id' ? 'id_ID' : 'fr_FR',
+      locale: localeMap[params.lang] || 'fr_FR',
       type: 'website',
       ...(coverImage ? { images: [{ url: coverImage, width: 1600, height: 2560, alt: product.title }] } : {}),
     },
