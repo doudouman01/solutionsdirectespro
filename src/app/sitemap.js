@@ -35,6 +35,20 @@ export default function sitemap() {
     });
   }
 
+  // ─── Quiz pages ───
+  urls.push({
+    url: `${BASE_URL}/quiz/book-match`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly',
+    priority: 0.8,
+  });
+  urls.push({
+    url: `${BASE_URL}/quiz/manipulation-test`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly',
+    priority: 0.8,
+  });
+
   // ─── Articles : content/[langue]/[categorie]/[slug].md ───
   const contentDir = path.join(process.cwd(), 'content');
   if (fs.existsSync(contentDir)) {
