@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { languages } from '../../../../../lib/config';
 import { getArticle, getAllArticlePaths } from '../../../../../lib/articles';
+import { getProduct } from '../../../../../lib/boutique';
+import ProductBox from '../../../../../components/ProductBox';
 
 export function generateStaticParams() {
   return getAllArticlePaths();
@@ -51,6 +53,19 @@ export default function ArticlePage({ params }) {
   }
 
   const articleUrl = `https://solutionsdirectespro.com/articles/${lang}/${category}/${slug}`;
+
+  /* ── Auto-detect linked boutique product from CTA in article content ── */
+  let linkedProduct = null;
+  const ctaMatch = article.content?.match(/\]\(\/boutique\/([a-z]{2})\/([a-z0-9-]+)\)/);
+  if (ctaMatch) {
+    const productLang = ctaMatch[1];
+    const productSlug = ctaMatch[2];
+    try {
+      linkedProduct = getProduct(productLang, productSlug);
+    } catch (e) {
+      // Product not found — no box displayed
+    }
+  }
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -154,10 +169,20 @@ export default function ArticlePage({ params }) {
         <span>{article.author}</span>
       </div>
 
+      {/* Product Display Box — above the fold */}
+      {linkedProduct && (
+        <ProductBox product={linkedProduct} lang={lang} variant="full" />
+      )}
+
       <div
         className="article-content"
         dangerouslySetInnerHTML={{ __html: article.html }}
       />
+
+      {/* Product Display Box — bottom (compact) */}
+      {linkedProduct && (
+        <ProductBox product={linkedProduct} lang={lang} variant="compact" />
+      )}
 
       <div style={{ marginTop: '48px', paddingTop: '24px', borderTop: '1px solid var(--color-border)' }}>
         <Link href={`/articles/${lang}/${category}`} className="article-back">
