@@ -181,4 +181,5 @@ La persuasion opera con la conciencia y el consentimiento de la otra persona. La
 **Tambien te puede interesar:**
 
 - [Cuando decir basta en relaciones toxicas](/articles/es/relaciones/cuando-decir-basta-relaciones-toxicas)
-- [Senales de manipulacion emocional en la pareja](/articles/es/relaciones/senales-manipulacion-emocional-pareja)
+- [Dark romance de cartel en espanol](/articles/es/relaciones/dark-romance-cartel-espanol)
+- [Novelas romanticas ambientadas en Sinaloa](/articles/es/relaciones/novelas-romanticas-ambientadas-sinaloa-mexico)

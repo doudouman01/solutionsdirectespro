@@ -183,5 +183,5 @@ La persuasion fonctionne avec la conscience et le consentement de l'autre person
 **A lire aussi :**
 
 - [7 lois de Machiavel : le pouvoir silencieux explique](/articles/fr/divertissement/7-lois-machiavel-pouvoir-silencieux-explique)
-- [Reconnaitre les signes de manipulation emotionnelle](/articles/fr/relations/reconnaitre-signes-manipulation-emotionnelle-guide)
-- [L'ethique de l'influence : ou s'arrete la persuasion](/articles/fr/relations/ethique-influence-persuasion-manipulation-limite)
+- [Le langage corporel : guide pour lire les gens](/articles/fr/relations/langage-corporel-lire-les-gens-guide)
+- [Secrets de famille et heritage toxique](/articles/fr/relations/secrets-de-famille-heritage-toxique)
