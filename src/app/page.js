@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { languages } from '../lib/config';
 import { getArticles } from '../lib/articles';
+import { QuizBannerDouble } from '../components/QuizBanner';
 
 export default function HomePage() {
   // Get latest 6 articles across all languages
@@ -73,6 +74,11 @@ export default function HomePage() {
             );
           })}
         </div>
+      </section>
+
+      {/* QUIZZES */}
+      <section className="section">
+        <QuizBannerDouble lang="fr" />
       </section>
 
       {/* LATEST ARTICLES */}

@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { languages } from '../../../../lib/config';
 import { getProduct, getAllProductPaths, getProducts } from '../../../../lib/boutique';
+import { QuizBannerSingle } from '../../../../components/QuizBanner';
 
 /* ── Translations for boutique product pages ── */
 const t = {
@@ -425,6 +426,9 @@ function RomanLayout({ product, otherProducts, lang }) {
           </div>
         </div>
       )}
+
+      {/* Quiz Banner — book match for fiction, manipulation for nonfiction */}
+      <QuizBannerSingle lang={lang} type="bookMatch" />
     </>
   );
 }
@@ -542,6 +546,9 @@ function NonfictionLayout({ product, otherProducts, lang }) {
           </div>
         </div>
       )}
+
+      {/* Quiz Banner — manipulation test for nonfiction */}
+      <QuizBannerSingle lang={lang} type="manipulation" />
     </>
   );
 }

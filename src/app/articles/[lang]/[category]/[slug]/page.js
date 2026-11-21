@@ -3,6 +3,7 @@ import { languages } from '../../../../../lib/config';
 import { getArticle, getAllArticlePaths } from '../../../../../lib/articles';
 import { getProduct } from '../../../../../lib/boutique';
 import ProductBox from '../../../../../components/ProductBox';
+import { QuizBannerSingle } from '../../../../../components/QuizBanner';
 
 export function generateStaticParams() {
   return getAllArticlePaths();
@@ -196,6 +197,12 @@ export default function ArticlePage({ params }) {
       {linkedProduct && (
         <ProductBox product={linkedProduct} lang={lang} variant="compact" />
       )}
+
+      {/* Quiz Banner — contextual: manipulation for psychology/relationships, book-match for others */}
+      <QuizBannerSingle
+        lang={lang}
+        type={['relations', 'relationships', 'relaciones', 'psychagogia', 'beziehungen', 'relazioni', 'relacionamentos', 'relaties', 'relationer', 'suhteet', 'forhold'].includes(category) ? 'manipulation' : 'bookMatch'}
+      />
 
       <div style={{ marginTop: '48px', paddingTop: '24px', borderTop: '1px solid var(--color-border)' }}>
         <Link href={`/articles/${lang}/${category}`} className="article-back">

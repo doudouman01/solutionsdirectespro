@@ -42,6 +42,15 @@ export default function Header() {
             </div>
           </div>
 
+          {/* Quiz dropdown */}
+          <div className="nav-dropdown">
+            <span className="nav-dropdown-trigger nav-quiz-link">Quiz</span>
+            <div className="nav-dropdown-menu">
+              <Link href="/quiz/book-match">📚 Book Match</Link>
+              <Link href="/quiz/manipulation-test">🧠 Manipulation Test</Link>
+            </div>
+          </div>
+
           <Link href="/blogs">Blogs</Link>
         </nav>
       </div>
