@@ -108,6 +108,20 @@ export default function ArticlePage({ params }) {
     ],
   };
 
+  /* ── Schema.org FAQPage — auto-generated from H3 questions ── */
+  const faqLd = (article.faqs && article.faqs.length >= 2) ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: article.faqs.slice(0, 10).map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer.substring(0, 500),
+      },
+    })),
+  } : null;
+
   return (
     <article className="article-page">
       <script
@@ -118,6 +132,12 @@ export default function ArticlePage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
+      {faqLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqLd) }}
+        />
+      )}
 
       <Link href={`/articles/${lang}`} className="article-back">
         {langConfig.backToArticles}

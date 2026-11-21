@@ -92,3 +92,41 @@ export function buildBreadcrumbSchema(items) {
     })),
   };
 }
+
+// ─── Helper : générer le schema FAQPage ───
+// faqs = [{ question: 'Comment...?', answer: 'Voici la réponse...' }, ...]
+export function buildFAQSchema(faqs) {
+  if (!faqs || faqs.length === 0) return null;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  };
+}
+
+// ─── Helper : générer le schema ItemList (pour money pages "Best Of") ───
+// items = [{ name: 'Livre 1', url: '/boutique/en/slug', position: 1, image: '/covers/slug.png' }, ...]
+export function buildItemListSchema({ name, description, url, items }) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: name,
+    description: description || '',
+    url: url,
+    numberOfItems: items.length,
+    itemListElement: items.map((item) => ({
+      '@type': 'ListItem',
+      position: item.position,
+      url: item.url ? `https://solutionsdirectespro.com${item.url}` : undefined,
+      name: item.name,
+      image: item.image ? `https://solutionsdirectespro.com${item.image}` : undefined,
+    })),
+  };
+}

@@ -51,6 +51,53 @@ export function getArticles(lang, category = null) {
   return articles;
 }
 
+// ─── Extract FAQ pairs from markdown (H3 questions + following content) ───
+function extractFAQs(markdownContent) {
+  const faqs = [];
+  // Split by H3 headings
+  const lines = markdownContent.split('\n');
+  let currentQuestion = null;
+  let currentAnswer = [];
+
+  for (const line of lines) {
+    const h3Match = line.match(/^###\s+(.+)/);
+    if (h3Match) {
+      // Save previous Q&A if question ends with ?
+      if (currentQuestion && currentAnswer.length > 0) {
+        faqs.push({
+          question: currentQuestion,
+          answer: currentAnswer.join(' ').replace(/[#*_`\[\]()]/g, '').trim(),
+        });
+      }
+      const questionText = h3Match[1].trim();
+      // Only treat as FAQ if the heading looks like a question
+      if (questionText.endsWith('?') || questionText.endsWith('？')) {
+        currentQuestion = questionText;
+        currentAnswer = [];
+      } else {
+        currentQuestion = null;
+        currentAnswer = [];
+      }
+    } else if (currentQuestion) {
+      // Skip empty lines and H2+ headings
+      const trimmed = line.trim();
+      if (trimmed && !trimmed.startsWith('##') && !trimmed.startsWith('---') && !trimmed.startsWith('**[>>>')) {
+        // Strip markdown formatting for clean text answer
+        currentAnswer.push(trimmed);
+      }
+    }
+  }
+  // Don't forget the last Q&A
+  if (currentQuestion && currentAnswer.length > 0) {
+    faqs.push({
+      question: currentQuestion,
+      answer: currentAnswer.join(' ').replace(/[#*_`\[\]()]/g, '').trim(),
+    });
+  }
+
+  return faqs;
+}
+
 // Get a single article by slug
 export function getArticle(lang, category, slug) {
   const langConfig = languages[lang];
@@ -72,6 +119,7 @@ export function getArticle(lang, category, slug) {
     author: data.author || 'Solutions Directes Pro',
     image: data.image || null,
     html: marked(content),
+    faqs: extractFAQs(content),
     lang,
   };
 }
