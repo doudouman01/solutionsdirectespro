@@ -186,7 +186,7 @@ Persuasion operates with the other person's awareness and consent — you presen
 
 ---
 
-**À lire aussi :**
+**Also read:**
 
 - [Signs of Emotional Manipulation in Relationships](/articles/en/relationships/signs-of-manipulation-in-relationships)
 - [How to Detect Lies Using the Body Language Cluster Method](/articles/en/relationships/detect-lies-body-language-cluster-method)
