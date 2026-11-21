@@ -120,6 +120,7 @@ export function getArticle(lang, category, slug) {
     image: data.image || null,
     html: marked(content),
     faqs: extractFAQs(content),
+    content: content,
     lang,
   };
 }
