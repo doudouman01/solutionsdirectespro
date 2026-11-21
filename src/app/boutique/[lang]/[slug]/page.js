@@ -32,6 +32,42 @@ function ui(lang, key) {
   return (t[lang] && t[lang][key]) || t.en[key] || key;
 }
 
+/* ── Amazon Associates affiliate tags per marketplace ── */
+const affiliateTags = {
+  'amazon.com': 'mypagematch20-20',
+  'amazon.ca': 'mypagematch-20',
+  'amazon.fr': 'mypagematch-21',
+  'amazon.co.uk': 'mypagematch00-21',
+  'amazon.de': 'mypagematch04-21',
+  'amazon.es': 'mypagematches-21',
+  'amazon.it': 'mypagematchit-21',
+  'amazon.nl': 'mypagematchnl-21',
+  'amazon.se': 'mypagematchse-21',
+  'amazon.pl': 'mypagematchpl-21',
+  'amazon.com.au': 'mypagematchau-22',
+  'amazon.sg': 'mypagematchsg-22',
+  'amazon.co.jp': 'mypagematch20-20',
+  'amazon.com.br': 'mypagematch20-20',
+  'amazon.in': 'mypagematch20-20',
+  'amazon.com.mx': 'mypagematch20-20',
+};
+
+function addAffiliateTag(url) {
+  if (!url || url === '#') return url;
+  try {
+    const u = new URL(url);
+    // Only add tag to amazon links
+    const host = u.hostname.replace('www.', '');
+    const tag = affiliateTags[host];
+    if (tag && !u.searchParams.has('tag')) {
+      u.searchParams.set('tag', tag);
+    }
+    return u.toString();
+  } catch {
+    return url;
+  }
+}
+
 const marketLabels = {
   US: '🇺🇸 Amazon US',
   AU: '🇦🇺 Amazon Australia',
@@ -212,12 +248,12 @@ function MarketButtons({ markets, lang }) {
           <span className="product-market-label">{marketLabels[m.id] || m.id}</span>
           <div className="product-market-links">
             {m.amazon_link && m.amazon_link !== '#' && (
-              <a href={m.amazon_link} target="_blank" rel="noopener noreferrer" className="btn-amazon btn-amazon-sm">
+              <a href={addAffiliateTag(m.amazon_link)} target="_blank" rel="noopener noreferrer" className="btn-amazon btn-amazon-sm">
                 🛒 {m.price_paperback ? `${ui(lang, 'paperback')} ${m.price_paperback}` : ui(lang, 'paperback')}
               </a>
             )}
             {m.kindle_link && m.kindle_link !== '#' && (
-              <a href={m.kindle_link} target="_blank" rel="noopener noreferrer" className="btn-kindle btn-kindle-sm">
+              <a href={addAffiliateTag(m.kindle_link)} target="_blank" rel="noopener noreferrer" className="btn-kindle btn-kindle-sm">
                 📱 {m.price_kindle ? `Kindle ${m.price_kindle}` : 'Kindle'}
               </a>
             )}
@@ -237,10 +273,10 @@ function MarketButtonsCompact({ markets, lang }) {
         <div key={m.id} style={{ display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
           <span style={{ fontSize: '0.85rem', minWidth: '140px' }}>{marketLabels[m.id] || m.id}</span>
           {m.amazon_link && m.amazon_link !== '#' && (
-            <a href={m.amazon_link} target="_blank" rel="noopener noreferrer" className="btn-amazon">🛒 {ui(lang, 'buy')}</a>
+            <a href={addAffiliateTag(m.amazon_link)} target="_blank" rel="noopener noreferrer" className="btn-amazon">🛒 {ui(lang, 'buy')}</a>
           )}
           {m.kindle_link && m.kindle_link !== '#' && (
-            <a href={m.kindle_link} target="_blank" rel="noopener noreferrer" className="btn-kindle">📱 Kindle</a>
+            <a href={addAffiliateTag(m.kindle_link)} target="_blank" rel="noopener noreferrer" className="btn-kindle">📱 Kindle</a>
           )}
         </div>
       ))}
@@ -590,7 +626,7 @@ export default function ProductPage({ params }) {
   const offerUrl = etsy ? product.etsy_link
     : gumroad ? product.gumroad_link
     : googlePlay ? product.google_play_link
-    : (firstMarket?.kindle_link || firstMarket?.amazon_link || '');
+    : addAffiliateTag(firstMarket?.kindle_link || firstMarket?.amazon_link || '');
   const offerPrice = etsy ? (product.price_etsy || '')
     : gumroad ? (product.price_gumroad || '')
     : googlePlay ? (product.price_google || '')

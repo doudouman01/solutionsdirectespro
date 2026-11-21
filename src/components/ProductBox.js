@@ -11,6 +11,41 @@
 
 import Link from 'next/link';
 
+/* ── Amazon Associates affiliate tags per marketplace ── */
+const affiliateTags = {
+  'amazon.com': 'mypagematch20-20',
+  'amazon.ca': 'mypagematch-20',
+  'amazon.fr': 'mypagematch-21',
+  'amazon.co.uk': 'mypagematch00-21',
+  'amazon.de': 'mypagematch04-21',
+  'amazon.es': 'mypagematches-21',
+  'amazon.it': 'mypagematchit-21',
+  'amazon.nl': 'mypagematchnl-21',
+  'amazon.se': 'mypagematchse-21',
+  'amazon.pl': 'mypagematchpl-21',
+  'amazon.com.au': 'mypagematchau-22',
+  'amazon.sg': 'mypagematchsg-22',
+  'amazon.co.jp': 'mypagematch20-20',
+  'amazon.com.br': 'mypagematch20-20',
+  'amazon.in': 'mypagematch20-20',
+  'amazon.com.mx': 'mypagematch20-20',
+};
+
+function addAffiliateTag(url) {
+  if (!url || url === '#') return url;
+  try {
+    const u = new URL(url);
+    const host = u.hostname.replace('www.', '');
+    const tag = affiliateTags[host];
+    if (tag && !u.searchParams.has('tag')) {
+      u.searchParams.set('tag', tag);
+    }
+    return u.toString();
+  } catch {
+    return url;
+  }
+}
+
 const platformConfig = {
   etsy: { label: 'Etsy', icon: '🧡', btnClass: 'pbox-btn-etsy' },
   gumroad: { label: 'Gumroad', icon: '🛍️', btnClass: 'pbox-btn-gumroad' },
@@ -56,7 +91,8 @@ function getMainLink(product) {
   if (product.gumroad_link && product.gumroad_link !== '#') return product.gumroad_link;
   if (product.google_play_link && product.google_play_link !== '#') return product.google_play_link;
   const m = product.markets && product.markets[0];
-  return m?.kindle_link || m?.amazon_link || product.kindle_link || product.amazon_link || '#';
+  const amazonUrl = m?.kindle_link || m?.amazon_link || product.kindle_link || product.amazon_link || '#';
+  return addAffiliateTag(amazonUrl);
 }
 
 function getMainPrice(product) {
@@ -141,7 +177,7 @@ export default function ProductBox({ product, lang = 'en', variant = 'full' }) {
 
             {/* Secondary: paperback if Amazon */}
             {platform === 'amazon' && product.markets && product.markets[0]?.amazon_link && product.markets[0].amazon_link !== '#' && product.markets[0]?.price_paperback && (
-              <a href={product.markets[0].amazon_link} target="_blank" rel="noopener noreferrer" className="pbox-btn pbox-btn-secondary pbox-btn-amazon">
+              <a href={addAffiliateTag(product.markets[0].amazon_link)} target="_blank" rel="noopener noreferrer" className="pbox-btn pbox-btn-secondary pbox-btn-amazon">
                 🛒 {product.markets[0].price_paperback}
               </a>
             )}
