@@ -307,39 +307,67 @@ function getDisplayPrice(p) {
   return p.markets[0]?.price_kindle || p.price_kindle;
 }
 
-/* ── Helper: get platform label ── */
-function getPlatformLabel(product, lang) {
-  if (isEtsy(product)) return ui(lang, 'onEtsy');
-  if (isGumroad(product)) return ui(lang, 'onGumroad');
-  if (isGooglePlay(product)) return ui(lang, 'onGooglePlay');
-  return ui(lang, 'onAmazon');
+/* ── Helper: has Amazon links? ── */
+function hasAmazon(product) {
+  return product.markets && product.markets.some(m => (m.amazon_link && m.amazon_link !== '#') || (m.kindle_link && m.kindle_link !== '#'));
 }
 
-/* ── Buy buttons wrapper: picks Etsy, Gumroad, Google Play, or Amazon automatically ── */
+/* ── Helper: get platform label ── */
+function getPlatformLabel(product, lang) {
+  const platforms = [];
+  if (hasAmazon(product)) platforms.push('Amazon');
+  if (isGooglePlay(product)) platforms.push('Google Play');
+  if (isGumroad(product)) platforms.push('Gumroad');
+  if (isEtsy(product)) platforms.push('Etsy');
+  if (platforms.length === 0) return ui(lang, 'onAmazon');
+  if (platforms.length === 1) {
+    if (isEtsy(product)) return ui(lang, 'onEtsy');
+    if (isGumroad(product)) return ui(lang, 'onGumroad');
+    if (isGooglePlay(product)) return ui(lang, 'onGooglePlay');
+    return ui(lang, 'onAmazon');
+  }
+  return platforms.join(' & ');
+}
+
+/* ── Buy buttons wrapper: shows ALL available platforms ── */
 function BuyButtons({ product, lang }) {
-  if (isEtsy(product)) {
+  // Etsy-only or Gumroad-only products (no Amazon, no Google Play)
+  if (isEtsy(product) && !hasAmazon(product) && !isGooglePlay(product)) {
     return <EtsyButton link={product.etsy_link} price={product.price_etsy} lang={lang} />;
   }
-  if (isGumroad(product)) {
+  if (isGumroad(product) && !hasAmazon(product) && !isGooglePlay(product)) {
     return <GumroadButton link={product.gumroad_link} price={product.price_gumroad} lang={lang} />;
   }
-  if (isGooglePlay(product)) {
-    return <GooglePlayButton link={product.google_play_link} price={product.price_google} lang={lang} />;
-  }
-  return <MarketButtons markets={product.markets} lang={lang} />;
+
+  // Show all available buttons
+  return (
+    <>
+      {hasAmazon(product) && <MarketButtons markets={product.markets} lang={lang} />}
+      {isGooglePlay(product) && <GooglePlayButton link={product.google_play_link} price={product.price_google} lang={lang} />}
+      {isGumroad(product) && <GumroadButton link={product.gumroad_link} price={product.price_gumroad} lang={lang} />}
+      {isEtsy(product) && <EtsyButton link={product.etsy_link} price={product.price_etsy} lang={lang} />}
+    </>
+  );
 }
 
 function BuyButtonsCompact({ product, lang }) {
-  if (isEtsy(product)) {
+  // Etsy-only or Gumroad-only products (no Amazon, no Google Play)
+  if (isEtsy(product) && !hasAmazon(product) && !isGooglePlay(product)) {
     return <EtsyButtonCompact link={product.etsy_link} price={product.price_etsy} lang={lang} />;
   }
-  if (isGumroad(product)) {
+  if (isGumroad(product) && !hasAmazon(product) && !isGooglePlay(product)) {
     return <GumroadButtonCompact link={product.gumroad_link} price={product.price_gumroad} lang={lang} />;
   }
-  if (isGooglePlay(product)) {
-    return <GooglePlayButtonCompact link={product.google_play_link} price={product.price_google} lang={lang} />;
-  }
-  return <MarketButtonsCompact markets={product.markets} lang={lang} />;
+
+  // Show all available buttons
+  return (
+    <>
+      {hasAmazon(product) && <MarketButtonsCompact markets={product.markets} lang={lang} />}
+      {isGooglePlay(product) && <GooglePlayButtonCompact link={product.google_play_link} price={product.price_google} lang={lang} />}
+      {isGumroad(product) && <GumroadButtonCompact link={product.gumroad_link} price={product.price_gumroad} lang={lang} />}
+      {isEtsy(product) && <EtsyButtonCompact link={product.etsy_link} price={product.price_etsy} lang={lang} />}
+    </>
+  );
 }
 
 export function generateStaticParams() {
