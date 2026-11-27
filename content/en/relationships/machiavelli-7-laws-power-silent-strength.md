@@ -82,7 +82,7 @@ The ultimate competitive advantage isn't information, money, or connections. It'
 
 **Also read:**
 - [How to Stop Reacting Emotionally: The Science-Backed Guide](/articles/en/health/how-to-stop-reacting-emotionally-guide)
-- [Dark Psychology Self-Defense: How to Spot Hidden Manipulators](/articles/en/relationships/dark-side-persuasion-7-laws-manipulation)
+- [Dark Side of Persuasion: How the 7 Laws Are Used Against You](/articles/en/entertainment/dark-side-persuasion-7-laws-manipulation)
 - [Best Stoicism Books for Emotional Control 2026](/articles/en/health/best-stoicism-books-emotional-control-2026)
 
 ---
