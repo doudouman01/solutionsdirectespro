@@ -219,6 +219,36 @@ const GONE_SLUGS = new Set([
   'httpssolutionsdirectesprocom60-mayores-activos-salud-espanol',
   'httpssolutionsdirectesprocomrozwoj-osobisty-polski',
   'solutions-quotidiennes',
+
+  // --- Ajouts GSC 2026-11-28 (URLs en 404 non couvertes) ---
+  // Suédois
+  'klimakteriet',
+  'tappa-balansen-efter-60',
+  'varfor-ar-jag-alltid-trott',
+  'varfor-ar-jag-alltid-trott-och-har-angest',
+  // Finnois
+  'miksi-suomalaiset-juovat-liikaa',
+  'talous-stressi-suomi',
+  'terveys-ja-hyvinvointi',
+  'taloudellinen-selviytyminen',
+  'miksi-tunnet-olosi-epavarmaksi-kavellessa-60-iassa',
+  // Islandais
+  'romon-og-skaldsogur-a-islandi',
+  'heilsa-and-vellidan',
+  'rafbaekur-a-islandi',
+  'hvernig-a-ad-endurheimta-jafnvaegid-eftir-sextugt',
+  'fyrir-eldri-borgara-60',
+  'greinar-a-islensku',
+  'forvorn-gegn-falli-eftir-60-ara',
+  // Grec
+  'dyskolia-sto-perpathma-meta-thn-hlikia-twn-60-etwn',
+  // Tchèque
+  'prakticke-clanky-a-pruvodce-v-cestine',
+  // Malais
+  'kenapa-anda-mula-hilang-keseimbangan-selepas-60',
+  // Anglais
+  'literature-and-novels',
+  'deutsche-ebooks',
 ]);
 
 export function middleware(request) {
@@ -231,7 +261,24 @@ export function middleware(request) {
     return NextResponse.redirect(url, 301);
   }
 
-  // ─── 2. Retourner 410 Gone pour les anciennes URLs ───
+  // ─── 2. Redirections pour anciennes pages utilitaires ───
+  const utilRedirects = {
+    '/confidentialite': '/privacy-policy',
+    '/mentions-legales': '/privacy-policy',
+    '/contact': '/',
+  };
+  if (utilRedirects[pathname]) {
+    const url = request.nextUrl.clone();
+    url.pathname = utilRedirects[pathname];
+    return NextResponse.redirect(url, 301);
+  }
+
+  // ─── 3. Catch broken [catégorie]/ pattern ───
+  if (pathname.includes('[') || pathname.includes('%5B')) {
+    return NextResponse.redirect(new URL('/', request.url), 301);
+  }
+
+  // ─── 4. Retourner 410 Gone pour les anciennes URLs ───
   const slug = pathname.startsWith('/') ? pathname.slice(1) : pathname;
 
   if (slug && GONE_SLUGS.has(slug)) {
